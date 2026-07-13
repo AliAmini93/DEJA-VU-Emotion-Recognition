@@ -1,0 +1,74 @@
+{
+  "python_executable": "/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE/.venv/bin/python",
+  "python_version": "3.12.3",
+  "pip_executable": "/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE/.venv/bin/pip",
+  "import_check_before_install": {
+    "numpy": {"status": "OK", "version": "2.4.4"},
+    "pandas": {"status": "OK", "version": "3.0.2"},
+    "scipy": {"status": "OK", "version": "1.17.1"},
+    "sklearn": {"status": "OK", "version": "1.8.0"},
+    "pyarrow": {"status": "MISSING"},
+    "h5py": {"status": "OK", "version": "3.16.0"},
+    "tables": {"status": "MISSING"},
+    "mne": {"status": "MISSING"},
+    "pyxdf": {"status": "MISSING"},
+    "openpyxl": {"status": "MISSING"},
+    "sqlalchemy": {"status": "MISSING"},
+    "requests": {"status": "MISSING"},
+    "httpx": {"status": "MISSING"},
+    "pooch": {"status": "MISSING"},
+    "yaml": {"status": "OK", "version": "6.0.3", "note": "provided by PyYAML"},
+    "pytest": {"status": "MISSING"},
+    "torch": {"status": "OK", "version": "2.11.0+cu128"},
+    "mat73": {"status": "OK", "version": "0.65"}
+  },
+  "missing_audit_dependencies": ["pyarrow", "tables", "mne", "pyxdf", "openpyxl", "sqlalchemy", "requests", "httpx", "pooch", "pytest"],
+  "excluded_already_satisfied": ["pyyaml"],
+  "dry_run": {
+    "command": "python -m pip install --dry-run pyarrow tables mne pyxdf openpyxl sqlalchemy requests httpx pooch pytest",
+    "protected_core_conflicts_detected": false,
+    "protected_core_status": "all reported 'Requirement already satisfied' at existing versions",
+    "would_install_new_packages": ["SQLAlchemy","annotated-types","anyio","blosc2","certifi","charset-normalizer","decorator","et_xmlfile","greenlet","h11","h2","hpack","httpcore","httpx","hyperframe","idna","iniconfig","lazy-loader","markdown-it-py","mdurl","mne","msgpack","ndindex","numexpr","openpyxl","platformdirs","pluggy","pooch","py-cpuinfo","pyarrow","pydantic","pydantic_core","pygments","pytest","pyxdf","requests","rich","tables","typing-inspection","urllib3"]
+  },
+  "install_executed": true,
+  "install_command": "python -m pip install pyarrow tables mne pyxdf openpyxl sqlalchemy requests httpx pooch pytest",
+  "install_result": "Successfully installed 10 top-level packages + 29 transitive dependencies",
+  "pip_check": {
+    "command": "python -m pip check",
+    "output": "No broken requirements found.",
+    "result": "PASSED"
+  },
+  "pytorch_cuda_validation_after_install": {
+    "torch_version": "2.11.0+cu128",
+    "cuda_available": true,
+    "gpu_name": "NVIDIA GeForce RTX 5090",
+    "result": "PASSED"
+  },
+  "protected_core_before_vs_after": {
+    "numpy": {"before": "2.4.4", "after": "2.4.4", "changed": false},
+    "pandas": {"before": "3.0.2", "after": "3.0.2", "changed": false},
+    "scipy": {"before": "1.17.1", "after": "1.17.1", "changed": false},
+    "scikit-learn": {"before": "1.8.0", "after": "1.8.0", "changed": false},
+    "h5py": {"before": "3.16.0", "after": "3.16.0", "changed": false},
+    "matplotlib": {"before": "3.10.9", "after": "3.10.9", "changed": false},
+    "torch": {"before": "2.11.0+cu128", "after": "2.11.0+cu128", "changed": false},
+    "joblib": {"before": "1.5.3", "after": "1.5.3", "changed": false},
+    "tqdm": {"before": "4.67.3", "after": "4.67.3", "changed": false},
+    "mat73": {"before": "0.65", "after": "0.65", "changed": false}
+  },
+  "core_package_changes": [],
+  "newly_installed_overlay_packages": {
+    "pyarrow": "25.0.0",
+    "tables": "3.11.1",
+    "mne": "1.12.1",
+    "pyxdf": "1.17.5",
+    "openpyxl": "3.1.5",
+    "SQLAlchemy": "2.0.51",
+    "requests": "2.34.2",
+    "httpx": "0.28.1",
+    "pooch": "1.9.0",
+    "pytest": "9.1.1"
+  },
+  "not_installed_pending_evidence": ["torch (already present)", "torchvision", "torchaudio", "jupyter", "notebook", "seaborn", "pyedflib", "edfio", "pymatreader"],
+  "outcome": "INSTALLED"
+}

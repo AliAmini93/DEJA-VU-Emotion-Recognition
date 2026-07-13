@@ -1,0 +1,36 @@
+{
+  "executed_at": "2026-07-13T15:32:58+03:00",
+  "timezone": "Europe/Vilnius",
+  "policy_reference": "docs/shared_environment_policy.md",
+  "which_python_check": {
+    "expected": "/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE/.venv/bin/python",
+    "actual": "/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE/.venv/bin/python",
+    "match": true
+  },
+  "which_pip": "/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE/.venv/bin/pip",
+  "python_version": "3.12.3",
+  "new_dejavu_venv_created": false,
+  "hci_environments_touched": false,
+  "deap_idare_repo_modified": false,
+  "pre_install_snapshot": {
+    "command": "python -m pip freeze > /mnt/HDD/AliWorks/DEJA-VU/shared_environment_before_dejavu.txt",
+    "file": "/mnt/HDD/AliWorks/DEJA-VU/shared_environment_before_dejavu.txt",
+    "copy_in_repo": "docs/shared_environment_before_dejavu.txt",
+    "size_bytes": 1091,
+    "package_count": 52,
+    "sha256": "9ce1a9fa462cd6f610b2b9104aa1cf772f56b71a72f6586dd0e71e0df488a7b1"
+  },
+  "protected_core_packages_baseline": {
+    "numpy": "2.4.4",
+    "pandas": "3.0.2",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.8.0",
+    "h5py": "3.16.0",
+    "matplotlib": "3.10.9",
+    "torch": "2.11.0+cu128",
+    "joblib": "1.5.3",
+    "tqdm": "4.67.3",
+    "mat73": "0.65"
+  },
+  "validation_outcome": "VERIFIED"
+}

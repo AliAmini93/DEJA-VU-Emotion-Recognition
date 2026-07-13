@@ -1,0 +1,19 @@
+# DEJA-VU-specific packages added on top of the shared DEAP/I-DARE environment
+# (/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE/.venv).
+#
+# These are the ONLY top-level packages installed specifically for DEJA-VU.
+# Installed after a `pip install --dry-run` confirmed no protected core package
+# (numpy, pandas, scipy, scikit-learn, h5py, matplotlib, torch, joblib, tqdm,
+# mat73) would be upgraded, downgraded, replaced, or removed.
+# See docs/environment_import_validation.md for the full validation record.
+
+pyarrow==25.0.0
+tables==3.11.1
+mne==1.12.1
+pyxdf==1.17.5
+openpyxl==3.1.5
+SQLAlchemy==2.0.51
+requests==2.34.2
+httpx==0.28.1
+pooch==1.9.0
+pytest==9.1.1
