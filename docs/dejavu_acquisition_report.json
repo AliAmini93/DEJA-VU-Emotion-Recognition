@@ -54,7 +54,7 @@
       "file_count": 308,
       "folder_count": 128,
       "uncompressed_bytes": 5751558349,
-      "top_level_categories": ["data.xlsx", "deja_vu_database.db", "preprocessed/ (35 .h5 files)", "raw/ (131 .xdf files)", "segments/ (267 entries)"]
+      "top_level_categories": ["data.xlsx", "deja_vu_database.db", "preprocessed/ (35 .h5 files) [CORRECTED to 34, see correction_2026_07_13]", "raw/ (131 .xdf files) [CORRECTED to 34, see correction_2026_07_13]", "segments/ (267 entries) [CORRECTED to 238, see correction_2026_07_13]"]
     },
     "deja_vu_code_rar": {
       "file_count": 15,
@@ -79,18 +79,53 @@
   "observed_anomaly": {
     "description": "File path DEJA-VU/raw/sub-P017/ses-S002/eeg/ contains a file named sub-P666_ses-S001_task-Default_run-001_eeg.xdf",
     "issue": "filename encodes participant P666 / session S001, but directory path is sub-P017 / ses-S002; P666 is not among the 28 enrolled participants",
-    "source": "observed via 7z l archive listing metadata, not file content (extraction failed)",
-    "resolved": false,
-    "action_taken": "none; raw archive not modified; logged in docs/leakage_risk_register.md risk #9"
+    "source": "originally observed via 7z l / lsar archive listing metadata only; now cross-examined against the actual extracted file content (raw XDF extraction is 100% complete) and the database - see docs/dejavu_identity_conflict_audit.md for the full investigation and classification",
+    "resolved": "see docs/dejavu_identity_conflict_audit.json for classification",
+    "action_taken": "file not renamed, not moved, not modified; logged in docs/leakage_risk_register.md risk #9"
   },
   "dependency_inspection_of_official_code": {
     "performed": false,
     "reason": "extraction failed; code/environment.yml and code/requirements.txt contents were never read",
     "consequence": "no dependency was added to this project on the basis of official-code inspection; docs/environment_import_validation.md decisions stand as made, based only on the standard audit package list"
   },
-  "outcome": {
+  "outcome_at_original_checkpoint": {
     "download": "COMPLETE",
     "checksum_verification": "COMPLETE_0_FAILURES",
     "extraction": "FAILED_BLOCKED_ON_MISSING_TOOL"
+  },
+  "correction_2026_07_13": {
+    "raw_xdf_count": {"originally_stated": 131, "corrected": 34},
+    "preprocessed_hdf5_count": {"originally_stated": 35, "corrected": 34},
+    "segment_count": {"originally_stated": 267, "corrected": 238},
+    "reason": "original session viewed a truncated slice of the archive listing and extrapolated incorrectly",
+    "corrected_total_check": "34 + 34 + 238 + 1 (db) + 1 (xlsx) = 308, matches archive total exactly"
+  },
+  "continuation_stage_2026_07_13": {
+    "unar_lsar_installed": true,
+    "install_note": "required interactive sudo password; user ran the install themselves",
+    "code_archive_extraction": {"result": "COMPLETE", "files": "15/15 exact size match"},
+    "main_archive_extraction": {
+      "result": "PARTIAL",
+      "files_ok": 269,
+      "files_truncated": 39,
+      "files_total": 308,
+      "ok_fraction": 0.873,
+      "by_category": {
+        "raw_xdf": {"total": 34, "ok": 34},
+        "sqlite_database": {"total": 1, "ok": 1},
+        "spreadsheet": {"total": 1, "ok": 1},
+        "preprocessed_hdf5": {"total": 34, "ok": 23, "truncated": 11},
+        "segment_file": {"total": 238, "ok": 210, "truncated": 28}
+      },
+      "truncation_root_cause": "deterministic unar RAR5 decoder limitation, reproduced identically on repeat single-file extraction; archive MD5 unaffected",
+      "audit_critical_files_status": "100% complete (raw XDF, database, spreadsheet)"
+    },
+    "full_detail": "docs/dejavu_extraction_report.md and docs/dejavu_extraction_report.json"
+  },
+  "outcome": {
+    "download": "COMPLETE",
+    "checksum_verification": "COMPLETE_0_FAILURES",
+    "extraction": "PARTIAL",
+    "note": "supersedes outcome_at_original_checkpoint; see continuation_stage_2026_07_13"
   }
 }

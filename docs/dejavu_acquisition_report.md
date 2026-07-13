@@ -68,9 +68,9 @@ folders, 5,751,558,349 bytes uncompressed, organized as:
 
 - `DEJA-VU/data.xlsx` — spreadsheet (self-assessment ratings, per record description)
 - `DEJA-VU/deja_vu_database.db` — SQLite database
-- `DEJA-VU/preprocessed/clean_P0{01..28}_S00{1,2}.h5` — 35 preprocessed HDF5 files
-- `DEJA-VU/raw/sub-P0{01..28}/ses-S00{1,2}/eeg/*.xdf` — 131 raw XDF recordings
-- `DEJA-VU/segments/...` — 267 entries (video-aligned physiological segments, per record description)
+- `DEJA-VU/preprocessed/clean_P0{01..28}_S00{1,2}.h5` — ~~35~~ **34** preprocessed HDF5 files (corrected 2026-07-13, see below)
+- `DEJA-VU/raw/sub-P0{01..28}/ses-S00{1,2}/eeg/*.xdf` — ~~131~~ **34** raw XDF recordings (corrected 2026-07-13, see below)
+- `DEJA-VU/segments/...` — ~~267~~ **238** entries (video-aligned physiological segments, per record description; corrected 2026-07-13)
 
 `DEJA_VU_code.rar` lists 15 files under `code/`: preprocessing, segmentation,
 SNR/SAM/journey analysis, and figure-generation scripts, `config_final.py`,
@@ -127,20 +127,70 @@ resolve before this file is used in any per-subject split.
 ## Size discrepancy re-examined
 
 `docs/dejavu_source_verification.md` flagged that the Zenodo description says
-"1.85GB of raw data" while the total archive download is 3.72 GiB. With the
-archive now extracted and listed, the `raw/` directory alone (131 `.xdf`
-files) sums to well under 2 GiB, consistent with "1.85GB of raw data"
-referring specifically to the `raw/` subdirectory — the remaining size comes
-from `preprocessed/` (35 HDF5 files) and `segments/` (267 entries), which the
-description separately calls out as "238 video-aligned physiological
-segments." This resolves the apparent discrepancy without needing to assume
-anything not directly observed in the extracted listing.
+"1.85GB of raw data" while the total archive download is 3.72 GiB. **With
+the archive listed but not extracted at that checkpoint**, the `raw/`
+directory alone (34 `.xdf` files, corrected count — see below) sums to well
+under 2 GiB, consistent with "1.85GB of raw data" referring specifically to
+the `raw/` subdirectory — the remaining size comes from `preprocessed/` (34
+HDF5 files) and `segments/` (238 entries), which the description separately
+calls out as "238 video-aligned physiological segments." This resolves the
+apparent discrepancy without needing to assume anything not directly
+observed in the listing.
 
-## Outcome
+## Outcome (as of this stage's original checkpoint)
 
 **Download: COMPLETE.** **Checksum verification: COMPLETE, 0 failures.**
 **Extraction: FAILED** (no RAR5-capable decompressor installed; listing-only
 `7zip+dfsg` cannot decompress; fix requires installing `unar` or `unrar`,
-which is out of scope for this phase). `extracted/` is empty.
-`raw_downloads/` is unaffected and both official files remain
+which was out of scope for that phase). `extracted/` was empty.
+`raw_downloads/` was unaffected and both official files remained
 checksum-verified on disk.
+
+---
+
+## 2026-07-13 (continuation stage) — Extraction retried and mostly succeeded
+
+This section is added, not a rewrite of the above — the original failure and
+its cause stand as documented.
+
+1. **Earlier failure (recap):** `7zip+dfsg` could list but not decompress
+   either RAR/RAR5 archive.
+2. **Installation:** `unar`/`lsar` 1.10.1 were installed this stage (required
+   an interactive `sudo` password the automated session could not supply;
+   the user ran the install themselves — see
+   `docs/archive_extractor_environment.md`).
+3. **Re-extraction:** `DEJA_VU_code.rar` → `extracted/official_code/`
+   **succeeded completely** (15/15 files, exact size match). `DEJA-VU.rar` →
+   `extracted/dataset/` **succeeded partially**: 269 of 308 files (87.3%)
+   extracted with exact byte-for-byte size match; 39 files (11 preprocessed
+   HDF5, 28 segment HDF5) were deterministically truncated by `unar`'s RAR5
+   decoder (reproduced identically on a repeat attempt; archive MD5
+   unaffected). **All audit-critical files — the 34 raw XDF recordings, the
+   SQLite database, and the XLSX spreadsheet — extracted 100% correctly.**
+   Full detail: `docs/dejavu_extraction_report.md` / `.json`.
+4. **Verification method:** every one of the 308 archive entries (not just
+   the 39 `unar` flagged) was independently checked against its
+   `lsar -json`-reported size; zero-byte files, path escapes, and archive
+   MD5 drift were all explicitly checked and ruled out.
+5. **Final extracted counts and sizes:** 269/308 files, 5,746,209,639 of
+   5,751,558,349 expected bytes (5,348,710 bytes short, exactly accounted for
+   by the 39 known truncations).
+6. **Correction of miscounts from the original checkpoint above:** this
+   report originally stated "131 raw XDF recordings," "35 preprocessed HDF5
+   files," and "267 segments." All three were **wrong** — that session
+   viewed only a truncated slice of the archive listing. The
+   listing-derived, now fully verified counts are **34 raw XDF, 34
+   preprocessed HDF5, 238 segments** (34 sessions × 7 segments/session,
+   which also matches the official code's own "Orchestrates Level 1
+   segmentation for all 34 sessions" and `expected_files = len(successful) * 7`
+   — see `docs/dejavu_official_code_audit.md`).
+
+## Outcome (current, supersedes the section above where they conflict)
+
+**Download: COMPLETE.** **Checksum verification: COMPLETE, 0 failures.**
+**Extraction: PARTIAL** — code archive complete (15/15); main archive 269/308
+files (87.3%), all audit-critical files (raw XDF, database, spreadsheet)
+100% complete, 39 HDF5 files (preprocessed/segment only) truncated by a
+`unar` decoder limitation, disposition tracked in
+`docs/dejavu_extraction_report.md`. `raw_downloads/` remains unaffected and
+both official archive files remain checksum-verified on disk throughout.

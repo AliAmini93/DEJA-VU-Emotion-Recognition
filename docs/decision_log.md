@@ -77,6 +77,47 @@ restored to empty. The raw downloaded `.rar` files were unaffected by the
 failed extraction attempt and were re-verified by MD5 afterward. Full detail:
 `docs/dejavu_acquisition_report.md`.
 
+## 2026-07-13 (continuation stage) — sudo blocker resolved by user for `unar` install
+
+`sudo apt update && sudo apt install -y unar` requires an interactive
+password; the automated tool session has no TTY to supply one. Per the
+safety rules (no bypassing authentication), the user was asked to either run
+the install themselves or cache `sudo` credentials via `sudo -v`. The user
+ran the install (or equivalent) outside this session; `unar`/`lsar` 1.10.1
+were confirmed present immediately afterward. See
+`docs/archive_extractor_environment.md`.
+
+## 2026-07-13 (continuation stage) — 39 files deterministically truncated by `unar`; user asked about `unrar` fallback
+
+After installing `unar`, the code archive extracted completely (15/15), but
+the main archive extracted only 269 of 308 files with exact size match. The
+other 39 (all HDF5: 11 `preprocessed/`, 28 `segments/`) were truncated by
+`unar`'s RAR5 decoder — confirmed **deterministic** (re-extracting a single
+failed file in isolation reproduced the identical truncated byte count), and
+confirmed **not archive corruption** (the archive's own MD5 was unchanged
+before and after). All audit-critical files (34 raw XDF, the SQLite
+database, the XLSX spreadsheet) extracted 100% correctly and were
+unaffected. Per the project's own escalation rule ("do not install `unrar`
+unless `unar` demonstrably fails"), this condition was met, so the user was
+asked whether to install `unrar` as a targeted fallback for just the 39
+files. As with the `unar` install, this requires an interactive `sudo`
+password the automated session cannot supply; the user was asked to run it
+themselves. Full detail: `docs/dejavu_extraction_report.md`.
+
+## 2026-07-13 (continuation stage) — corrected miscounted file totals from the prior session
+
+The prior session's `docs/dejavu_acquisition_report.md` stated "131 raw XDF
+recordings," "35 preprocessed HDF5 files," and "267 segments" based on a
+truncated view of the archive listing (`head -80`) rather than the complete
+listing. With the archive now (mostly) extracted and the complete listing
+parsed programmatically, the correct counts are **34 raw XDF, 34
+preprocessed HDF5, 238 segments** (34 + 34 + 238 + 1 database + 1 spreadsheet
+= 308, matching the archive total exactly, and 34 sessions × 7
+segments/session = 238, matching the official code's own segmentation
+logic). The original document was corrected in place with the wrong numbers
+struck through and explained, not silently deleted — see
+`docs/dejavu_acquisition_report.md` and `docs/dejavu_extraction_report.md`.
+
 ## 2026-07-13 — Zenodo maintenance window observed during prior audit
 
 The prior environment audit observed `zenodo.org` returning HTTP 503 with a

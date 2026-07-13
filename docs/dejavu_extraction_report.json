@@ -1,0 +1,55 @@
+{
+  "extractor_tool": "unar 1.10.1",
+  "code_archive": {
+    "archive": "DEJA_VU_code.rar",
+    "destination": "/mnt/HDD/AliWorks/DEJA-VU/extracted/official_code",
+    "log": "/mnt/HDD/AliWorks/DEJA-VU/logs/extract_code_archive.log",
+    "files_total": 15,
+    "files_verified_exact_size": 15,
+    "zero_byte_files": 0,
+    "path_escapes": 0,
+    "status": "COMPLETE"
+  },
+  "main_archive": {
+    "archive": "DEJA-VU.rar",
+    "destination": "/mnt/HDD/AliWorks/DEJA-VU/extracted/dataset",
+    "log": "/mnt/HDD/AliWorks/DEJA-VU/logs/extract_dataset_archive.log",
+    "unar_exit_code": 1,
+    "unar_reported_failures": 39,
+    "files_total_in_archive": 308,
+    "files_verified_exact_size": 269,
+    "files_truncated": 39,
+    "files_missing_entirely": 0,
+    "zero_byte_files": 0,
+    "path_escapes": 0,
+    "total_bytes_expected": 5751558349,
+    "total_bytes_on_disk": 5746209639,
+    "total_bytes_missing": 5348710,
+    "original_archive_md5_after_extraction": "0815b7d78915d132084f4ef497cef6d0",
+    "original_archive_md5_unchanged": true,
+    "by_category": {
+      "raw_xdf": {"total": 34, "ok": 34, "truncated": 0},
+      "sqlite_database": {"total": 1, "ok": 1, "truncated": 0},
+      "spreadsheet": {"total": 1, "ok": 1, "truncated": 0},
+      "preprocessed_hdf5": {"total": 34, "ok": 23, "truncated": 11},
+      "segment_file": {"total": 238, "ok": 210, "truncated": 28}
+    },
+    "root_cause_investigation": {
+      "reproducibility_test": "re-extracted a single failed file (clean_P003_S001.h5) in isolation; got the identical truncated size (63700992 bytes) both times",
+      "conclusion": "deterministic unar RAR5 decoder limitation on these specific files, not transient I/O or disk-space issue",
+      "compression_metadata_comparison": "RAR5CompressionMethod/RAR5CompressionInformation/RAR5DictionarySize identical between failed and successful files of similar size; no distinguishing archive-side property found"
+    },
+    "disposition": "39 truncated files left in place unmodified, marked size_match=false in docs/dejavu_extracted_file_inventory.csv; not deleted, not treated as valid; user asked whether to install unrar as a fallback per project's own escalation rule",
+    "audit_impact": "none of the 39 truncated files are required for the identity-conflict audit or trial/segment-count analysis, which rely on raw XDF (100% complete), the database (complete), and code-level evidence",
+    "status": "PARTIAL"
+  },
+  "correction_to_prior_session_counts": {
+    "prior_claim_raw_xdf": 131,
+    "corrected_raw_xdf": 34,
+    "prior_claim_preprocessed_hdf5": 35,
+    "corrected_preprocessed_hdf5": 34,
+    "reason": "prior session viewed a truncated head -80 slice of the archive listing and extrapolated incorrectly",
+    "corrected_in": ["docs/dejavu_acquisition_report.md", "docs/dejavu_acquisition_report.json"]
+  },
+  "outcome": "PARTIAL"
+}

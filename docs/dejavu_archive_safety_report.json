@@ -1,0 +1,38 @@
+{
+  "listing_tool_used": "lsar",
+  "note": "initially validated with 7z l before unar/lsar were installed (0 issues); re-validated with lsar -json after install, which exposes a genuine XADIsLink field for symlink detection (still 0 issues)",
+  "listing_files": [
+    "/mnt/HDD/AliWorks/DEJA-VU/metadata/DEJA-VU_archive_listing.txt",
+    "/mnt/HDD/AliWorks/DEJA-VU/metadata/DEJA_VU_code_archive_listing.txt"
+  ],
+  "checks_performed": [
+    "embedded_null_characters",
+    "absolute_paths",
+    "dotdot_path_components",
+    "escapes_extraction_root",
+    "duplicate_normalized_paths",
+    "case_collision_paths",
+    "symlink_members"
+  ],
+  "results": [
+    {
+      "archive": "DEJA_VU_code.rar",
+      "members_listed": 16,
+      "files": 15,
+      "directories": 1,
+      "issues_found": 0,
+      "result": "VALIDATION_PASSED"
+    },
+    {
+      "archive": "DEJA-VU.rar",
+      "members_listed": 436,
+      "files": 308,
+      "directories": 128,
+      "issues_found": 0,
+      "result": "VALIDATION_PASSED"
+    }
+  ],
+  "symlink_check_caveat": "resolved: re-validated with lsar -json (XADIsLink field), 0 symlinks found in either archive",
+  "overall_result": "PASSED",
+  "extraction_permitted": true
+}

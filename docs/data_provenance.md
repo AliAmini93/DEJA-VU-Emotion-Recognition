@@ -55,19 +55,29 @@ to raw downloaded files at any stage of this pipeline.
 
 ## Extraction
 
-The installed `7zip` package (23.01+dfsg-11, the Debian Free Software
-Guidelines build) can **list** RAR/RAR5 archive contents but its RAR
-decompression codec is removed for licensing reasons — it **cannot actually
-decompress** either official archive. Extraction was attempted and failed for
-all 323 files across both archives (`ERROR: Unsupported Method` from `7z x`
-on every entry). The resulting invalid, all-zero-byte output was removed;
-`extracted/` is empty. Fixing this requires installing `unar` (free,
-DFSG-compatible, RAR5-capable) or `unrar` (non-free), which is out of scope
-for this phase. Full detail in `docs/dejavu_acquisition_report.md`.
+**Original attempt (prior session):** the installed `7zip` package
+(23.01+dfsg-11, the Debian Free Software Guidelines build) could **list**
+RAR/RAR5 archive contents but its RAR decompression codec is removed for
+licensing reasons — it could not decompress either archive at all (`ERROR:
+Unsupported Method` on every entry). The resulting all-zero-byte output was
+removed.
+
+**Continuation stage (2026-07-13):** `unar`/`lsar` were installed (with the
+user's explicit help, since it required an interactive `sudo` password).
+`DEJA_VU_code.rar` extracted completely (15/15 files). `DEJA-VU.rar`
+extracted 269 of 308 files (87.3%) with exact byte-for-byte size match — the
+remaining 39 (11 `preprocessed/*.h5`, 28 `segments/**/*.h5`) were
+deterministically truncated by `unar`'s RAR5 decoder (reproduced identically
+on a repeat single-file extraction; the archive's own MD5 was unaffected).
+**All audit-critical files — the 34 raw XDF recordings, the SQLite database,
+and the XLSX spreadsheet — extracted 100% correctly.** Full detail:
+`docs/dejavu_extraction_report.md`.
 
 ## What has NOT happened
 
-- The official archives have not been extracted (see above).
+- 39 of 308 files in the main archive remain truncated (documented above,
+  not deleted, not silently accepted as valid) pending a possible `unrar`
+  fallback.
 - No raw data, archive, or extracted file has been committed to Git. See
   `.gitignore` for the enforced exclusions.
 - No preprocessing, segmentation, labeling, or model training has been

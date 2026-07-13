@@ -12,7 +12,9 @@ Last updated: 2026-07-13 (Europe/Vilnius)
 |---|---|
 | Stage 0 — Environment | COMPLETE: shared venv verified, pre/post snapshots taken, missing audit dependencies installed with zero protected-core-package changes, `pip check` passed, PyTorch+CUDA re-validated. |
 | Stage 1 — Source verification | COMPLETE: official Zenodo record `17773125` fetched, checksummed, and field-validated. 2 official files identified, 3.72 GiB total. |
-| Stage 2 — Acquisition | See `docs/dejavu_acquisition_report.md` for the outcome of this run. |
+| Stage 2 — Acquisition | COMPLETE (download + checksum verification, 0 failures). |
+| Stage 2b — Extraction (continuation stage, 2026-07-13) | PARTIAL: `unar`/`lsar` installed; code archive 15/15 complete; main archive 269/308 files (87.3%) exact-match, 39 HDF5 files (preprocessed/segment only) truncated by a deterministic `unar` decoder limitation. **All audit-critical files (34 raw XDF, database, spreadsheet) are 100% complete.** See `docs/dejavu_extraction_report.md`. |
+| Stage 3 — Structural audit (continuation stage) | See `docs/data_audit_dejavu.md`, `docs/dejavu_identity_conflict_audit.md`, `docs/dejavu_trial_unit_preliminary_audit.md`. |
 
 ## What exists in this repository right now
 
@@ -39,32 +41,22 @@ Last updated: 2026-07-13 (Europe/Vilnius)
 
 ## What does NOT exist yet
 
-- **The archives are not extracted.** `/mnt/HDD/AliWorks/DEJA-VU/extracted/`
-  is empty. Extraction was attempted and failed for all 323 files across both
-  archives: the only installed archiver (`7zip 23.01+dfsg-11`) is the Debian
-  Free Software Guidelines build, which can list RAR/RAR5 contents but cannot
-  decompress them (the RAR decompression codec is removed from that build).
-  See `docs/dejavu_acquisition_report.md` for full detail. Fixing this
-  requires installing `unar` or `unrar`, which is out of scope for this
-  phase.
-- Because extraction failed, `code/environment.yml` and
-  `code/requirements.txt` inside `DEJA_VU_code.rar` could not be inspected —
-  no dependency was added to this project based on official-code inspection.
-- No inspection of the dataset's internal file/label/segment structure has
-  occurred beyond the `7z l` archive **listing** (filenames, sizes, directory
-  layout only — no file contents). All 10 leakage risks remain OPEN.
-- No `configs/` or `folds/` content has been created — these depend on
-  inspecting actual (not just listed) file contents against the leakage risk
-  register first.
+- **39 of 308 files in the main archive remain truncated** (11
+  `preprocessed/*.h5`, 28 `segments/**/*.h5`) — `unar`'s RAR5 decoder fails
+  deterministically on these specific files. The user was asked whether to
+  install `unrar` as a targeted fallback; see `docs/decision_log.md` for the
+  current state of that request. None of these 39 files are required for the
+  identity-conflict audit or trial-unit analysis.
+- No `configs/` or `folds/` content has been created — these depend on the
+  leakage risk register being substantially addressed first, which in turn
+  depends on a full (not just structural) content audit of all physiological
+  signal files, including the 39 currently truncated ones.
 
 ## Next permitted action
 
-Get explicit approval to install a RAR5-capable extractor (`unar`
-recommended — free/DFSG-compatible, or `unrar` — non-free but from the
-format's original vendor), then extract both archives into
-`/mnt/HDD/AliWorks/DEJA-VU/extracted/` (with the same path-traversal check
-already performed via `7z l`), then inspect the extracted directory structure
-(participant/session/segment layout, label files, synchronization metadata,
-and the official code's `environment.yml`/`requirements.txt`) against
-`docs/leakage_risk_register.md` before any fold design or preprocessing work
-begins.
+If the user installs `unrar`, retry extraction of the 39 remaining truncated
+files specifically, then re-run `scripts/01_audit_dejavu_dataset.py` to
+extend the structural audit to their content. Independently of that: proceed
+to a deeper per-channel physiological signal quality audit (SNR, artifact
+rate) using the already-complete raw XDF files and the 269 already-verified
+HDF5 files, before any fold design or preprocessing work begins.

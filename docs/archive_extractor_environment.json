@@ -1,0 +1,23 @@
+{
+  "pre_install_check": {
+    "unar_found": false,
+    "lsar_found": false,
+    "apt_candidate_unar": "1.10.7+ds1+really1.10.1-3build1"
+  },
+  "install_blocker": {
+    "command": "sudo apt update && sudo apt install -y unar",
+    "issue": "requires interactive sudo password; no TTY available to the automated tool session",
+    "resolution": "user ran the install (or cached sudo credentials) outside this session, per explicit request"
+  },
+  "post_install_check": {
+    "unar_version": "v1.10.1",
+    "lsar_version": "v1.10.1",
+    "dpkg_status": "install ok installed",
+    "dpkg_version": "1.10.7+ds1+really1.10.1-3build1",
+    "unar_path": "/usr/bin/unar",
+    "lsar_path": "/usr/bin/lsar"
+  },
+  "unrar_installed": false,
+  "unrar_install_reason": "not needed; unar extraction succeeded, so the fallback condition (install unrar only if unar demonstrably fails) was never triggered",
+  "outcome": "INSTALLED"
+}
