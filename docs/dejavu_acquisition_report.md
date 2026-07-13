@@ -185,7 +185,7 @@ its cause stand as documented.
    segmentation for all 34 sessions" and `expected_files = len(successful) * 7`
    — see `docs/dejavu_official_code_audit.md`).
 
-## Outcome (current, supersedes the section above where they conflict)
+## Outcome (as of the `unar` re-extraction stage — since superseded, see below)
 
 **Download: COMPLETE.** **Checksum verification: COMPLETE, 0 failures.**
 **Extraction: PARTIAL** — code archive complete (15/15); main archive 269/308
@@ -193,4 +193,30 @@ files (87.3%), all audit-critical files (raw XDF, database, spreadsheet)
 100% complete, 39 HDF5 files (preprocessed/segment only) truncated by a
 `unar` decoder limitation, disposition tracked in
 `docs/dejavu_extraction_report.md`. `raw_downloads/` remains unaffected and
+both official archive files remain checksum-verified on disk throughout.
+
+---
+
+## 2026-07-13 (further continuation stage) — `unrar` re-extraction completed
+
+**Preserving history, not rewriting it (rule #12):** `unrar` was installed
+immediately after the `unar` truncation was discovered (previous section),
+but that session ended before the archive was actually retried with it — an
+incomplete workflow, corrected this stage. `unrar` 7.00 (RARLAB's official
+reference implementation) was verified installed, the archive MD5 was
+reverified unchanged, and the full archive was extracted into a fresh
+staging directory (`extracted/dataset_unrar_staging/`), achieving
+**308/308 exact-size matches** (all 39 previously-truncated files now
+correct), 0 anomalies of any kind, all 272 HDF5 files + the database + the
+XLSX + all 34 XDF files opening successfully. The staging extraction was
+then atomically swapped in as the canonical `extracted/dataset/`, and the
+prior partial `unar` output was preserved (not deleted) at
+`extracted/dataset_partial_unar_backup/`. Full detail:
+`docs/dejavu_extraction_report.md`, `docs/dejavu_unrar_validation_report.md`.
+
+## Outcome (current)
+
+**Download: COMPLETE.** **Checksum verification: COMPLETE, 0 failures.**
+**Extraction: COMPLETE** — both archives, 308/308 + 15/15 files, 100% exact
+size match, 100% format-open success. `raw_downloads/` remains unaffected;
 both official archive files remain checksum-verified on disk throughout.

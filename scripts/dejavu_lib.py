@@ -209,3 +209,67 @@ def write_manifest_atomic(path: Path, rows: list[dict], fieldnames: list[str] = 
         if os.path.exists(tmp_name):
             os.remove(tmp_name)
         raise
+
+
+class DirectoryReplaceError(RuntimeError):
+    pass
+
+
+def atomic_directory_replace(current: Path, replacement: Path, backup_name: str) -> Path:
+    """Swap `replacement` in as `current`, preserving the prior contents of
+    `current` under a sibling directory named `backup_name` (never deleted
+    by this function). Mirrors the pattern used to promote a validated
+    staging extraction over a partial one.
+
+    Raises DirectoryReplaceError (and makes no change) if:
+      - `replacement` does not exist or is empty,
+      - a directory already exists at the intended backup path.
+
+    Returns the path `current` now points to (i.e. `current` itself).
+    """
+    current = Path(current)
+    replacement = Path(replacement)
+    backup_path = current.parent / backup_name
+
+    if not replacement.is_dir() or not any(replacement.iterdir()):
+        raise DirectoryReplaceError(f"replacement directory missing or empty: {replacement}")
+    if backup_path.exists():
+        raise DirectoryReplaceError(f"backup path already exists, refusing to overwrite: {backup_path}")
+
+    if current.exists():
+        os.rename(current, backup_path)
+    try:
+        os.rename(replacement, current)
+    except BaseException:
+        # best-effort rollback so we don't leave `current` missing
+        if current.exists():
+            os.rename(current, replacement)
+        if backup_path.exists() and not current.exists():
+            os.rename(backup_path, current)
+        raise
+
+    return current
+
+
+_TRAILING_DIGIT_RE = re.compile(r"\s*\d+$")
+
+
+def normalize_video_name(name: str) -> str:
+    """Strip a trailing ' 2'/'3'/... sequel-index suffix, e.g. 'The Shining 2'
+    -> 'The Shining'. Does not verify the merged names are actually the same
+    content - see docs/dejavu_stimulus_definition_audit.md."""
+    return _TRAILING_DIGIT_RE.sub("", name).strip()
+
+
+def is_rating_midpoint(value: int | float, midpoint: int = 5) -> bool:
+    return value == midpoint
+
+
+def find_duplicate_rating_keys(rows: list[dict], key_fields: list[str]) -> list[tuple]:
+    """Given rating rows (dicts), return the list of key tuples that appear
+    more than once. Empty list means no duplicates."""
+    seen: dict[tuple, int] = {}
+    for row in rows:
+        key = tuple(row.get(f) for f in key_fields)
+        seen[key] = seen.get(key, 0) + 1
+    return [key for key, count in seen.items() if count > 1]

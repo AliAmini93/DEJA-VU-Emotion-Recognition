@@ -51,5 +51,42 @@
     "reason": "prior session viewed a truncated head -80 slice of the archive listing and extrapolated incorrectly",
     "corrected_in": ["docs/dejavu_acquisition_report.md", "docs/dejavu_acquisition_report.json"]
   },
-  "outcome": "PARTIAL"
+  "outcome_at_unar_stage": "PARTIAL",
+  "unrar_reextraction_2026_07_13": {
+    "gap_corrected": "unrar was installed after the unar truncation discovery but not actually used before the prior session's checkpoint; corrected this stage",
+    "extractor": "unrar 7.00 (1:7.0.7-1build1), RARLAB reference implementation",
+    "archive_md5_reverified_before_extraction": "0815b7d78915d132084f4ef497cef6d0",
+    "staging_directory": "/mnt/HDD/AliWorks/DEJA-VU/extracted/dataset_unrar_staging",
+    "staging_confirmed_empty_before_extraction": true,
+    "command": "unrar x -o- /mnt/HDD/AliWorks/DEJA-VU/raw_downloads/DEJA-VU.rar /mnt/HDD/AliWorks/DEJA-VU/extracted/dataset_unrar_staging/",
+    "start_time": "2026-07-13T17:18:35+03:00",
+    "end_time": "2026-07-13T17:18:53+03:00",
+    "elapsed_seconds": 18,
+    "exit_code": 0,
+    "unrar_summary_line": "All OK",
+    "log": "/mnt/HDD/AliWorks/DEJA-VU/logs/extract_dataset_unrar.log",
+    "staging_validation": {
+      "files_exist": "308/308",
+      "files_exact_size_match": "308/308",
+      "unexpected_files": 0,
+      "zero_byte_anomalies": 0,
+      "path_escapes": 0,
+      "symlinks": 0,
+      "hdf5_open_success": "272/272",
+      "sqlite_open_success": true,
+      "xlsx_open_success": true,
+      "xdf_open_success": "34/34",
+      "total_bytes": 5751558349,
+      "total_bytes_expected": 5751558349,
+      "bytes_match_exactly": true
+    },
+    "atomic_replacement": {
+      "old_partial_renamed_to": "/mnt/HDD/AliWorks/DEJA-VU/extracted/dataset_partial_unar_backup",
+      "old_partial_deleted": false,
+      "staging_renamed_to_canonical": "/mnt/HDD/AliWorks/DEJA-VU/extracted/dataset",
+      "post_swap_revalidation": "308/308 exact match, archive MD5 unchanged"
+    },
+    "full_detail": ["docs/dejavu_unrar_validation_report.md", "docs/dejavu_unrar_validation_report.json", "docs/dejavu_unrar_file_size_validation.csv"]
+  },
+  "outcome": "COMPLETE"
 }

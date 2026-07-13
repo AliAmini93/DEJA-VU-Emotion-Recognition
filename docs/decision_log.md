@@ -118,6 +118,22 @@ logic). The original document was corrected in place with the wrong numbers
 struck through and explained, not silently deleted — see
 `docs/dejavu_acquisition_report.md` and `docs/dejavu_extraction_report.md`.
 
+## 2026-07-13 (further continuation stage) — `unrar` re-extraction completed; documentation gap corrected
+
+The prior continuation-stage session installed `unrar` after discovering
+`unar`'s 39-file truncation, but ended before actually retrying extraction
+with it — some of that session's summary language described the 39-file
+blocker as waiting on a missing package, which was no longer accurate by the
+session's own end (the package was installed; the retry simply hadn't
+happened yet). This stage corrected that: verified `unrar` 7.00 present,
+reverified the archive MD5 unchanged, extracted into a fresh staging
+directory (`extracted/dataset_unrar_staging/`, confirmed empty beforehand),
+validated 308/308 exact-size matches with 0 anomalies of any kind, and
+atomically swapped it in as the canonical `extracted/dataset/` — the prior
+partial `unar` output was renamed to `extracted/dataset_partial_unar_backup/`
+and kept, not deleted. Full detail: `docs/dejavu_extraction_report.md`,
+`docs/dejavu_unrar_validation_report.md`.
+
 ## 2026-07-13 — Zenodo maintenance window observed during prior audit
 
 The prior environment audit observed `zenodo.org` returning HTTP 503 with a

@@ -8,15 +8,20 @@ output: `docs/data_audit_dejavu.json`. Per-entity CSVs:
 
 ## Directory layout (extracted, verified files only)
 
+**Updated 2026-07-13 (further continuation stage): the `unrar` re-extraction
+achieved 308/308 exact-size matches (see `docs/dejavu_extraction_report.md`);
+all counts below now reflect content inspection of the complete dataset, not
+the earlier 269/308 `unar` partial state.**
+
 ```
 extracted/dataset/DEJA-VU/
 ├── data.xlsx                    (spreadsheet, complete)
 ├── deja_vu_database.db          (SQLite, complete)
-├── preprocessed/                (34 files: 23 complete, 11 truncated)
+├── preprocessed/                (34 files, 100% complete)
 │   └── clean_P0##_S00#.h5
 ├── raw/                         (34 files, 100% complete)
 │   └── sub-P0##/ses-S00#/eeg/*.xdf
-└── segments/                    (238 files: 210 complete, 28 truncated)
+└── segments/                    (238 files, 100% complete)
     └── sub-P0##/S00#_{neutral_baseline,quadrant_*,transition_*_period}.h5
 ```
 
@@ -74,7 +79,7 @@ true labeled positions in the raw stream (true ECG leads are at indices 5–8,
 not 0–3; true GSR conductance is at index 4, not 0). Logged as leakage risk
 #9, sub-finding B — **OPEN**, unresolved, not fixed by this audit.
 
-## Preprocessed HDF5 (`preprocessed/*.h5`) — 23/34 inspected (11 truncated, skipped)
+## Preprocessed HDF5 (`preprocessed/*.h5`) — 34/34 inspected, 100% complete
 
 Structure (from `lib_preprocessing_utils.py::save_preprocessed_hdf5`, cross-
 checked against real files): top-level attrs `subject_id, session_id,
@@ -84,20 +89,22 @@ original_xdf, processing_date, report`; one group per modality
 documented mapping (EEG → `FP1,FP2,C3,C4,LE,EOG1,EOG2`; ECG →
 `ECG_Lead_I..Chest`; EMG → `EMG_Zygomaticus,EMG_Trapezius`; GSR →
 `GSR_Conductance`). Full inventory: `docs/dejavu_channel_inventory.csv`
-(927 rows incl. header, 4 modality rows × 233 trusted HDF5 files with a
-non-`segment_info` group).
+(1083 rows incl. header, 4 modality rows × 272 HDF5 files — now all
+272, not the 233 available at the prior `unar`-partial checkpoint).
 
-## Segment HDF5 (`segments/**/*.h5`) — 210/238 inspected (28 truncated, skipped)
+## Segment HDF5 (`segments/**/*.h5`) — 238/238 inspected, 100% complete
 
 Structure: per-modality groups (as above) plus a `segment_info` group with
 attrs `type, subject, session, quadrant, video_name, start_time, end_time,
 duration`, and for transitions, `transition_type`. Every inspected file's
 `segment_info.subject`/`session` matches its containing `sub-P0##/` folder —
-**233 trusted HDF5 files checked, 0 subject/session mismatches found**
-between folder path and internal `segment_info` attrs (the one apparent
-mismatch in the whole dataset is the raw XDF *filename* audited separately in
+**all 272 HDF5 files checked (34 preprocessed + 238 segments), 0
+subject/session mismatches found** between folder path and internal
+`segment_info`/top-level attrs (the one apparent mismatch in the whole
+dataset is the raw XDF *filename* audited separately in
 `docs/dejavu_identity_conflict_audit.md`, which the segment/preprocessed
-pipeline itself does not inherit). Full inventory:
+pipeline itself does not inherit — confirmed again now with full coverage,
+not just the 233-file partial check from the prior stage). Full inventory:
 `docs/dejavu_event_inventory.csv`.
 
 ## Subject/session summary
@@ -109,9 +116,9 @@ sessions** (22 participants with 1 session, 6 with 2 sessions — matches
 
 ## Outcome
 
-**Dataset structural audit: COMPLETE for all currently-extracted, size-
-verified files.** 39 files (11 preprocessed, 28 segment HDF5) were not
-opened for content inspection because they are truncated — see
-`docs/dejavu_extraction_report.md`. Their structure is expected to match the
-pattern above once/if extraction is completed via `unrar`, but this is not
-assumed or fabricated here.
+**Dataset structural audit: COMPLETE for all 308 files** (34 raw XDF, 34
+preprocessed HDF5, 238 segment HDF5, 1 SQLite database, 1 XLSX workbook) —
+no file skipped, none truncated. This supersedes the prior checkpoint's
+partial coverage (233/272 HDF5 files), which is preserved for the historical
+record in earlier revisions of this document and in
+`docs/dejavu_extraction_report.md`.

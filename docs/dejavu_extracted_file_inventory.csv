@@ -5,8 +5,8 @@ DEJA-VU/preprocessed/clean_P001_S001.h5,clean_P001_S001.h5,.h5,64989528,64989528
 DEJA-VU/preprocessed/clean_P001_S002.h5,clean_P001_S002.h5,.h5,55868008,55868008,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P002_S001.h5,clean_P002_S001.h5,.h5,58587192,58587192,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P002_S002.h5,clean_P002_S002.h5,.h5,66601752,66601752,True,True,False,False,False,preprocessed_hdf5,
-DEJA-VU/preprocessed/clean_P003_S001.h5,clean_P003_S001.h5,.h5,63700992,63767712,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
-DEJA-VU/preprocessed/clean_P004_S001.h5,clean_P004_S001.h5,.h5,64749568,64967096,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/preprocessed/clean_P003_S001.h5,clean_P003_S001.h5,.h5,63767712,63767712,True,True,False,False,False,preprocessed_hdf5,
+DEJA-VU/preprocessed/clean_P004_S001.h5,clean_P004_S001.h5,.h5,64967096,64967096,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P005_S001.h5,clean_P005_S001.h5,.h5,63011680,63011680,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P006_S001.h5,clean_P006_S001.h5,.h5,63382312,63382312,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P007_S001.h5,clean_P007_S001.h5,.h5,64207712,64207712,True,True,False,False,False,preprocessed_hdf5,
@@ -14,25 +14,25 @@ DEJA-VU/preprocessed/clean_P007_S002.h5,clean_P007_S002.h5,.h5,62753256,62753256
 DEJA-VU/preprocessed/clean_P008_S001.h5,clean_P008_S001.h5,.h5,65772632,65772632,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P009_S001.h5,clean_P009_S001.h5,.h5,64703824,64703824,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P009_S002.h5,clean_P009_S002.h5,.h5,61607616,61607616,True,True,False,False,False,preprocessed_hdf5,
-DEJA-VU/preprocessed/clean_P010_S001.h5,clean_P010_S001.h5,.h5,62652416,62855872,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
-DEJA-VU/preprocessed/clean_P011_S001.h5,clean_P011_S001.h5,.h5,68681728,68713552,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
-DEJA-VU/preprocessed/clean_P011_S002.h5,clean_P011_S002.h5,.h5,62128128,62384736,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/preprocessed/clean_P010_S001.h5,clean_P010_S001.h5,.h5,62855872,62855872,True,True,False,False,False,preprocessed_hdf5,
+DEJA-VU/preprocessed/clean_P011_S001.h5,clean_P011_S001.h5,.h5,68713552,68713552,True,True,False,False,False,preprocessed_hdf5,
+DEJA-VU/preprocessed/clean_P011_S002.h5,clean_P011_S002.h5,.h5,62384736,62384736,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P012_S001.h5,clean_P012_S001.h5,.h5,62149992,62149992,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P013_S001.h5,clean_P013_S001.h5,.h5,63748056,63748056,True,True,False,False,False,preprocessed_hdf5,
-DEJA-VU/preprocessed/clean_P014_S001.h5,clean_P014_S001.h5,.h5,63700992,63823792,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/preprocessed/clean_P014_S001.h5,clean_P014_S001.h5,.h5,63823792,63823792,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P015_S001.h5,clean_P015_S001.h5,.h5,60337248,60337248,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P016_S001.h5,clean_P016_S001.h5,.h5,61658496,61658496,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P017_S001.h5,clean_P017_S001.h5,.h5,59104584,59104584,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P017_S002.h5,clean_P017_S002.h5,.h5,63633952,63633952,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P018_S001.h5,clean_P018_S001.h5,.h5,65544584,65544584,True,True,False,False,False,preprocessed_hdf5,
-DEJA-VU/preprocessed/clean_P019_S001.h5,clean_P019_S001.h5,.h5,47972352,48199272,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/preprocessed/clean_P019_S001.h5,clean_P019_S001.h5,.h5,48199272,48199272,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P020_S001.h5,clean_P020_S001.h5,.h5,65466648,65466648,True,True,False,False,False,preprocessed_hdf5,
-DEJA-VU/preprocessed/clean_P021_S001.h5,clean_P021_S001.h5,.h5,62390272,62524160,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/preprocessed/clean_P021_S001.h5,clean_P021_S001.h5,.h5,62524160,62524160,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P022_S001.h5,clean_P022_S001.h5,.h5,64338144,64338144,True,True,False,False,False,preprocessed_hdf5,
-DEJA-VU/preprocessed/clean_P023_S001.h5,clean_P023_S001.h5,.h5,64749568,64850552,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/preprocessed/clean_P023_S001.h5,clean_P023_S001.h5,.h5,64850552,64850552,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P024_S001.h5,clean_P024_S001.h5,.h5,62201664,62201664,True,True,False,False,False,preprocessed_hdf5,
-DEJA-VU/preprocessed/clean_P025_S001.h5,clean_P025_S001.h5,.h5,58458112,58683112,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
-DEJA-VU/preprocessed/clean_P026_S001.h5,clean_P026_S001.h5,.h5,58982400,59201200,False,True,False,False,False,preprocessed_hdf5,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/preprocessed/clean_P025_S001.h5,clean_P025_S001.h5,.h5,58683112,58683112,True,True,False,False,False,preprocessed_hdf5,
+DEJA-VU/preprocessed/clean_P026_S001.h5,clean_P026_S001.h5,.h5,59201200,59201200,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P027_S001.h5,clean_P027_S001.h5,.h5,63069224,63069224,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/preprocessed/clean_P028_S001.h5,clean_P028_S001.h5,.h5,63322192,63322192,True,True,False,False,False,preprocessed_hdf5,
 DEJA-VU/raw/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,.xdf,60728626,60728626,True,True,False,False,False,raw_xdf,
@@ -73,8 +73,8 @@ DEJA-VU/segments/sub-P001/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,
 DEJA-VU/segments/sub-P001/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,5717748,5717748,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P001/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,9430742,9430742,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P001/S001_quadrant_C_pos2.h5,S001_quadrant_C_pos2.h5,.h5,7921013,7921013,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P001/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5767168,5862657,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
-DEJA-VU/segments/sub-P001/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5767168,5851428,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P001/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5862657,5862657,True,True,False,False,False,segment_file,
+DEJA-VU/segments/sub-P001/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5851428,5851428,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P001/S001_transition_D_to_C_period.h5,S001_transition_D_to_C_period.h5,.h5,5854086,5854086,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P001/S002_neutral_baseline.h5,S002_neutral_baseline.h5,.h5,8075775,8075775,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P001/S002_quadrant_A_pos4.h5,S002_quadrant_A_pos4.h5,.h5,6439263,6439263,True,True,False,False,False,segment_file,
@@ -85,7 +85,7 @@ DEJA-VU/segments/sub-P001/S002_transition_C_to_A_period.h5,S002_transition_C_to_
 DEJA-VU/segments/sub-P001/S002_transition_D_to_B_period.h5,S002_transition_D_to_B_period.h5,.h5,5869325,5869325,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P002/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,7967667,7967667,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P002/S001_quadrant_A_pos3.h5,S001_quadrant_A_pos3.h5,.h5,6964124,6964124,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P002/S001_quadrant_B_pos2.h5,S001_quadrant_B_pos2.h5,.h5,7340032,7507408,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P002/S001_quadrant_B_pos2.h5,S001_quadrant_B_pos2.h5,.h5,7507408,7507408,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P002/S001_quadrant_C_pos4.h5,S001_quadrant_C_pos4.h5,.h5,6270530,6270530,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P002/S001_transition_A_to_C_period.h5,S001_transition_A_to_C_period.h5,.h5,5843809,5843809,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P002/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5838240,5838240,True,True,False,False,False,segment_file,
@@ -94,12 +94,12 @@ DEJA-VU/segments/sub-P002/S002_neutral_baseline.h5,S002_neutral_baseline.h5,.h5,
 DEJA-VU/segments/sub-P002/S002_quadrant_A_pos2.h5,S002_quadrant_A_pos2.h5,.h5,7573777,7573777,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P002/S002_quadrant_B_pos3.h5,S002_quadrant_B_pos3.h5,.h5,9500488,9500488,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P002/S002_quadrant_C_pos4.h5,S002_quadrant_C_pos4.h5,.h5,8791563,8791563,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P002/S002_transition_A_to_B_period.h5,S002_transition_A_to_B_period.h5,.h5,5505024,5902238,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P002/S002_transition_A_to_B_period.h5,S002_transition_A_to_B_period.h5,.h5,5902238,5902238,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P002/S002_transition_B_to_C_period.h5,S002_transition_B_to_C_period.h5,.h5,5899923,5899923,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P002/S002_transition_D_to_A_period.h5,S002_transition_D_to_A_period.h5,.h5,5888338,5888338,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P003/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,7968210,7968210,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P003/S001_quadrant_A_pos2.h5,S001_quadrant_A_pos2.h5,.h5,7584217,7584217,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P003/S001_quadrant_B_pos4.h5,S001_quadrant_B_pos4.h5,.h5,7077888,7211006,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P003/S001_quadrant_B_pos4.h5,S001_quadrant_B_pos4.h5,.h5,7211006,7211006,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P003/S001_quadrant_C_pos3.h5,S001_quadrant_C_pos3.h5,.h5,8659396,8659396,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P003/S001_transition_A_to_C_period.h5,S001_transition_A_to_C_period.h5,.h5,5831048,5831048,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P003/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5826758,5826758,True,True,False,False,False,segment_file,
@@ -107,7 +107,7 @@ DEJA-VU/segments/sub-P003/S001_transition_D_to_A_period.h5,S001_transition_D_to_
 DEJA-VU/segments/sub-P004/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8340386,8340386,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P004/S001_quadrant_A_pos3.h5,S001_quadrant_A_pos3.h5,.h5,7240402,7240402,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P004/S001_quadrant_B_pos2.h5,S001_quadrant_B_pos2.h5,.h5,9784003,9784003,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P004/S001_quadrant_C_pos4.h5,S001_quadrant_C_pos4.h5,.h5,8126464,8208859,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P004/S001_quadrant_C_pos4.h5,S001_quadrant_C_pos4.h5,.h5,8208859,8208859,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P004/S001_transition_A_to_C_period.h5,S001_transition_A_to_C_period.h5,.h5,6074636,6074636,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P004/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,6074531,6074531,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P004/S001_transition_D_to_B_period.h5,S001_transition_D_to_B_period.h5,.h5,6070103,6070103,True,True,False,False,False,segment_file,
@@ -120,10 +120,10 @@ DEJA-VU/segments/sub-P005/S001_transition_C_to_B_period.h5,S001_transition_C_to_
 DEJA-VU/segments/sub-P005/S001_transition_D_to_A_period.h5,S001_transition_D_to_A_period.h5,.h5,5879077,5879077,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P006/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8064227,8064227,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P006/S001_quadrant_A_pos2.h5,S001_quadrant_A_pos2.h5,.h5,7646950,7646950,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P006/S001_quadrant_B_pos4.h5,S001_quadrant_B_pos4.h5,.h5,7077888,7256217,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P006/S001_quadrant_B_pos4.h5,S001_quadrant_B_pos4.h5,.h5,7256217,7256217,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P006/S001_quadrant_C_pos3.h5,S001_quadrant_C_pos3.h5,.h5,7945676,7945676,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P006/S001_transition_A_to_C_period.h5,S001_transition_A_to_C_period.h5,.h5,5767168,5872827,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
-DEJA-VU/segments/sub-P006/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5767168,5868710,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P006/S001_transition_A_to_C_period.h5,S001_transition_A_to_C_period.h5,.h5,5872827,5872827,True,True,False,False,False,segment_file,
+DEJA-VU/segments/sub-P006/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5868710,5868710,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P006/S001_transition_D_to_A_period.h5,S001_transition_D_to_A_period.h5,.h5,5871582,5871582,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P007/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8030869,8030869,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P007/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,7536636,7536636,True,True,False,False,False,segment_file,
@@ -142,12 +142,12 @@ DEJA-VU/segments/sub-P007/S002_transition_D_to_A_period.h5,S002_transition_D_to_
 DEJA-VU/segments/sub-P008/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,7975455,7975455,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P008/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,7538585,7538585,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P008/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,7238636,7238636,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P008/S001_quadrant_C_pos2.h5,S001_quadrant_C_pos2.h5,.h5,8650752,8678282,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P008/S001_quadrant_C_pos2.h5,S001_quadrant_C_pos2.h5,.h5,8678282,8678282,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P008/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5856390,5856390,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P008/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5856567,5856567,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P008/S001_transition_D_to_C_period.h5,S001_transition_D_to_C_period.h5,.h5,5835482,5835482,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P009/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,7864320,8027903,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
-DEJA-VU/segments/sub-P009/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,7602176,7633578,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P009/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8027903,8027903,True,True,False,False,False,segment_file,
+DEJA-VU/segments/sub-P009/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,7633578,7633578,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P009/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,7534941,7534941,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P009/S001_quadrant_C_pos2.h5,S001_quadrant_C_pos2.h5,.h5,8689091,8689091,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P009/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5858654,5858654,True,True,False,False,False,segment_file,
@@ -156,16 +156,16 @@ DEJA-VU/segments/sub-P009/S001_transition_D_to_C_period.h5,S001_transition_D_to_
 DEJA-VU/segments/sub-P009/S002_neutral_baseline.h5,S002_neutral_baseline.h5,.h5,8331817,8331817,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P009/S002_quadrant_A_pos4.h5,S002_quadrant_A_pos4.h5,.h5,7221200,7221200,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P009/S002_quadrant_B_pos2.h5,S002_quadrant_B_pos2.h5,.h5,9940913,9940913,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P009/S002_quadrant_C_pos3.h5,S002_quadrant_C_pos3.h5,.h5,6291456,6499610,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
-DEJA-VU/segments/sub-P009/S002_transition_B_to_C_period.h5,S002_transition_B_to_C_period.h5,.h5,6029312,6053502,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P009/S002_quadrant_C_pos3.h5,S002_quadrant_C_pos3.h5,.h5,6499610,6499610,True,True,False,False,False,segment_file,
+DEJA-VU/segments/sub-P009/S002_transition_B_to_C_period.h5,S002_transition_B_to_C_period.h5,.h5,6053502,6053502,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P009/S002_transition_C_to_A_period.h5,S002_transition_C_to_A_period.h5,.h5,6055628,6055628,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P009/S002_transition_D_to_B_period.h5,S002_transition_D_to_B_period.h5,.h5,6029312,6061842,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P009/S002_transition_D_to_B_period.h5,S002_transition_D_to_B_period.h5,.h5,6061842,6061842,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P010/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8089072,8089072,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P010/S001_quadrant_A_pos2.h5,S001_quadrant_A_pos2.h5,.h5,7658406,7658406,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P010/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,7290420,7290420,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P010/S001_quadrant_C_pos4.h5,S001_quadrant_C_pos4.h5,.h5,8003144,8003144,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P010/S001_transition_A_to_B_period.h5,S001_transition_A_to_B_period.h5,.h5,5909803,5909803,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P010/S001_transition_B_to_C_period.h5,S001_transition_B_to_C_period.h5,.h5,5767168,5897313,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P010/S001_transition_B_to_C_period.h5,S001_transition_B_to_C_period.h5,.h5,5897313,5897313,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P010/S001_transition_D_to_A_period.h5,S001_transition_D_to_A_period.h5,.h5,5879799,5879799,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P011/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8028014,8028014,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P011/S001_quadrant_A_pos2.h5,S001_quadrant_A_pos2.h5,.h5,7537425,7537425,True,True,False,False,False,segment_file,
@@ -178,7 +178,7 @@ DEJA-VU/segments/sub-P011/S002_neutral_baseline.h5,S002_neutral_baseline.h5,.h5,
 DEJA-VU/segments/sub-P011/S002_quadrant_A_pos2.h5,S002_quadrant_A_pos2.h5,.h5,5666118,5666118,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P011/S002_quadrant_B_pos4.h5,S002_quadrant_B_pos4.h5,.h5,9351249,9351249,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P011/S002_quadrant_C_pos3.h5,S002_quadrant_C_pos3.h5,.h5,7848711,7848711,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P011/S002_transition_A_to_C_period.h5,S002_transition_A_to_C_period.h5,.h5,5767168,5807733,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P011/S002_transition_A_to_C_period.h5,S002_transition_A_to_C_period.h5,.h5,5807733,5807733,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P011/S002_transition_C_to_B_period.h5,S002_transition_C_to_B_period.h5,.h5,5811937,5811937,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P011/S002_transition_D_to_A_period.h5,S002_transition_D_to_A_period.h5,.h5,5800600,5800600,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P012/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8013628,8013628,True,True,False,False,False,segment_file,
@@ -207,7 +207,7 @@ DEJA-VU/segments/sub-P015/S001_quadrant_A_pos3.h5,S001_quadrant_A_pos3.h5,.h5,71
 DEJA-VU/segments/sub-P015/S001_quadrant_B_pos4.h5,S001_quadrant_B_pos4.h5,.h5,7704220,7704220,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P015/S001_quadrant_C_pos2.h5,S001_quadrant_C_pos2.h5,.h5,6381908,6381908,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P015/S001_transition_A_to_B_period.h5,S001_transition_A_to_B_period.h5,.h5,5978046,5978046,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P015/S001_transition_C_to_A_period.h5,S001_transition_C_to_A_period.h5,.h5,5767168,5970348,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P015/S001_transition_C_to_A_period.h5,S001_transition_C_to_A_period.h5,.h5,5970348,5970348,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P015/S001_transition_D_to_C_period.h5,S001_transition_D_to_C_period.h5,.h5,5933588,5933588,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P016/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8128260,8128260,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P016/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,7074152,7074152,True,True,False,False,False,segment_file,
@@ -218,11 +218,11 @@ DEJA-VU/segments/sub-P016/S001_transition_C_to_A_period.h5,S001_transition_C_to_
 DEJA-VU/segments/sub-P016/S001_transition_D_to_B_period.h5,S001_transition_D_to_B_period.h5,.h5,5922935,5922935,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P017/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8076505,8076505,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P017/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,7038937,7038937,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P017/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,7077888,7276961,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P017/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,7276961,7276961,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P017/S001_quadrant_C_pos2.h5,S001_quadrant_C_pos2.h5,.h5,6297223,6297223,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P017/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5895194,5895194,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P017/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5887408,5887408,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P017/S001_transition_D_to_C_period.h5,S001_transition_D_to_C_period.h5,.h5,5767168,5863149,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P017/S001_transition_D_to_C_period.h5,S001_transition_D_to_C_period.h5,.h5,5863149,5863149,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P017/S002_neutral_baseline.h5,S002_neutral_baseline.h5,.h5,7978969,7978969,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P017/S002_quadrant_A_pos3.h5,S002_quadrant_A_pos3.h5,.h5,7849494,7849494,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P017/S002_quadrant_B_pos2.h5,S002_quadrant_B_pos2.h5,.h5,11623955,11623955,True,True,False,False,False,segment_file,
@@ -252,25 +252,25 @@ DEJA-VU/segments/sub-P020/S001_transition_A_to_C_period.h5,S001_transition_A_to_
 DEJA-VU/segments/sub-P020/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5806459,5806459,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P020/S001_transition_D_to_B_period.h5,S001_transition_D_to_B_period.h5,.h5,5791748,5791748,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P021/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,7726773,7726773,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P021/S001_quadrant_A_pos3.h5,S001_quadrant_A_pos3.h5,.h5,5505024,5527961,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P021/S001_quadrant_A_pos3.h5,S001_quadrant_A_pos3.h5,.h5,5527961,5527961,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P021/S001_quadrant_B_pos2.h5,S001_quadrant_B_pos2.h5,.h5,9094295,9094295,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P021/S001_quadrant_C_pos4.h5,S001_quadrant_C_pos4.h5,.h5,6082500,6082500,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P021/S001_transition_A_to_C_period.h5,S001_transition_A_to_C_period.h5,.h5,5656032,5656032,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P021/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5653001,5653001,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P021/S001_transition_D_to_B_period.h5,S001_transition_D_to_B_period.h5,.h5,5505024,5646969,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P021/S001_transition_D_to_B_period.h5,S001_transition_D_to_B_period.h5,.h5,5646969,5646969,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P022/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,7927145,7927145,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P022/S001_quadrant_A_pos2.h5,S001_quadrant_A_pos2.h5,.h5,5659082,5659082,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P022/S001_quadrant_B_pos4.h5,S001_quadrant_B_pos4.h5,.h5,9522908,9522908,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P022/S001_quadrant_C_pos3.h5,S001_quadrant_C_pos3.h5,.h5,8388608,8606425,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P022/S001_quadrant_C_pos3.h5,S001_quadrant_C_pos3.h5,.h5,8606425,8606425,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P022/S001_transition_A_to_C_period.h5,S001_transition_A_to_C_period.h5,.h5,5797996,5797996,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P022/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5797809,5797809,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P022/S001_transition_D_to_A_period.h5,S001_transition_D_to_A_period.h5,.h5,5788322,5788322,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P023/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8086728,8086728,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P023/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,7069597,7069597,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P023/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,9437184,9683690,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
-DEJA-VU/segments/sub-P023/S001_quadrant_C_pos2.h5,S001_quadrant_C_pos2.h5,.h5,8650752,8729831,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P023/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,9683690,9683690,True,True,False,False,False,segment_file,
+DEJA-VU/segments/sub-P023/S001_quadrant_C_pos2.h5,S001_quadrant_C_pos2.h5,.h5,8729831,8729831,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P023/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5910741,5910741,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P023/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5767168,5903626,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P023/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5903626,5903626,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P023/S001_transition_D_to_C_period.h5,S001_transition_D_to_C_period.h5,.h5,5870992,5870992,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P024/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,7943583,7943583,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P024/S001_quadrant_A_pos2.h5,S001_quadrant_A_pos2.h5,.h5,5644210,5644210,True,True,False,False,False,segment_file,
@@ -295,7 +295,7 @@ DEJA-VU/segments/sub-P026/S001_transition_B_to_C_period.h5,S001_transition_B_to_
 DEJA-VU/segments/sub-P026/S001_transition_D_to_A_period.h5,S001_transition_D_to_A_period.h5,.h5,5818876,5818876,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P027/S001_neutral_baseline.h5,S001_neutral_baseline.h5,.h5,8103107,8103107,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P027/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,5808589,5808589,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P027/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,9437184,9531916,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P027/S001_quadrant_B_pos3.h5,S001_quadrant_B_pos3.h5,.h5,9531916,9531916,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P027/S001_quadrant_C_pos2.h5,S001_quadrant_C_pos2.h5,.h5,7962033,7962033,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P027/S001_transition_B_to_A_period.h5,S001_transition_B_to_A_period.h5,.h5,5922812,5922812,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P027/S001_transition_C_to_B_period.h5,S001_transition_C_to_B_period.h5,.h5,5913904,5913904,True,True,False,False,False,segment_file,
@@ -305,5 +305,5 @@ DEJA-VU/segments/sub-P028/S001_quadrant_A_pos4.h5,S001_quadrant_A_pos4.h5,.h5,57
 DEJA-VU/segments/sub-P028/S001_quadrant_B_pos2.h5,S001_quadrant_B_pos2.h5,.h5,9612034,9612034,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P028/S001_quadrant_C_pos3.h5,S001_quadrant_C_pos3.h5,.h5,7939332,7939332,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P028/S001_transition_B_to_C_period.h5,S001_transition_B_to_C_period.h5,.h5,5870839,5870839,True,True,False,False,False,segment_file,
-DEJA-VU/segments/sub-P028/S001_transition_C_to_A_period.h5,S001_transition_C_to_A_period.h5,.h5,5767168,5870161,False,True,False,False,False,segment_file,"TRUNCATED - unar decoder failure, see decision_log.md"
+DEJA-VU/segments/sub-P028/S001_transition_C_to_A_period.h5,S001_transition_C_to_A_period.h5,.h5,5870161,5870161,True,True,False,False,False,segment_file,
 DEJA-VU/segments/sub-P028/S001_transition_D_to_B_period.h5,S001_transition_D_to_B_period.h5,.h5,5862954,5862954,True,True,False,False,False,segment_file,

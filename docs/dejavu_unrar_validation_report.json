@@ -1,0 +1,43 @@
+{
+  "staging_directory": "/mnt/HDD/AliWorks/DEJA-VU/extracted/dataset_unrar_staging",
+  "staging_was_empty_before_extraction": true,
+  "extraction_not_performed_over_existing_partial_dataset": true,
+  "command": "unrar x -o- /mnt/HDD/AliWorks/DEJA-VU/raw_downloads/DEJA-VU.rar /mnt/HDD/AliWorks/DEJA-VU/extracted/dataset_unrar_staging/",
+  "start_time": "2026-07-13T17:18:35+03:00",
+  "end_time": "2026-07-13T17:18:53+03:00",
+  "elapsed_seconds": 18,
+  "exit_code": 0,
+  "unrar_final_line": "All OK",
+  "log_file": "/mnt/HDD/AliWorks/DEJA-VU/logs/extract_dataset_unrar.log",
+  "archive_md5_before_extraction": "0815b7d78915d132084f4ef497cef6d0",
+  "archive_md5_after_extraction": "0815b7d78915d132084f4ef497cef6d0",
+  "archive_md5_matches_expected": true,
+  "validation": {
+    "expected_regular_files": 308,
+    "expected_directories": 128,
+    "files_exist": {"pass": true, "count": "308/308"},
+    "files_exact_size_match": {"pass": true, "count": "308/308"},
+    "unexpected_files_on_disk": {"pass": true, "count": 0},
+    "zero_byte_anomalies": {"pass": true, "count": 0},
+    "path_escapes": {"pass": true, "count": 0},
+    "symlinks": {"pass": true, "count": 0},
+    "hdf5_files_open_success": {"pass": true, "count": "272/272", "breakdown": {"preprocessed": 34, "segments": 238}},
+    "full_arrays_loaded_during_check": false,
+    "sqlite_opens_read_only": true,
+    "xlsx_opens_read_only": true,
+    "xdf_files_readable": {"pass": true, "count": "34/34"},
+    "total_extracted_bytes": 5751558349,
+    "total_expected_bytes": 5751558349,
+    "bytes_match_exactly": true
+  },
+  "acceptance_conditions": {
+    "all_308_files_exist": true,
+    "all_308_exact_size_match": true,
+    "zero_unexpected_files": true,
+    "zero_zero_byte_anomalies": true,
+    "zero_format_open_failures": true,
+    "unrar_exit_code_success": true
+  },
+  "decision": "ACCEPTED",
+  "detail_csv": "docs/dejavu_unrar_file_size_validation.csv"
+}

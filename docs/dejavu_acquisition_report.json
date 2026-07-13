@@ -122,10 +122,22 @@
     },
     "full_detail": "docs/dejavu_extraction_report.md and docs/dejavu_extraction_report.json"
   },
+  "outcome_at_unar_stage": {
+    "download": "COMPLETE",
+    "checksum_verification": "COMPLETE_0_FAILURES",
+    "extraction": "PARTIAL"
+  },
+  "unrar_reextraction_stage_2026_07_13": {
+    "gap_corrected": "unrar installed but not used before prior checkpoint; retried this stage",
+    "staging_result": "308/308 exact size match, 0 anomalies, 272/272 HDF5 + SQLite + XLSX + 34/34 XDF all open successfully",
+    "atomic_swap_performed": true,
+    "canonical_path_revalidated": "308/308 exact match, archive MD5 unchanged",
+    "full_detail": ["docs/dejavu_extraction_report.json", "docs/dejavu_unrar_validation_report.json"]
+  },
   "outcome": {
     "download": "COMPLETE",
     "checksum_verification": "COMPLETE_0_FAILURES",
-    "extraction": "PARTIAL",
-    "note": "supersedes outcome_at_original_checkpoint; see continuation_stage_2026_07_13"
+    "extraction": "COMPLETE",
+    "note": "supersedes outcome_at_unar_stage; see unrar_reextraction_stage_2026_07_13"
   }
 }

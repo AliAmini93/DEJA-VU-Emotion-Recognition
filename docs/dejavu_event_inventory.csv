@@ -3,6 +3,8 @@ DEJA-VU/preprocessed/clean_P001_S001.h5,preprocessed_hdf5,P001,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P001_S002.h5,preprocessed_hdf5,P001,S002,,,,,,,
 DEJA-VU/preprocessed/clean_P002_S001.h5,preprocessed_hdf5,P002,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P002_S002.h5,preprocessed_hdf5,P002,S002,,,,,,,
+DEJA-VU/preprocessed/clean_P003_S001.h5,preprocessed_hdf5,P003,S001,,,,,,,
+DEJA-VU/preprocessed/clean_P004_S001.h5,preprocessed_hdf5,P004,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P005_S001.h5,preprocessed_hdf5,P005,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P006_S001.h5,preprocessed_hdf5,P006,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P007_S001.h5,preprocessed_hdf5,P007,S001,,,,,,,
@@ -10,22 +12,33 @@ DEJA-VU/preprocessed/clean_P007_S002.h5,preprocessed_hdf5,P007,S002,,,,,,,
 DEJA-VU/preprocessed/clean_P008_S001.h5,preprocessed_hdf5,P008,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P009_S001.h5,preprocessed_hdf5,P009,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P009_S002.h5,preprocessed_hdf5,P009,S002,,,,,,,
+DEJA-VU/preprocessed/clean_P010_S001.h5,preprocessed_hdf5,P010,S001,,,,,,,
+DEJA-VU/preprocessed/clean_P011_S001.h5,preprocessed_hdf5,P011,S001,,,,,,,
+DEJA-VU/preprocessed/clean_P011_S002.h5,preprocessed_hdf5,P011,S002,,,,,,,
 DEJA-VU/preprocessed/clean_P012_S001.h5,preprocessed_hdf5,P012,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P013_S001.h5,preprocessed_hdf5,P013,S001,,,,,,,
+DEJA-VU/preprocessed/clean_P014_S001.h5,preprocessed_hdf5,P014,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P015_S001.h5,preprocessed_hdf5,P015,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P016_S001.h5,preprocessed_hdf5,P016,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P017_S001.h5,preprocessed_hdf5,P017,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P017_S002.h5,preprocessed_hdf5,P017,S002,,,,,,,
 DEJA-VU/preprocessed/clean_P018_S001.h5,preprocessed_hdf5,P018,S001,,,,,,,
+DEJA-VU/preprocessed/clean_P019_S001.h5,preprocessed_hdf5,P019,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P020_S001.h5,preprocessed_hdf5,P020,S001,,,,,,,
+DEJA-VU/preprocessed/clean_P021_S001.h5,preprocessed_hdf5,P021,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P022_S001.h5,preprocessed_hdf5,P022,S001,,,,,,,
+DEJA-VU/preprocessed/clean_P023_S001.h5,preprocessed_hdf5,P023,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P024_S001.h5,preprocessed_hdf5,P024,S001,,,,,,,
+DEJA-VU/preprocessed/clean_P025_S001.h5,preprocessed_hdf5,P025,S001,,,,,,,
+DEJA-VU/preprocessed/clean_P026_S001.h5,preprocessed_hdf5,P026,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P027_S001.h5,preprocessed_hdf5,P027,S001,,,,,,,
 DEJA-VU/preprocessed/clean_P028_S001.h5,preprocessed_hdf5,P028,S001,,,,,,,
 DEJA-VU/segments/sub-P001/S001_neutral_baseline.h5,segment_file,P001,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P001/S001_quadrant_A_pos4.h5,segment_file,P001,S001,quadrant,A,The Visitors,,1012.0,1142.0,130.0
 DEJA-VU/segments/sub-P001/S001_quadrant_B_pos3.h5,segment_file,P001,S001,quadrant,B,Scream,,663.0,879.0,216.0
 DEJA-VU/segments/sub-P001/S001_quadrant_C_pos2.h5,segment_file,P001,S001,quadrant,C,The Champ,,349.0,530.0,181.0
+DEJA-VU/segments/sub-P001/S001_transition_B_to_A_period.h5,segment_file,P001,S001,transition_period,Transition,Transition_B_to_A,B_to_A,879.0,1012.0,133.0
+DEJA-VU/segments/sub-P001/S001_transition_C_to_B_period.h5,segment_file,P001,S001,transition_period,Transition,Transition_C_to_B,C_to_B,530.0,663.0,133.0
 DEJA-VU/segments/sub-P001/S001_transition_D_to_C_period.h5,segment_file,P001,S001,transition_period,Transition,Transition_D_to_C,D_to_C,216.0,349.0,133.0
 DEJA-VU/segments/sub-P001/S002_neutral_baseline.h5,segment_file,P001,S002,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P001/S002_quadrant_A_pos4.h5,segment_file,P001,S002,quadrant,A,There is something about Mary 2,,843.0,989.0,146.0
@@ -36,6 +49,7 @@ DEJA-VU/segments/sub-P001/S002_transition_C_to_A_period.h5,segment_file,P001,S00
 DEJA-VU/segments/sub-P001/S002_transition_D_to_B_period.h5,segment_file,P001,S002,transition_period,Transition,Transition_D_to_B,D_to_B,216.0,349.0,133.0
 DEJA-VU/segments/sub-P002/S001_neutral_baseline.h5,segment_file,P002,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P002/S001_quadrant_A_pos3.h5,segment_file,P002,S001,quadrant,A,Mr. Bean,,654.0,813.0,159.0
+DEJA-VU/segments/sub-P002/S001_quadrant_B_pos2.h5,segment_file,P002,S001,quadrant,B,28 days later,,349.0,521.0,172.0
 DEJA-VU/segments/sub-P002/S001_quadrant_C_pos4.h5,segment_file,P002,S001,quadrant,C,Dangerous Minds,,946.0,1089.0,143.0
 DEJA-VU/segments/sub-P002/S001_transition_A_to_C_period.h5,segment_file,P002,S001,transition_period,Transition,Transition_A_to_C,A_to_C,813.0,946.0,133.0
 DEJA-VU/segments/sub-P002/S001_transition_B_to_A_period.h5,segment_file,P002,S001,transition_period,Transition,Transition_B_to_A,B_to_A,521.0,654.0,133.0
@@ -44,10 +58,12 @@ DEJA-VU/segments/sub-P002/S002_neutral_baseline.h5,segment_file,P002,S002,neutra
 DEJA-VU/segments/sub-P002/S002_quadrant_A_pos2.h5,segment_file,P002,S002,quadrant,A,When Harry met Sally,,349.0,521.0,172.0
 DEJA-VU/segments/sub-P002/S002_quadrant_B_pos3.h5,segment_file,P002,S002,quadrant,B,Scream,,654.0,870.0,216.0
 DEJA-VU/segments/sub-P002/S002_quadrant_C_pos4.h5,segment_file,P002,S002,quadrant,C,My girl,,1003.0,1202.0,199.0
+DEJA-VU/segments/sub-P002/S002_transition_A_to_B_period.h5,segment_file,P002,S002,transition_period,Transition,Transition_A_to_B,A_to_B,521.0,654.0,133.0
 DEJA-VU/segments/sub-P002/S002_transition_B_to_C_period.h5,segment_file,P002,S002,transition_period,Transition,Transition_B_to_C,B_to_C,870.0,1003.0,133.0
 DEJA-VU/segments/sub-P002/S002_transition_D_to_A_period.h5,segment_file,P002,S002,transition_period,Transition,Transition_D_to_A,D_to_A,216.0,349.0,133.0
 DEJA-VU/segments/sub-P003/S001_neutral_baseline.h5,segment_file,P003,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P003/S001_quadrant_A_pos2.h5,segment_file,P003,S001,quadrant,A,There is something about Mary,,349.0,523.0,174.0
+DEJA-VU/segments/sub-P003/S001_quadrant_B_pos4.h5,segment_file,P003,S001,quadrant,B,The Shining,,988.0,1153.0,165.0
 DEJA-VU/segments/sub-P003/S001_quadrant_C_pos3.h5,segment_file,P003,S001,quadrant,C,My girl,,656.0,855.0,199.0
 DEJA-VU/segments/sub-P003/S001_transition_A_to_C_period.h5,segment_file,P003,S001,transition_period,Transition,Transition_A_to_C,A_to_C,523.0,656.0,133.0
 DEJA-VU/segments/sub-P003/S001_transition_C_to_B_period.h5,segment_file,P003,S001,transition_period,Transition,Transition_C_to_B,C_to_B,855.0,988.0,133.0
@@ -55,6 +71,7 @@ DEJA-VU/segments/sub-P003/S001_transition_D_to_A_period.h5,segment_file,P003,S00
 DEJA-VU/segments/sub-P004/S001_neutral_baseline.h5,segment_file,P004,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P004/S001_quadrant_A_pos3.h5,segment_file,P004,S001,quadrant,A,Mr. Bean,,698.0,857.0,159.0
 DEJA-VU/segments/sub-P004/S001_quadrant_B_pos2.h5,segment_file,P004,S001,quadrant,B,Scream,,349.0,565.0,216.0
+DEJA-VU/segments/sub-P004/S001_quadrant_C_pos4.h5,segment_file,P004,S001,quadrant,C,The Champ,,990.0,1171.0,181.0
 DEJA-VU/segments/sub-P004/S001_transition_A_to_C_period.h5,segment_file,P004,S001,transition_period,Transition,Transition_A_to_C,A_to_C,857.0,990.0,133.0
 DEJA-VU/segments/sub-P004/S001_transition_B_to_A_period.h5,segment_file,P004,S001,transition_period,Transition,Transition_B_to_A,B_to_A,565.0,698.0,133.0
 DEJA-VU/segments/sub-P004/S001_transition_D_to_B_period.h5,segment_file,P004,S001,transition_period,Transition,Transition_D_to_B,D_to_B,216.0,349.0,133.0
@@ -67,7 +84,10 @@ DEJA-VU/segments/sub-P005/S001_transition_C_to_B_period.h5,segment_file,P005,S00
 DEJA-VU/segments/sub-P005/S001_transition_D_to_A_period.h5,segment_file,P005,S001,transition_period,Transition,Transition_D_to_A,D_to_A,216.0,349.0,133.0
 DEJA-VU/segments/sub-P006/S001_neutral_baseline.h5,segment_file,P006,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P006/S001_quadrant_A_pos2.h5,segment_file,P006,S001,quadrant,A,There is something about Mary,,349.0,523.0,174.0
+DEJA-VU/segments/sub-P006/S001_quadrant_B_pos4.h5,segment_file,P006,S001,quadrant,B,The Shining,,970.0,1135.0,165.0
 DEJA-VU/segments/sub-P006/S001_quadrant_C_pos3.h5,segment_file,P006,S001,quadrant,C,The Champ,,656.0,837.0,181.0
+DEJA-VU/segments/sub-P006/S001_transition_A_to_C_period.h5,segment_file,P006,S001,transition_period,Transition,Transition_A_to_C,A_to_C,523.0,656.0,133.0
+DEJA-VU/segments/sub-P006/S001_transition_C_to_B_period.h5,segment_file,P006,S001,transition_period,Transition,Transition_C_to_B,C_to_B,837.0,970.0,133.0
 DEJA-VU/segments/sub-P006/S001_transition_D_to_A_period.h5,segment_file,P006,S001,transition_period,Transition,Transition_D_to_A,D_to_A,216.0,349.0,133.0
 DEJA-VU/segments/sub-P007/S001_neutral_baseline.h5,segment_file,P007,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P007/S001_quadrant_A_pos4.h5,segment_file,P007,S001,quadrant,A,When Harry met Sally,,986.0,1158.0,172.0
@@ -86,9 +106,12 @@ DEJA-VU/segments/sub-P007/S002_transition_D_to_A_period.h5,segment_file,P007,S00
 DEJA-VU/segments/sub-P008/S001_neutral_baseline.h5,segment_file,P008,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P008/S001_quadrant_A_pos4.h5,segment_file,P008,S001,quadrant,A,When Harry met Sally,,979.0,1151.0,172.0
 DEJA-VU/segments/sub-P008/S001_quadrant_B_pos3.h5,segment_file,P008,S001,quadrant,B,The Shining,,681.0,846.0,165.0
+DEJA-VU/segments/sub-P008/S001_quadrant_C_pos2.h5,segment_file,P008,S001,quadrant,C,My girl,,349.0,548.0,199.0
 DEJA-VU/segments/sub-P008/S001_transition_B_to_A_period.h5,segment_file,P008,S001,transition_period,Transition,Transition_B_to_A,B_to_A,846.0,979.0,133.0
 DEJA-VU/segments/sub-P008/S001_transition_C_to_B_period.h5,segment_file,P008,S001,transition_period,Transition,Transition_C_to_B,C_to_B,548.0,681.0,133.0
 DEJA-VU/segments/sub-P008/S001_transition_D_to_C_period.h5,segment_file,P008,S001,transition_period,Transition,Transition_D_to_C,D_to_C,216.0,349.0,133.0
+DEJA-VU/segments/sub-P009/S001_neutral_baseline.h5,segment_file,P009,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
+DEJA-VU/segments/sub-P009/S001_quadrant_A_pos4.h5,segment_file,P009,S001,quadrant,A,There is something about Mary,,986.0,1160.0,174.0
 DEJA-VU/segments/sub-P009/S001_quadrant_B_pos3.h5,segment_file,P009,S001,quadrant,B,28 days later,,681.0,853.0,172.0
 DEJA-VU/segments/sub-P009/S001_quadrant_C_pos2.h5,segment_file,P009,S001,quadrant,C,My girl,,349.0,548.0,199.0
 DEJA-VU/segments/sub-P009/S001_transition_B_to_A_period.h5,segment_file,P009,S001,transition_period,Transition,Transition_B_to_A,B_to_A,853.0,986.0,133.0
@@ -97,12 +120,16 @@ DEJA-VU/segments/sub-P009/S001_transition_D_to_C_period.h5,segment_file,P009,S00
 DEJA-VU/segments/sub-P009/S002_neutral_baseline.h5,segment_file,P009,S002,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P009/S002_quadrant_A_pos4.h5,segment_file,P009,S002,quadrant,A,Mr. Bean,,978.0,1137.0,159.0
 DEJA-VU/segments/sub-P009/S002_quadrant_B_pos2.h5,segment_file,P009,S002,quadrant,B,Misery,,349.0,569.0,220.0
+DEJA-VU/segments/sub-P009/S002_quadrant_C_pos3.h5,segment_file,P009,S002,quadrant,C,Dangerous Minds,,702.0,845.0,143.0
+DEJA-VU/segments/sub-P009/S002_transition_B_to_C_period.h5,segment_file,P009,S002,transition_period,Transition,Transition_B_to_C,B_to_C,569.0,702.0,133.0
 DEJA-VU/segments/sub-P009/S002_transition_C_to_A_period.h5,segment_file,P009,S002,transition_period,Transition,Transition_C_to_A,C_to_A,845.0,978.0,133.0
+DEJA-VU/segments/sub-P009/S002_transition_D_to_B_period.h5,segment_file,P009,S002,transition_period,Transition,Transition_D_to_B,D_to_B,216.0,349.0,133.0
 DEJA-VU/segments/sub-P010/S001_neutral_baseline.h5,segment_file,P010,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P010/S001_quadrant_A_pos2.h5,segment_file,P010,S001,quadrant,A,There is something about Mary,,349.0,523.0,174.0
 DEJA-VU/segments/sub-P010/S001_quadrant_B_pos3.h5,segment_file,P010,S001,quadrant,B,The Shining,,656.0,821.0,165.0
 DEJA-VU/segments/sub-P010/S001_quadrant_C_pos4.h5,segment_file,P010,S001,quadrant,C,The Champ,,954.0,1135.0,181.0
 DEJA-VU/segments/sub-P010/S001_transition_A_to_B_period.h5,segment_file,P010,S001,transition_period,Transition,Transition_A_to_B,A_to_B,523.0,656.0,133.0
+DEJA-VU/segments/sub-P010/S001_transition_B_to_C_period.h5,segment_file,P010,S001,transition_period,Transition,Transition_B_to_C,B_to_C,821.0,954.0,133.0
 DEJA-VU/segments/sub-P010/S001_transition_D_to_A_period.h5,segment_file,P010,S001,transition_period,Transition,Transition_D_to_A,D_to_A,216.0,349.0,133.0
 DEJA-VU/segments/sub-P011/S001_neutral_baseline.h5,segment_file,P011,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P011/S001_quadrant_A_pos2.h5,segment_file,P011,S001,quadrant,A,When Harry met Sally,,349.0,521.0,172.0
@@ -115,6 +142,7 @@ DEJA-VU/segments/sub-P011/S002_neutral_baseline.h5,segment_file,P011,S002,neutra
 DEJA-VU/segments/sub-P011/S002_quadrant_A_pos2.h5,segment_file,P011,S002,quadrant,A,The Visitors,,349.0,479.0,130.0
 DEJA-VU/segments/sub-P011/S002_quadrant_B_pos4.h5,segment_file,P011,S002,quadrant,B,Scream,,926.0,1142.0,216.0
 DEJA-VU/segments/sub-P011/S002_quadrant_C_pos3.h5,segment_file,P011,S002,quadrant,C,The Champ,,612.0,793.0,181.0
+DEJA-VU/segments/sub-P011/S002_transition_A_to_C_period.h5,segment_file,P011,S002,transition_period,Transition,Transition_A_to_C,A_to_C,479.0,612.0,133.0
 DEJA-VU/segments/sub-P011/S002_transition_C_to_B_period.h5,segment_file,P011,S002,transition_period,Transition,Transition_C_to_B,C_to_B,793.0,926.0,133.0
 DEJA-VU/segments/sub-P011/S002_transition_D_to_A_period.h5,segment_file,P011,S002,transition_period,Transition,Transition_D_to_A,D_to_A,216.0,349.0,133.0
 DEJA-VU/segments/sub-P012/S001_neutral_baseline.h5,segment_file,P012,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
@@ -143,6 +171,7 @@ DEJA-VU/segments/sub-P015/S001_quadrant_A_pos3.h5,segment_file,P015,S001,quadran
 DEJA-VU/segments/sub-P015/S001_quadrant_B_pos4.h5,segment_file,P015,S001,quadrant,B,28 days later,,917.0,1089.0,172.0
 DEJA-VU/segments/sub-P015/S001_quadrant_C_pos2.h5,segment_file,P015,S001,quadrant,C,Dangerous Minds,,349.0,492.0,143.0
 DEJA-VU/segments/sub-P015/S001_transition_A_to_B_period.h5,segment_file,P015,S001,transition_period,Transition,Transition_A_to_B,A_to_B,784.0,917.0,133.0
+DEJA-VU/segments/sub-P015/S001_transition_C_to_A_period.h5,segment_file,P015,S001,transition_period,Transition,Transition_C_to_A,C_to_A,492.0,625.0,133.0
 DEJA-VU/segments/sub-P015/S001_transition_D_to_C_period.h5,segment_file,P015,S001,transition_period,Transition,Transition_D_to_C,D_to_C,216.0,349.0,133.0
 DEJA-VU/segments/sub-P016/S001_neutral_baseline.h5,segment_file,P016,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P016/S001_quadrant_A_pos4.h5,segment_file,P016,S001,quadrant,A,Mr. Bean,,968.0,1127.0,159.0
@@ -153,9 +182,11 @@ DEJA-VU/segments/sub-P016/S001_transition_C_to_A_period.h5,segment_file,P016,S00
 DEJA-VU/segments/sub-P016/S001_transition_D_to_B_period.h5,segment_file,P016,S001,transition_period,Transition,Transition_D_to_B,D_to_B,216.0,349.0,133.0
 DEJA-VU/segments/sub-P017/S001_neutral_baseline.h5,segment_file,P017,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P017/S001_quadrant_A_pos4.h5,segment_file,P017,S001,quadrant,A,Mr. Bean,,923.0,1082.0,159.0
+DEJA-VU/segments/sub-P017/S001_quadrant_B_pos3.h5,segment_file,P017,S001,quadrant,B,The Shining,,625.0,790.0,165.0
 DEJA-VU/segments/sub-P017/S001_quadrant_C_pos2.h5,segment_file,P017,S001,quadrant,C,Dangerous Minds,,349.0,492.0,143.0
 DEJA-VU/segments/sub-P017/S001_transition_B_to_A_period.h5,segment_file,P017,S001,transition_period,Transition,Transition_B_to_A,B_to_A,790.0,923.0,133.0
 DEJA-VU/segments/sub-P017/S001_transition_C_to_B_period.h5,segment_file,P017,S001,transition_period,Transition,Transition_C_to_B,C_to_B,492.0,625.0,133.0
+DEJA-VU/segments/sub-P017/S001_transition_D_to_C_period.h5,segment_file,P017,S001,transition_period,Transition,Transition_D_to_C,D_to_C,216.0,349.0,133.0
 DEJA-VU/segments/sub-P017/S002_neutral_baseline.h5,segment_file,P017,S002,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P017/S002_quadrant_A_pos3.h5,segment_file,P017,S002,quadrant,A,Fish called Wanda,,748.0,928.0,180.0
 DEJA-VU/segments/sub-P017/S002_quadrant_B_pos2.h5,segment_file,P017,S002,quadrant,B,The Shining 2,,349.0,615.0,266.0
@@ -185,19 +216,25 @@ DEJA-VU/segments/sub-P020/S001_transition_A_to_C_period.h5,segment_file,P020,S00
 DEJA-VU/segments/sub-P020/S001_transition_B_to_A_period.h5,segment_file,P020,S001,transition_period,Transition,Transition_B_to_A,B_to_A,521.0,654.0,133.0
 DEJA-VU/segments/sub-P020/S001_transition_D_to_B_period.h5,segment_file,P020,S001,transition_period,Transition,Transition_D_to_B,D_to_B,216.0,349.0,133.0
 DEJA-VU/segments/sub-P021/S001_neutral_baseline.h5,segment_file,P021,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
+DEJA-VU/segments/sub-P021/S001_quadrant_A_pos3.h5,segment_file,P021,S001,quadrant,A,The Visitors,,698.0,828.0,130.0
 DEJA-VU/segments/sub-P021/S001_quadrant_B_pos2.h5,segment_file,P021,S001,quadrant,B,Scream,,349.0,565.0,216.0
 DEJA-VU/segments/sub-P021/S001_quadrant_C_pos4.h5,segment_file,P021,S001,quadrant,C,Dangerous Minds,,961.0,1104.0,143.0
 DEJA-VU/segments/sub-P021/S001_transition_A_to_C_period.h5,segment_file,P021,S001,transition_period,Transition,Transition_A_to_C,A_to_C,828.0,961.0,133.0
 DEJA-VU/segments/sub-P021/S001_transition_B_to_A_period.h5,segment_file,P021,S001,transition_period,Transition,Transition_B_to_A,B_to_A,565.0,698.0,133.0
+DEJA-VU/segments/sub-P021/S001_transition_D_to_B_period.h5,segment_file,P021,S001,transition_period,Transition,Transition_D_to_B,D_to_B,216.0,349.0,133.0
 DEJA-VU/segments/sub-P022/S001_neutral_baseline.h5,segment_file,P022,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P022/S001_quadrant_A_pos2.h5,segment_file,P022,S001,quadrant,A,The Visitors,,349.0,479.0,130.0
 DEJA-VU/segments/sub-P022/S001_quadrant_B_pos4.h5,segment_file,P022,S001,quadrant,B,Misery,,944.0,1164.0,220.0
+DEJA-VU/segments/sub-P022/S001_quadrant_C_pos3.h5,segment_file,P022,S001,quadrant,C,My girl,,612.0,811.0,199.0
 DEJA-VU/segments/sub-P022/S001_transition_A_to_C_period.h5,segment_file,P022,S001,transition_period,Transition,Transition_A_to_C,A_to_C,479.0,612.0,133.0
 DEJA-VU/segments/sub-P022/S001_transition_C_to_B_period.h5,segment_file,P022,S001,transition_period,Transition,Transition_C_to_B,C_to_B,811.0,944.0,133.0
 DEJA-VU/segments/sub-P022/S001_transition_D_to_A_period.h5,segment_file,P022,S001,transition_period,Transition,Transition_D_to_A,D_to_A,216.0,349.0,133.0
 DEJA-VU/segments/sub-P023/S001_neutral_baseline.h5,segment_file,P023,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P023/S001_quadrant_A_pos4.h5,segment_file,P023,S001,quadrant,A,Mr. Bean,,1034.0,1193.0,159.0
+DEJA-VU/segments/sub-P023/S001_quadrant_B_pos3.h5,segment_file,P023,S001,quadrant,B,Misery,,681.0,901.0,220.0
+DEJA-VU/segments/sub-P023/S001_quadrant_C_pos2.h5,segment_file,P023,S001,quadrant,C,My girl,,349.0,548.0,199.0
 DEJA-VU/segments/sub-P023/S001_transition_B_to_A_period.h5,segment_file,P023,S001,transition_period,Transition,Transition_B_to_A,B_to_A,901.0,1034.0,133.0
+DEJA-VU/segments/sub-P023/S001_transition_C_to_B_period.h5,segment_file,P023,S001,transition_period,Transition,Transition_C_to_B,C_to_B,548.0,681.0,133.0
 DEJA-VU/segments/sub-P023/S001_transition_D_to_C_period.h5,segment_file,P023,S001,transition_period,Transition,Transition_D_to_C,D_to_C,216.0,349.0,133.0
 DEJA-VU/segments/sub-P024/S001_neutral_baseline.h5,segment_file,P024,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P024/S001_quadrant_A_pos2.h5,segment_file,P024,S001,quadrant,A,The Visitors,,349.0,479.0,130.0
@@ -222,6 +259,7 @@ DEJA-VU/segments/sub-P026/S001_transition_B_to_C_period.h5,segment_file,P026,S00
 DEJA-VU/segments/sub-P026/S001_transition_D_to_A_period.h5,segment_file,P026,S001,transition_period,Transition,Transition_D_to_A,D_to_A,216.0,349.0,133.0
 DEJA-VU/segments/sub-P027/S001_neutral_baseline.h5,segment_file,P027,S001,neutral_baseline,D,Clouds,,32.0,216.0,184.0
 DEJA-VU/segments/sub-P027/S001_quadrant_A_pos4.h5,segment_file,P027,S001,quadrant,A,The Visitors,,1012.0,1142.0,130.0
+DEJA-VU/segments/sub-P027/S001_quadrant_B_pos3.h5,segment_file,P027,S001,quadrant,B,Scream,,663.0,879.0,216.0
 DEJA-VU/segments/sub-P027/S001_quadrant_C_pos2.h5,segment_file,P027,S001,quadrant,C,The Champ,,349.0,530.0,181.0
 DEJA-VU/segments/sub-P027/S001_transition_B_to_A_period.h5,segment_file,P027,S001,transition_period,Transition,Transition_B_to_A,B_to_A,879.0,1012.0,133.0
 DEJA-VU/segments/sub-P027/S001_transition_C_to_B_period.h5,segment_file,P027,S001,transition_period,Transition,Transition_C_to_B,C_to_B,530.0,663.0,133.0
@@ -231,4 +269,5 @@ DEJA-VU/segments/sub-P028/S001_quadrant_A_pos4.h5,segment_file,P028,S001,quadran
 DEJA-VU/segments/sub-P028/S001_quadrant_B_pos2.h5,segment_file,P028,S001,quadrant,B,Misery,,349.0,569.0,220.0
 DEJA-VU/segments/sub-P028/S001_quadrant_C_pos3.h5,segment_file,P028,S001,quadrant,C,The Champ,,702.0,883.0,181.0
 DEJA-VU/segments/sub-P028/S001_transition_B_to_C_period.h5,segment_file,P028,S001,transition_period,Transition,Transition_B_to_C,B_to_C,569.0,702.0,133.0
+DEJA-VU/segments/sub-P028/S001_transition_C_to_A_period.h5,segment_file,P028,S001,transition_period,Transition,Transition_C_to_A,C_to_A,883.0,1016.0,133.0
 DEJA-VU/segments/sub-P028/S001_transition_D_to_B_period.h5,segment_file,P028,S001,transition_period,Transition,Transition_D_to_B,D_to_B,216.0,349.0,133.0

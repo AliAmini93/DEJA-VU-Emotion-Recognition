@@ -627,8 +627,8 @@
       }
     }
   },
-  "hdf5_files_inspected": 233,
-  "hdf5_files_skipped_truncated": 39,
+  "hdf5_files_inspected": 272,
+  "hdf5_files_skipped_truncated": 0,
   "xdf_files_inspected": 34,
   "xdf_stream_summaries": {
     "DEJA-VU/raw/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf": {

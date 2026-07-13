@@ -17,7 +17,19 @@
     "unar_path": "/usr/bin/unar",
     "lsar_path": "/usr/bin/lsar"
   },
-  "unrar_installed": false,
-  "unrar_install_reason": "not needed; unar extraction succeeded, so the fallback condition (install unrar only if unar demonstrably fails) was never triggered",
-  "outcome": "INSTALLED"
+  "unrar_installed_at_time_of_original_writing": false,
+  "original_unrar_install_reason_now_superseded": "not needed; unar extraction succeeded, so the fallback condition (install unrar only if unar demonstrably fails) was never triggered - this was true only up to that point in the same session; unar's extraction later demonstrably failed (39/308 files truncated), triggering exactly that condition",
+  "outcome_at_original_writing": "INSTALLED",
+  "correction_2026_07_13_continuation_stage": {
+    "gap_identified": "unrar was installed by the user following the truncation discovery, but the prior session ended before extraction was retried with unrar - the 39-file blocker was an incomplete workflow (fix installed, not run), not a missing package",
+    "unrar_verified_installed": true,
+    "unrar_version": "7.00 (freeware)",
+    "unrar_dpkg_version": "1:7.0.7-1build1",
+    "unrar_dpkg_section": "non-free/utils",
+    "unrar_path": "/usr/bin/unrar",
+    "unrar_is_official_rarlab_reference_implementation": true,
+    "archive_md5_reverified_before_extraction": "0815b7d78915d132084f4ef497cef6d0",
+    "archive_md5_matches_expected": true
+  },
+  "outcome": "BOTH_UNAR_AND_UNRAR_INSTALLED"
 }

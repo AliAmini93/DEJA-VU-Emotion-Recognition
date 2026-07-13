@@ -106,8 +106,62 @@ correction is applied in `docs/dejavu_acquisition_report.md` with the
 original wrong numbers struck through and explained, not deleted — see that
 file and `docs/decision_log.md`.
 
-## Outcome
+## Outcome (as of the `unar` stage)
 
 **Main archive extraction: PARTIAL** (269/308 files, 87.3%; all
 audit-critical files — raw XDF, database, spreadsheet — are 100% complete).
 **Extraction command exit status: FAILURE (1), reported honestly.**
+
+---
+
+## 2026-07-13 (further continuation stage) — `unrar` re-extraction: COMPLETE, 308/308
+
+**History preserved, not rewritten (rule #12):**
+1. `7zip+dfsg` could list but completely failed to decompress either archive
+   (0/323 files, all-zero-byte output) — documented above and in
+   `docs/dejavu_acquisition_report.md`.
+2. `unar` extracted 269/308 files correctly but deterministically truncated
+   39 HDF5 files (documented in full above) — a real decoder limitation, not
+   archive corruption.
+3. `unrar` was installed (with the user's help) immediately after that
+   discovery, in the prior continuation session — but that session ended
+   **before extraction was actually retried with it**. This gap was
+   identified and corrected at the start of this stage (see
+   `docs/archive_extractor_environment.md`).
+4. **This stage:** `unrar` 7.00 (RARLAB's official reference implementation,
+   `1:7.0.7-1build1`) was verified installed, the archive MD5 was reverified
+   unchanged (`0815b7d78915d132084f4ef497cef6d0`), and the full archive was
+   extracted into a **fresh staging directory**
+   (`extracted/dataset_unrar_staging/`, confirmed empty beforehand — **not**
+   extracted over the existing partial `extracted/dataset/`) via:
+   ```
+   unrar x -o- /mnt/HDD/AliWorks/DEJA-VU/raw_downloads/DEJA-VU.rar /mnt/HDD/AliWorks/DEJA-VU/extracted/dataset_unrar_staging/
+   ```
+   Exit code 0, `unrar`'s own summary line `All OK`, elapsed 18 seconds. Full
+   log with start/end timestamps:
+   `/mnt/HDD/AliWorks/DEJA-VU/logs/extract_dataset_unrar.log`.
+5. **Staging extraction achieved 308/308 exact-size matches** — every one of
+   the 39 previously-truncated files now extracted correctly, verified against
+   the complete `lsar -json` archive listing (not just the subset `unar` had
+   flagged). 0 missing files, 0 unexpected extra files, 0 zero-byte
+   anomalies, 0 path escapes, 0 symlinks. All 272 HDF5 files opened via
+   `h5py.File(..., "r")` with groups/datasets/attrs enumerable (no full
+   arrays loaded), the SQLite database and XLSX workbook opened read-only,
+   and all 34 XDF files parsed via `pyxdf`. Total extracted bytes
+   (5,751,558,349) matched the archive-listed total **exactly**. Full detail:
+   `docs/dejavu_unrar_validation_report.md` / `.json`,
+   `docs/dejavu_unrar_file_size_validation.csv`.
+6. **Atomic replacement performed:** the partial `unar`-extracted directory
+   was renamed to `extracted/dataset_partial_unar_backup/` (kept, not
+   deleted), and the validated staging directory was renamed to
+   `extracted/dataset/` (the canonical path). Re-validated 308/308 exact
+   match against the canonical path after the swap, and reconfirmed archive
+   MD5 unchanged.
+
+## Outcome (current — supersedes the "as of the `unar` stage" section above)
+
+**Main archive extraction: COMPLETE — 308/308 files (100%), exact size match,
+all readable in their native format.** `extracted/dataset/` now contains the
+full, validated `unrar` extraction. `extracted/dataset_partial_unar_backup/`
+retains the earlier partial `unar` output for forensic reference and is not
+used by any script or report going forward.

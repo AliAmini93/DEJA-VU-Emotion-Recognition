@@ -70,14 +70,21 @@ remaining 39 (11 `preprocessed/*.h5`, 28 `segments/**/*.h5`) were
 deterministically truncated by `unar`'s RAR5 decoder (reproduced identically
 on a repeat single-file extraction; the archive's own MD5 was unaffected).
 **All audit-critical files — the 34 raw XDF recordings, the SQLite database,
-and the XLSX spreadsheet — extracted 100% correctly.** Full detail:
-`docs/dejavu_extraction_report.md`.
+and the XLSX spreadsheet — extracted 100% correctly.**
+
+**Further continuation stage (2026-07-13):** `unrar` (RARLAB's official
+reference implementation, installed after the `unar` truncation but not
+retried until now) was used to re-extract the full archive into a fresh
+staging directory, achieving **308/308 files, exact size match, 0
+anomalies**, verified independently against the complete archive listing and
+by opening every HDF5/SQLite/XLSX/XDF file. The validated staging extraction
+was atomically swapped in as the canonical `extracted/dataset/`; the prior
+partial `unar` output is preserved at
+`extracted/dataset_partial_unar_backup/`. Full detail:
+`docs/dejavu_extraction_report.md`, `docs/dejavu_unrar_validation_report.md`.
 
 ## What has NOT happened
 
-- 39 of 308 files in the main archive remain truncated (documented above,
-  not deleted, not silently accepted as valid) pending a possible `unrar`
-  fallback.
 - No raw data, archive, or extracted file has been committed to Git. See
   `.gitignore` for the enforced exclusions.
 - No preprocessing, segmentation, labeling, or model training has been
