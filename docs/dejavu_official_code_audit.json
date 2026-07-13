@@ -1,0 +1,57 @@
+{
+  "source_archive": "DEJA_VU_code.rar",
+  "extracted_to": "/mnt/HDD/AliWorks/DEJA-VU/extracted/official_code/code",
+  "files_present": [
+    "05_run_preprocessing.py", "07_run_segmentation.py", "15_run_snr_analysis.py",
+    "16_sam_validation.py", "18_journey_analysis.py", "19_create_main_figures.py",
+    "26_holistic_ekman.py", "config_final.py", "environment.yml",
+    "lib_preprocessing_utils.py", "lib_segment_builder.py", "lib_segment_metadata.py",
+    "lib_utils.py", "readme.docx", "requirements.txt"
+  ],
+  "scripts_referenced_but_not_included": ["01_create_database.py", "02_create_journey_table.py", "(others implied by numbering gap)"],
+  "reason_not_included": "readme states the database is distributed pre-built (deja_vu_database.db); DB-creation code was not shared",
+  "scripts_executed": false,
+  "channel_definitions": {
+    "eeg": {"device": "DSI", "raw_channels": ["F3","S2","S3","S4","S5","S6","S7"], "mapped_channels": ["FP1","FP2","C3","C4","LE","EOG1","EOG2"], "excluded": ["TRG"], "matches_zenodo_description": true, "zenodo_description": "EEG (7 channels, 300 Hz)"},
+    "ecg": {"device": "Shimmer_BE1D", "channels": ["ECG_Lead_I","ECG_Lead_II","ECG_Lead_III","ECG_Chest"], "matches_zenodo_description": true, "zenodo_description": "ECG (4 leads, 512 Hz)"},
+    "emg": {"device": "Shimmer_BBBD", "channels": ["EMG_Zygomaticus","EMG_Trapezius"], "matches_zenodo_description": true, "zenodo_description": "EMG (2 channels, 512 Hz)"},
+    "gsr": {"device": "Shimmer_894F", "channels_kept_by_code": ["GSR_Conductance"], "channels_kept_count": 1, "matches_zenodo_description": false, "zenodo_description": "GSR (3 channels, 10 Hz)", "discrepancy_note": "code only extracts channel index 0; raw XDF stream may carry more channels; not resolved without inspecting raw XDF directly"}
+  },
+  "preprocessing_config": {
+    "eeg_bandpass_hz": [1.0, 100.0], "eeg_notch_hz": 50.0, "eeg_ica_enabled": true,
+    "ecg_bandpass_hz": [0.5, 45.0], "emg_highpass_hz": 20.0, "gsr_tonic_lowpass_hz": 1.0,
+    "window_size_sec": 10.0, "stride_sec": 8.0,
+    "participant_config_sessions": ["S001", "S002"]
+  },
+  "identity_assignment_evidence": {
+    "participant_enumeration": "directory listing of sub-P* under DATA_DIR (05_run_preprocessing.py:find_sessions_to_process)",
+    "session_enumeration": "directory existence check of ses-S00{1,2} (05_run_preprocessing.py:find_sessions_to_process)",
+    "xdf_file_selection": "largest file by byte size within the sub/ses folder (lib_preprocessing_utils.py:find_largest_xdf) - filename content never parsed",
+    "preprocessed_hdf5_identity_source": "function arguments subject_id/session_id, themselves sourced from directory path, not filename (lib_preprocessing_utils.py:save_preprocessed_hdf5)",
+    "segment_hdf5_identity_source": "SQLite database query 'SELECT DISTINCT subject, session FROM videos' (lib_segment_metadata.py:get_all_sessions), consumed by lib_segment_builder.py:process_single_session",
+    "conclusion": "no official code path reads subject/session identity from a raw XDF filename"
+  },
+  "trial_segment_structure_evidence": {
+    "total_sessions": 34,
+    "segments_per_session": 7,
+    "segment_breakdown": ["neutral_baseline (journey position 1, quadrant hardcoded 'D')", "quadrant_* x3 (journey positions 2-4)", "transition_*_period x3 (between consecutive journey positions)"],
+    "computed_total_segments": 238,
+    "matches_zenodo_description": true,
+    "zenodo_description": "238 video-aligned physiological segments",
+    "journey_length_expected": 4,
+    "transitions_per_session_expected": 3,
+    "sam_entries_expected_per_session": 8,
+    "baraka_entries_expected_per_session": 3,
+    "transition_duration_validation_range_sec": [123, 143],
+    "note_on_69s_vs_133s": "the code's ~133s transition-duration validation window is a distinct quantity from the Zenodo description's '69-second neutral reset periods'; not reconciled here, stated as an open discrepancy"
+  },
+  "database_schema_inferred_from_sql": {
+    "videos": ["subject", "session", "video_order", "video_name", "time_rel"],
+    "video_mappings": ["video_name", "quadrant", "emotion", "length_sec"],
+    "journey": ["subject", "session", "position", "video_name", "quadrant", "video_order"],
+    "verified_against_real_db": "see docs/data_audit_dejavu.json"
+  },
+  "dependency_inventory_file": "docs/dejavu_official_dependency_inventory.csv",
+  "official_requirements_inspected": true,
+  "outcome": "COMPLETE"
+}

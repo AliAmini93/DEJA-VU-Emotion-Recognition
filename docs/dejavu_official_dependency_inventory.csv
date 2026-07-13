@@ -1,0 +1,22 @@
+package_name,specified_version,source_file,required_for,already_installed,installed_version,compatible,action_required,notes
+numpy,2.2.2 (conda) / N/A (pip),environment.yml;requirements.txt,array handling in all processing scripts,YES,2.4.4,YES,NONE,protected core package; newer than author's pinned version; not touched
+pandas,2.2.3 (conda) / N/A (pip),environment.yml;requirements.txt,DB query results and timeline tables in lib_segment_metadata.py,YES,3.0.2,YES,NONE,protected core package; newer major version than author's; not touched
+scipy,N/A (pip only in requirements.txt),requirements.txt,filtering (butter/filtfilt/welch/simpson) in lib_utils.py and lib_preprocessing_utils.py,YES,1.17.1,YES,NONE,protected core package
+h5py,3.13.0,environment.yml;requirements.txt,all HDF5 read/write (preprocessed + segment files) in lib_preprocessing_utils.py and lib_segment_builder.py,YES,3.16.0,YES,NONE,protected core package
+sqlite3,stdlib,lib_segment_metadata.py,reading deja_vu_database.db,YES,stdlib,YES,NONE,Python standard library, no install ever needed
+pyxdf,1.17.0,environment.yml;requirements.txt,raw .xdf loading in lib_preprocessing_utils.py::read_and_process_xdf,YES,1.17.5,YES,NONE,installed in prior audit stage
+mne,1.9.0,environment.yml;requirements.txt,mne.preprocessing.ICA and mne.io.RawArray in lib_preprocessing_utils.py::preprocess_eeg,YES,1.12.1,YES,NONE,installed in prior audit stage
+matplotlib,3.10.0,environment.yml;requirements.txt,create_eeg_comparison_plot in lib_preprocessing_utils.py; 19_create_main_figures.py,YES,3.10.9,YES,NONE,protected core package
+openpyxl,3.1.5,environment.yml;requirements.txt,reading data.xlsx (referenced by config_final.py METADATA_FILE),YES,3.1.5,YES,NONE,exact version match; installed in prior audit stage
+seaborn,N/A (conda build string) / N/A (pip file ref),environment.yml;requirements.txt,19_create_main_figures.py (import seaborn as sns),NO,,N/A,PROPOSE_ONLY,used only by a figure-generation analysis script; not needed to read/inspect files during this structural audit; not installed per instruction to only add packages essential for reading files
+statsmodels,N/A (not pinned in requirements.txt; absent from conda list too - only appears via import),16_sam_validation.py (statsmodels.stats.multitest.multipletests),NO,,N/A,PROPOSE_ONLY,used only by SAM-validation analysis script (multiple-comparison correction); not needed for structural audit; not installed
+neurokit2,0.2.10,environment.yml;requirements.txt,NOT IMPORTED by any of the 15 provided files,NO,,N/A,NONE,present in author's personal Anaconda environment but genuinely unused by shared code; no action
+dtaidistance,2.3.13,environment.yml;requirements.txt,NOT IMPORTED by any of the 15 provided files,NO,,N/A,NONE,same as neurokit2
+fastdtw,0.3.4,environment.yml;requirements.txt,NOT IMPORTED by any of the 15 provided files,NO,,N/A,NONE,same as neurokit2
+xgboost,3.1.2,requirements.txt,NOT IMPORTED by any of the 15 provided files,NO,,N/A,NONE,model-training library; explicitly out of scope (no model training performed or planned this stage) and unused by shared code regardless
+pymatreader,1.0.0,environment.yml;requirements.txt,NOT IMPORTED by any of the 15 provided files,NO,,N/A,NONE,DEJA-VU archive contains no .mat files (confirmed via archive listing); irrelevant to this dataset
+torch,2.9.1,requirements.txt,NOT IMPORTED by any of the 15 provided files,YES (different version),2.11.0+cu128,UNVERIFIED_VERSION_DIFF,NONE,protected core package; shared venv has a newer torch than the author's pinned 2.9.1; not touched in either direction; genuinely unused by any provided script so the version difference has no known impact on this audit
+pooch,1.8.2,environment.yml;requirements.txt,not directly imported by provided scripts; likely an mne transitive dependency,YES,1.9.0,YES,NONE,installed in prior audit stage as an mne/audit dependency
+tqdm,4.67.1,environment.yml;requirements.txt,not directly imported by provided scripts,YES,4.67.3,YES,NONE,protected core package
+requests,2.32.3,environment.yml;requirements.txt,not directly imported by provided scripts,YES,2.34.2,YES,NONE,installed in prior audit stage
+joblib,1.4.2,not listed by author's env,not directly imported by provided scripts,YES,1.5.3,YES,NONE,protected core package
