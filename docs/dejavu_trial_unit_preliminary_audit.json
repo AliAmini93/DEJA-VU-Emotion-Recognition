@@ -1,0 +1,43 @@
+{
+  "manifest_produced": false,
+  "reason": "trial identity is ambiguous between two candidate definitions; per instructions, no immutable manifest is produced until this is resolved with certainty",
+  "one_raw_xdf_file": "one participant-session's complete continuous multimodal recording (~1220s, all 4 streams), not a trial",
+  "one_preprocessed_hdf5_file": "same scope as raw XDF - one participant-session's filtered continuous recording, not split per-stimulus",
+  "one_segment_file": "one of 7 pre-defined slices per session: 1 neutral_baseline + 3 quadrant_* + 3 transition_*_period",
+  "segment_equals_stimulus_presentation": {
+    "neutral_baseline_and_quadrant_segments": true,
+    "transition_segments": false,
+    "note": "transition segments are the inter-stimulus interval, not a presentation themselves"
+  },
+  "transitions_are_separate_files": true,
+  "multiple_recordings_per_session": false,
+  "unique_trial_identifier": {
+    "resolved": false,
+    "candidate_1": {"definition": "stimulus-presentation (journey row)", "key": "(subject, session, position)", "count": 136, "matches": "journey table row count exactly"},
+    "candidate_2": {"definition": "segment file", "key": "(subject, session, segment_type)", "count": 238, "matches": "34 sessions x 7 segments/session"},
+    "no_single_answer_asserted": true
+  },
+  "unique_stimulus_identifier": "video_name (19 distinct videos in video_mappings table, with emotion/quadrant/source/length_sec attributes)",
+  "video_identity_available": true,
+  "quadrant_only": false,
+  "chronological_order_explicitly_stored": true,
+  "chronological_order_fields": ["videos.video_order", "journey.position", "videos.time_rel", "videos.video_start_24"],
+  "onset_offset_reconstructable_without_guessing": {
+    "general_case": true,
+    "exception": "last video in a session's timeline: end_time computed as start_time + video_mappings.length_sec (approximation), not a stored ground-truth LEAD() value",
+    "observed_in_practice": "all 233 trusted inspected segment files had explicit non-null start_time/end_time/duration attrs"
+  },
+  "segment_count_238_explained": {
+    "formula": "34 sessions x 7 segments/session = 238",
+    "verified_via": ["official code comment + expected_files formula in 07_run_segmentation.py", "actual archive listing (238 files under segments/)", "database journey table (136 rows) + 34x3=102 derivable transitions = 238"],
+    "all_three_agree": true
+  },
+  "segments_independent_trials_or_derived_windows": "neither simply - 136 are stimulus-presentation segments (matching journey table), 102 are derived transition segments (computed from consecutive journey rows, not first-class DB rows); none are statistically independent within a session",
+  "rule_5_compliance_note": "neither 136 nor 238 should be treated as i.i.d. sample size; true independence unit is at most 34 participant-sessions, arguably 28 participants",
+  "open_unresolved_items": [
+    "136 vs 238 as the definitive trial count - a modeling-design decision, not resolved here",
+    "69s (paper) vs 123-143s/~133s (code validation) vs ~133.0s (observed in real segments) - three different transition/reset duration figures, not reconciled",
+    "ECG/GSR channel-order discrepancy (see dejavu_identity_conflict_audit.json incidental_finding) - unresolved, affects modality data trustworthiness",
+    "39 truncated HDF5 files not content-inspected; their internal structure is assumed by analogy to the 269 trusted files, not verified"
+  ]
+}

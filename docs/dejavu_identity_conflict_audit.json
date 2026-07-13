@@ -1,0 +1,66 @@
+{
+  "subject_file": "DEJA-VU/raw/sub-P017/ses-S002/eeg/sub-P666_ses-S001_task-Default_run-001_eeg.xdf",
+  "file_modified": false,
+  "evidence": {
+    "directory_path": {"subject": "P017", "session": "S002"},
+    "filename": {"subject": "P666", "session": "S001", "p666_in_enrolled_participants": false},
+    "xdf_internal_streams": {
+      "stream_count": 4,
+      "streams": [
+        {"name": "DSI_FLEX", "type": "EEG", "channels": 8, "rate_hz": 300.0, "n_samples": 366287, "duration_sec": 1221.0},
+        {"name": "Shimmer_894F", "type": "GSR+accel+PPG", "channels": 7, "rate_hz": 9.999, "n_samples": 12209, "duration_sec": 1220.9},
+        {"name": "Shimmer_BBBD", "type": "EMG+battery/status", "channels": 4, "rate_hz": 512.0, "n_samples": 624311, "duration_sec": 1221.2},
+        {"name": "Shimmer_BE1D", "type": "ECG+accel/status", "channels": 9, "rate_hz": 512.0, "n_samples": 624961, "duration_sec": 1221.0}
+      ],
+      "structurally_identical_to_normal_files": true,
+      "compared_against": "sub-P001_ses-S001_task-Default_run-001_eeg.xdf",
+      "corruption_detected": false,
+      "cross_stream_duration_consistency_sec": 0.3
+    },
+    "database_records": {
+      "session_metadata_p017_s002": {"date": "2025-03-19", "start_time": "1:42:30pm", "permutation": "BAC"},
+      "journey_p017_s002": [
+        {"position": 1, "video_name": "Clouds", "quadrant": "D"},
+        {"position": 2, "video_name": "The Shining 2", "quadrant": "B"},
+        {"position": 3, "video_name": "Fish called Wanda", "quadrant": "A"},
+        {"position": 4, "video_name": "Life is beautiful", "quadrant": "C"}
+      ],
+      "videos_count_p017_s002": 15,
+      "keys_p017": {"ses1": "yes", "ses2": "yes"},
+      "p666_occurrences_in_database": 0,
+      "tables_checked_for_p666": ["videos", "journey", "session_metadata", "keys", "ratings"]
+    },
+    "official_pipeline_output": {
+      "file": "DEJA-VU/preprocessed/clean_P017_S002.h5",
+      "file_trusted_exact_size_match": true,
+      "attrs": {
+        "subject_id": "P017",
+        "session_id": "S002",
+        "original_xdf": "D:\\Dissertation\\Final_papers\\deja_vu_resubmission\\final_submission_pack\\replication\\what_to_share\\replication\\data\\sub-P017\\ses-S002\\eeg\\sub-P666_ses-S001_task-Default_run-001_eeg.xdf"
+      },
+      "downstream_segment_file": "DEJA-VU/segments/sub-P017/S002_quadrant_A_pos3.h5",
+      "downstream_segment_attrs": {"subject": "P017", "session": "S002", "video_name": "Fish called Wanda", "quadrant": "A"},
+      "downstream_matches_database": true
+    },
+    "neighboring_files_check": {
+      "files_in_same_folder": 1,
+      "sibling_xdf_present": false,
+      "conclusion": "no duplicate/alternate recording exists in this folder; this is the only recording for this session slot"
+    }
+  },
+  "incidental_finding_not_part_of_conflict": {
+    "description": "official code's assumed channel order for Shimmer_BE1D (ECG) and Shimmer_894F (GSR) does not match observed raw channel order, identically across both the anomalous file and a normal comparison file (dataset-wide, not specific to this anomaly)",
+    "ecg_code_assumes_first_4_channels_are": ["ECG_Lead_I", "ECG_Lead_II", "ECG_Lead_III", "ECG_Chest"],
+    "ecg_actual_first_4_channels_are": ["Accel_LN_X", "Accel_LN_Y", "Accel_LN_Z", "ECG_EMG_Status1"],
+    "ecg_actual_lead_channels_at_indices": [5, 6, 7, 8],
+    "gsr_code_assumes_channel_0_is": "GSR_Conductance",
+    "gsr_actual_channel_0_is": "Accel_LN_X",
+    "gsr_actual_conductance_at_index": 4,
+    "scope": "affects every session equally; not fixed, not re-derived; logged in leakage_risk_register.md for follow-up",
+    "resolved": false
+  },
+  "classification": "PACKAGING_FILENAME_ONLY",
+  "classification_confidence": "high - five independent, mutually corroborating evidence sources",
+  "action_taken_on_file": "none - not renamed, not moved, not modified",
+  "recommendation_for_future_use": "treat this file's identity as P017/S002 (matching directory, database, and the original authors' own pipeline output); never derive subject/session identity from a raw XDF filename in any downstream code"
+}
