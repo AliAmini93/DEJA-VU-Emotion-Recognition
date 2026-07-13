@@ -1,0 +1,49 @@
+{
+  "criteria": {
+    "coverage_tolerance_sec": 1.0,
+    "flatline_rule": "exact flatline only: one unique finite value, zero std, or zero p01-p99 range",
+    "minimum_finite_fraction": 0.999,
+    "minimum_sample_ratio": 0.98
+  },
+  "generated_at_utc": "2026-07-13T15:24:11.835059+00:00",
+  "hard_errors": [],
+  "ineligible_presentation_sessions": [
+    "P012_S001",
+    "P015_S001",
+    "P019_S001",
+    "P020_S001"
+  ],
+  "ineligible_transition_sessions": [
+    "P012_S001",
+    "P015_S001",
+    "P019_S001",
+    "P020_S001"
+  ],
+  "presentation_one_channel_eligible": 129,
+  "presentation_reason_counts": {
+    "BOUNDARY_NOT_COVERED;GAP_OR_TOO_FEW_SAMPLES;LOW_SAMPLE_COVERAGE;CH1_NONFINITE;CH1_NO_SAMPLES;CH2_NONFINITE;CH2_NO_SAMPLES": 3,
+    "BOUNDARY_NOT_COVERED;LOW_SAMPLE_COVERAGE;CH1_NONFINITE;CH2_NONFINITE": 1,
+    "CH1_FLATLINE": 7,
+    "CH1_FLATLINE;CH2_FLATLINE": 3,
+    "CH2_FLATLINE": 1,
+    "PASS": 121
+  },
+  "presentation_rows": 136,
+  "presentation_two_channel_eligible": 121,
+  "session_status_counts": {
+    "CH1_FLATLINE": 1,
+    "CH1_NONFINITE;CH2_NONFINITE;SHORT_EMG_COVERAGE": 1,
+    "CH2_FLATLINE": 1,
+    "PASS": 31
+  },
+  "transition_one_channel_eligible": 96,
+  "transition_reason_counts": {
+    "BOUNDARY_NOT_COVERED;GAP_OR_TOO_FEW_SAMPLES;LOW_SAMPLE_COVERAGE;CH1_NONFINITE;CH1_NO_SAMPLES;CH2_NONFINITE;CH2_NO_SAMPLES": 3,
+    "CH1_FLATLINE": 6,
+    "CH1_FLATLINE;CH2_FLATLINE": 3,
+    "PASS": 90
+  },
+  "transition_rows": 102,
+  "transition_two_channel_eligible": 90,
+  "xdf_files": 34
+}

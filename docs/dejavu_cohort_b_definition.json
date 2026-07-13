@@ -1,0 +1,93 @@
+{
+  "acceptance_checks": {
+    "all_retained_presentations_strict": true,
+    "all_retained_transitions_strict": true,
+    "baseline_presentations_equal_30": true,
+    "emotional_presentations_equal_90": true,
+    "excluded_sessions_match_expected": true,
+    "no_excluded_session_in_presentation_manifest": true,
+    "no_excluded_session_in_transition_manifest": true,
+    "participants_equal_24": true,
+    "presentations_equal_120": true,
+    "sessions_equal_30": true,
+    "transitions_equal_90": true
+  },
+  "accepted": true,
+  "baseline_presentations": 30,
+  "cohort_b_video_participant_support_max": 11,
+  "cohort_b_video_participant_support_median": 5.5,
+  "cohort_b_video_participant_support_min": 1,
+  "cohort_name": "Cohort_B_Paired_EEG_EMG_Strict",
+  "definition": "Retain complete participant-sessions only when all 4 presentations and all 3 transitions pass strict two-channel raw-EMG QC.",
+  "emotional_presentations": 90,
+  "excluded_sessions": [
+    "P012_S001",
+    "P015_S001",
+    "P019_S001",
+    "P020_S001"
+  ],
+  "expected_excluded_sessions": [
+    "P012_S001",
+    "P015_S001",
+    "P019_S001",
+    "P020_S001"
+  ],
+  "generated_at_utc": "2026-07-13T15:52:44.668943+00:00",
+  "included_sessions": [
+    "P001_S001",
+    "P001_S002",
+    "P002_S001",
+    "P002_S002",
+    "P003_S001",
+    "P004_S001",
+    "P005_S001",
+    "P006_S001",
+    "P007_S001",
+    "P007_S002",
+    "P008_S001",
+    "P009_S001",
+    "P009_S002",
+    "P010_S001",
+    "P011_S001",
+    "P011_S002",
+    "P013_S001",
+    "P014_S001",
+    "P016_S001",
+    "P017_S001",
+    "P017_S002",
+    "P018_S001",
+    "P021_S001",
+    "P022_S001",
+    "P023_S001",
+    "P024_S001",
+    "P025_S001",
+    "P026_S001",
+    "P027_S001",
+    "P028_S001"
+  ],
+  "output_manifests": [
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/manifests/dejavu_cohort_b_sessions.csv",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/manifests/dejavu_cohort_b_presentations.csv",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/manifests/dejavu_cohort_b_emotional_presentations.csv",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/manifests/dejavu_cohort_b_transitions.csv"
+  ],
+  "participant_sessions": 30,
+  "participants": 24,
+  "presentations": 120,
+  "singleton_participant_videos_in_cohort_b": [
+    "Fish called Wanda",
+    "The Exorcist",
+    "The Shining 2",
+    "There is something about Mary 2"
+  ],
+  "source_manifests": [
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/manifests/dejavu_stimulus_presentation_emg_strict_qc.csv",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/manifests/dejavu_transition_emg_strict_qc.csv"
+  ],
+  "transitions": 90,
+  "two_session_participants": 6,
+  "unique_emotional_videos_cohort_b": 16,
+  "unique_emotional_videos_full": 16,
+  "videos_lost_from_cohort_b": [],
+  "videos_with_at_least_two_participants_in_cohort_b": 12
+}

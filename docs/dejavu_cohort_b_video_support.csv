@@ -1,0 +1,17 @@
+video_name,full_presentations,full_participants,full_sessions,canonical_quadrant,emotion_name,cohort_b_presentations,cohort_b_participants,cohort_b_sessions,presentations_removed,participants_removed,lost_from_cohort_b,singleton_participant_in_cohort_b,at_least_two_participants_in_cohort_b
+Fish called Wanda,1,1,1,A,Fun,1,1,1,0,0,False,True,False
+The Exorcist,1,1,1,B,Fear,1,1,1,0,0,False,True,False
+The Shining 2,1,1,1,B,Fear,1,1,1,0,0,False,True,False
+There is something about Mary 2,1,1,1,A,Fun,1,1,1,0,0,False,True,False
+Life is beautiful,2,2,2,C,Sadness,2,2,2,0,0,False,False,True
+The Shining,5,5,5,B,Fear,5,5,5,0,0,False,False,True
+There is something about Mary,7,7,7,A,Fun,5,5,5,2,2,False,False,True
+When Harry met Sally,6,6,6,A,Fun,5,5,5,1,1,False,False,True
+Scream,6,6,6,B,Fear,6,6,6,0,0,False,False,True
+28 days later,12,12,12,B,Fear,8,8,8,4,4,False,False,True
+Dangerous Minds,10,10,10,C,Sadness,8,8,8,2,2,False,False,True
+Mr. Bean,9,9,9,A,Fun,8,8,8,1,1,False,False,True
+Misery,9,9,9,B,Fear,9,9,9,0,0,False,False,True
+My girl,10,10,10,C,Sadness,9,9,9,1,1,False,False,True
+The Visitors,10,10,10,A,Fun,10,10,10,0,0,False,False,True
+The Champ,12,12,12,C,Sadness,11,11,11,1,1,False,False,True

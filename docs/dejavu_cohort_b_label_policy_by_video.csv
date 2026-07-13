@@ -1,0 +1,97 @@
+task,policy,video_name,available_rows,retained_rows,dropped_rows,low_count,high_count,both_classes,single_class,no_retained_rows,participants,participant_sessions,videos,support_class,canonical_quadrants,emotion_names
+valence,discard_midpoint,28 days later,8,7,1,5,2,True,False,False,8,8,1,STRONG,B,Fear
+valence,discard_midpoint,Dangerous Minds,8,6,2,6,0,False,True,False,8,8,1,STRONG,C,Sadness
+valence,discard_midpoint,Fish called Wanda,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,A,Fun
+valence,discard_midpoint,Life is beautiful,2,2,0,2,0,False,True,False,2,2,1,SPARSE,C,Sadness
+valence,discard_midpoint,Misery,9,8,1,8,0,False,True,False,9,9,1,STRONG,B,Fear
+valence,discard_midpoint,Mr. Bean,8,8,0,0,8,False,True,False,8,8,1,STRONG,A,Fun
+valence,discard_midpoint,My girl,9,7,2,7,0,False,True,False,9,9,1,STRONG,C,Sadness
+valence,discard_midpoint,Scream,6,5,1,4,1,True,False,False,6,6,1,STRONG,B,Fear
+valence,discard_midpoint,The Champ,11,10,1,10,0,False,True,False,11,11,1,STRONG,C,Sadness
+valence,discard_midpoint,The Exorcist,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+valence,discard_midpoint,The Shining,5,4,1,4,0,False,True,False,5,5,1,MODERATE,B,Fear
+valence,discard_midpoint,The Shining 2,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+valence,discard_midpoint,The Visitors,10,6,4,3,3,True,False,False,10,10,1,STRONG,A,Fun
+valence,discard_midpoint,There is something about Mary,5,4,1,0,4,False,True,False,5,5,1,MODERATE,A,Fun
+valence,discard_midpoint,There is something about Mary 2,1,1,0,0,1,False,True,False,1,1,1,SINGLETON,A,Fun
+valence,discard_midpoint,When Harry met Sally,5,4,1,1,3,True,False,False,5,5,1,MODERATE,A,Fun
+valence,midpoint_as_low,28 days later,8,8,0,6,2,True,False,False,8,8,1,STRONG,B,Fear
+valence,midpoint_as_low,Dangerous Minds,8,8,0,8,0,False,True,False,8,8,1,STRONG,C,Sadness
+valence,midpoint_as_low,Fish called Wanda,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,A,Fun
+valence,midpoint_as_low,Life is beautiful,2,2,0,2,0,False,True,False,2,2,1,SPARSE,C,Sadness
+valence,midpoint_as_low,Misery,9,9,0,9,0,False,True,False,9,9,1,STRONG,B,Fear
+valence,midpoint_as_low,Mr. Bean,8,8,0,0,8,False,True,False,8,8,1,STRONG,A,Fun
+valence,midpoint_as_low,My girl,9,9,0,9,0,False,True,False,9,9,1,STRONG,C,Sadness
+valence,midpoint_as_low,Scream,6,6,0,5,1,True,False,False,6,6,1,STRONG,B,Fear
+valence,midpoint_as_low,The Champ,11,11,0,11,0,False,True,False,11,11,1,STRONG,C,Sadness
+valence,midpoint_as_low,The Exorcist,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+valence,midpoint_as_low,The Shining,5,5,0,5,0,False,True,False,5,5,1,MODERATE,B,Fear
+valence,midpoint_as_low,The Shining 2,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+valence,midpoint_as_low,The Visitors,10,10,0,7,3,True,False,False,10,10,1,STRONG,A,Fun
+valence,midpoint_as_low,There is something about Mary,5,5,0,1,4,True,False,False,5,5,1,MODERATE,A,Fun
+valence,midpoint_as_low,There is something about Mary 2,1,1,0,0,1,False,True,False,1,1,1,SINGLETON,A,Fun
+valence,midpoint_as_low,When Harry met Sally,5,5,0,2,3,True,False,False,5,5,1,MODERATE,A,Fun
+valence,midpoint_as_high,28 days later,8,8,0,5,3,True,False,False,8,8,1,STRONG,B,Fear
+valence,midpoint_as_high,Dangerous Minds,8,8,0,6,2,True,False,False,8,8,1,STRONG,C,Sadness
+valence,midpoint_as_high,Fish called Wanda,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,A,Fun
+valence,midpoint_as_high,Life is beautiful,2,2,0,2,0,False,True,False,2,2,1,SPARSE,C,Sadness
+valence,midpoint_as_high,Misery,9,9,0,8,1,True,False,False,9,9,1,STRONG,B,Fear
+valence,midpoint_as_high,Mr. Bean,8,8,0,0,8,False,True,False,8,8,1,STRONG,A,Fun
+valence,midpoint_as_high,My girl,9,9,0,7,2,True,False,False,9,9,1,STRONG,C,Sadness
+valence,midpoint_as_high,Scream,6,6,0,4,2,True,False,False,6,6,1,STRONG,B,Fear
+valence,midpoint_as_high,The Champ,11,11,0,10,1,True,False,False,11,11,1,STRONG,C,Sadness
+valence,midpoint_as_high,The Exorcist,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+valence,midpoint_as_high,The Shining,5,5,0,4,1,True,False,False,5,5,1,MODERATE,B,Fear
+valence,midpoint_as_high,The Shining 2,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+valence,midpoint_as_high,The Visitors,10,10,0,3,7,True,False,False,10,10,1,STRONG,A,Fun
+valence,midpoint_as_high,There is something about Mary,5,5,0,0,5,False,True,False,5,5,1,MODERATE,A,Fun
+valence,midpoint_as_high,There is something about Mary 2,1,1,0,0,1,False,True,False,1,1,1,SINGLETON,A,Fun
+valence,midpoint_as_high,When Harry met Sally,5,5,0,1,4,True,False,False,5,5,1,MODERATE,A,Fun
+arousal,discard_midpoint,28 days later,8,8,0,2,6,True,False,False,8,8,1,STRONG,B,Fear
+arousal,discard_midpoint,Dangerous Minds,8,8,0,7,1,True,False,False,8,8,1,STRONG,C,Sadness
+arousal,discard_midpoint,Fish called Wanda,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,A,Fun
+arousal,discard_midpoint,Life is beautiful,2,2,0,2,0,False,True,False,2,2,1,SPARSE,C,Sadness
+arousal,discard_midpoint,Misery,9,7,2,1,6,True,False,False,9,9,1,STRONG,B,Fear
+arousal,discard_midpoint,Mr. Bean,8,6,2,3,3,True,False,False,8,8,1,STRONG,A,Fun
+arousal,discard_midpoint,My girl,9,6,3,3,3,True,False,False,9,9,1,STRONG,C,Sadness
+arousal,discard_midpoint,Scream,6,4,2,1,3,True,False,False,6,6,1,STRONG,B,Fear
+arousal,discard_midpoint,The Champ,11,5,6,2,3,True,False,False,11,11,1,STRONG,C,Sadness
+arousal,discard_midpoint,The Exorcist,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+arousal,discard_midpoint,The Shining,5,5,0,2,3,True,False,False,5,5,1,MODERATE,B,Fear
+arousal,discard_midpoint,The Shining 2,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+arousal,discard_midpoint,The Visitors,10,9,1,4,5,True,False,False,10,10,1,STRONG,A,Fun
+arousal,discard_midpoint,There is something about Mary,5,3,2,2,1,True,False,False,5,5,1,MODERATE,A,Fun
+arousal,discard_midpoint,There is something about Mary 2,1,0,1,0,0,False,False,True,1,1,1,SINGLETON,A,Fun
+arousal,discard_midpoint,When Harry met Sally,5,5,0,1,4,True,False,False,5,5,1,MODERATE,A,Fun
+arousal,midpoint_as_low,28 days later,8,8,0,2,6,True,False,False,8,8,1,STRONG,B,Fear
+arousal,midpoint_as_low,Dangerous Minds,8,8,0,7,1,True,False,False,8,8,1,STRONG,C,Sadness
+arousal,midpoint_as_low,Fish called Wanda,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,A,Fun
+arousal,midpoint_as_low,Life is beautiful,2,2,0,2,0,False,True,False,2,2,1,SPARSE,C,Sadness
+arousal,midpoint_as_low,Misery,9,9,0,3,6,True,False,False,9,9,1,STRONG,B,Fear
+arousal,midpoint_as_low,Mr. Bean,8,8,0,5,3,True,False,False,8,8,1,STRONG,A,Fun
+arousal,midpoint_as_low,My girl,9,9,0,6,3,True,False,False,9,9,1,STRONG,C,Sadness
+arousal,midpoint_as_low,Scream,6,6,0,3,3,True,False,False,6,6,1,STRONG,B,Fear
+arousal,midpoint_as_low,The Champ,11,11,0,8,3,True,False,False,11,11,1,STRONG,C,Sadness
+arousal,midpoint_as_low,The Exorcist,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+arousal,midpoint_as_low,The Shining,5,5,0,2,3,True,False,False,5,5,1,MODERATE,B,Fear
+arousal,midpoint_as_low,The Shining 2,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+arousal,midpoint_as_low,The Visitors,10,10,0,5,5,True,False,False,10,10,1,STRONG,A,Fun
+arousal,midpoint_as_low,There is something about Mary,5,5,0,4,1,True,False,False,5,5,1,MODERATE,A,Fun
+arousal,midpoint_as_low,There is something about Mary 2,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,A,Fun
+arousal,midpoint_as_low,When Harry met Sally,5,5,0,1,4,True,False,False,5,5,1,MODERATE,A,Fun
+arousal,midpoint_as_high,28 days later,8,8,0,2,6,True,False,False,8,8,1,STRONG,B,Fear
+arousal,midpoint_as_high,Dangerous Minds,8,8,0,7,1,True,False,False,8,8,1,STRONG,C,Sadness
+arousal,midpoint_as_high,Fish called Wanda,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,A,Fun
+arousal,midpoint_as_high,Life is beautiful,2,2,0,2,0,False,True,False,2,2,1,SPARSE,C,Sadness
+arousal,midpoint_as_high,Misery,9,9,0,1,8,True,False,False,9,9,1,STRONG,B,Fear
+arousal,midpoint_as_high,Mr. Bean,8,8,0,3,5,True,False,False,8,8,1,STRONG,A,Fun
+arousal,midpoint_as_high,My girl,9,9,0,3,6,True,False,False,9,9,1,STRONG,C,Sadness
+arousal,midpoint_as_high,Scream,6,6,0,1,5,True,False,False,6,6,1,STRONG,B,Fear
+arousal,midpoint_as_high,The Champ,11,11,0,2,9,True,False,False,11,11,1,STRONG,C,Sadness
+arousal,midpoint_as_high,The Exorcist,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+arousal,midpoint_as_high,The Shining,5,5,0,2,3,True,False,False,5,5,1,MODERATE,B,Fear
+arousal,midpoint_as_high,The Shining 2,1,1,0,1,0,False,True,False,1,1,1,SINGLETON,B,Fear
+arousal,midpoint_as_high,The Visitors,10,10,0,4,6,True,False,False,10,10,1,STRONG,A,Fun
+arousal,midpoint_as_high,There is something about Mary,5,5,0,2,3,True,False,False,5,5,1,MODERATE,A,Fun
+arousal,midpoint_as_high,There is something about Mary 2,1,1,0,0,1,False,True,False,1,1,1,SINGLETON,A,Fun
+arousal,midpoint_as_high,When Harry met Sally,5,5,0,1,4,True,False,False,5,5,1,MODERATE,A,Fun

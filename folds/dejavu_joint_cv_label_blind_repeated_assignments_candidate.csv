@@ -1,0 +1,201 @@
+entity_type,entity_id,repetition,role,fold,participant_sessions,observed_emotional_presentations,seed
+participant,P001,0,primary,2,2,6,8444471349078089300
+participant,P002,0,primary,1,2,6,8444471349078089300
+participant,P003,0,primary,2,1,3,8444471349078089300
+participant,P004,0,primary,1,1,3,8444471349078089300
+participant,P005,0,primary,3,1,3,8444471349078089300
+participant,P006,0,primary,1,1,3,8444471349078089300
+participant,P007,0,primary,2,2,6,8444471349078089300
+participant,P008,0,primary,1,1,3,8444471349078089300
+participant,P009,0,primary,1,2,6,8444471349078089300
+participant,P010,0,primary,3,1,3,8444471349078089300
+participant,P011,0,primary,1,2,6,8444471349078089300
+participant,P013,0,primary,3,1,3,8444471349078089300
+participant,P014,0,primary,1,1,3,8444471349078089300
+participant,P016,0,primary,3,1,3,8444471349078089300
+participant,P017,0,primary,2,2,6,8444471349078089300
+participant,P018,0,primary,2,1,3,8444471349078089300
+participant,P021,0,primary,3,1,3,8444471349078089300
+participant,P022,0,primary,2,1,3,8444471349078089300
+participant,P023,0,primary,2,1,3,8444471349078089300
+participant,P024,0,primary,2,1,3,8444471349078089300
+participant,P025,0,primary,3,1,3,8444471349078089300
+participant,P026,0,primary,3,1,3,8444471349078089300
+participant,P027,0,primary,1,1,3,8444471349078089300
+participant,P028,0,primary,3,1,3,8444471349078089300
+video,28 days later,0,primary,2,8,8,7980066465758717236
+video,Dangerous Minds,0,primary,3,8,8,7980066465758717236
+video,Fish called Wanda,0,primary,2,1,1,7980066465758717236
+video,Life is beautiful,0,primary,3,2,2,7980066465758717236
+video,Misery,0,primary,1,9,9,7980066465758717236
+video,Mr. Bean,0,primary,1,8,8,7980066465758717236
+video,My girl,0,primary,1,9,9,7980066465758717236
+video,Scream,0,primary,2,6,6,7980066465758717236
+video,The Champ,0,primary,1,11,11,7980066465758717236
+video,The Exorcist,0,primary,3,1,1,7980066465758717236
+video,The Shining,0,primary,3,5,5,7980066465758717236
+video,The Shining 2,0,primary,2,1,1,7980066465758717236
+video,The Visitors,0,primary,1,10,10,7980066465758717236
+video,There is something about Mary,0,primary,2,5,5,7980066465758717236
+video,There is something about Mary 2,0,primary,3,1,1,7980066465758717236
+video,When Harry met Sally,0,primary,1,5,5,7980066465758717236
+participant,P001,1,sensitivity,3,2,6,3823846477921681590
+participant,P002,1,sensitivity,3,2,6,3823846477921681590
+participant,P003,1,sensitivity,2,1,3,3823846477921681590
+participant,P004,1,sensitivity,3,1,3,3823846477921681590
+participant,P005,1,sensitivity,2,1,3,3823846477921681590
+participant,P006,1,sensitivity,1,1,3,3823846477921681590
+participant,P007,1,sensitivity,2,2,6,3823846477921681590
+participant,P008,1,sensitivity,1,1,3,3823846477921681590
+participant,P009,1,sensitivity,1,2,6,3823846477921681590
+participant,P010,1,sensitivity,1,1,3,3823846477921681590
+participant,P011,1,sensitivity,3,2,6,3823846477921681590
+participant,P013,1,sensitivity,2,1,3,3823846477921681590
+participant,P014,1,sensitivity,3,1,3,3823846477921681590
+participant,P016,1,sensitivity,2,1,3,3823846477921681590
+participant,P017,1,sensitivity,1,2,6,3823846477921681590
+participant,P018,1,sensitivity,3,1,3,3823846477921681590
+participant,P021,1,sensitivity,3,1,3,3823846477921681590
+participant,P022,1,sensitivity,3,1,3,3823846477921681590
+participant,P023,1,sensitivity,1,1,3,3823846477921681590
+participant,P024,1,sensitivity,1,1,3,3823846477921681590
+participant,P025,1,sensitivity,2,1,3,3823846477921681590
+participant,P026,1,sensitivity,2,1,3,3823846477921681590
+participant,P027,1,sensitivity,2,1,3,3823846477921681590
+participant,P028,1,sensitivity,1,1,3,3823846477921681590
+video,28 days later,1,sensitivity,3,8,8,1674504673316644620
+video,Dangerous Minds,1,sensitivity,3,8,8,1674504673316644620
+video,Fish called Wanda,1,sensitivity,3,1,1,1674504673316644620
+video,Life is beautiful,1,sensitivity,2,2,2,1674504673316644620
+video,Misery,1,sensitivity,2,9,9,1674504673316644620
+video,Mr. Bean,1,sensitivity,2,8,8,1674504673316644620
+video,My girl,1,sensitivity,1,9,9,1674504673316644620
+video,Scream,1,sensitivity,1,6,6,1674504673316644620
+video,The Champ,1,sensitivity,1,11,11,1674504673316644620
+video,The Exorcist,1,sensitivity,1,1,1,1674504673316644620
+video,The Shining,1,sensitivity,3,5,5,1674504673316644620
+video,The Shining 2,1,sensitivity,2,1,1,1674504673316644620
+video,The Visitors,1,sensitivity,2,10,10,1674504673316644620
+video,There is something about Mary,1,sensitivity,1,5,5,1674504673316644620
+video,There is something about Mary 2,1,sensitivity,1,1,1,1674504673316644620
+video,When Harry met Sally,1,sensitivity,3,5,5,1674504673316644620
+participant,P001,2,sensitivity,1,2,6,5887474666390157189
+participant,P002,2,sensitivity,3,2,6,5887474666390157189
+participant,P003,2,sensitivity,1,1,3,5887474666390157189
+participant,P004,2,sensitivity,2,1,3,5887474666390157189
+participant,P005,2,sensitivity,1,1,3,5887474666390157189
+participant,P006,2,sensitivity,3,1,3,5887474666390157189
+participant,P007,2,sensitivity,2,2,6,5887474666390157189
+participant,P008,2,sensitivity,1,1,3,5887474666390157189
+participant,P009,2,sensitivity,3,2,6,5887474666390157189
+participant,P010,2,sensitivity,2,1,3,5887474666390157189
+participant,P011,2,sensitivity,2,2,6,5887474666390157189
+participant,P013,2,sensitivity,3,1,3,5887474666390157189
+participant,P014,2,sensitivity,2,1,3,5887474666390157189
+participant,P016,2,sensitivity,1,1,3,5887474666390157189
+participant,P017,2,sensitivity,1,2,6,5887474666390157189
+participant,P018,2,sensitivity,3,1,3,5887474666390157189
+participant,P021,2,sensitivity,1,1,3,5887474666390157189
+participant,P022,2,sensitivity,3,1,3,5887474666390157189
+participant,P023,2,sensitivity,3,1,3,5887474666390157189
+participant,P024,2,sensitivity,2,1,3,5887474666390157189
+participant,P025,2,sensitivity,2,1,3,5887474666390157189
+participant,P026,2,sensitivity,2,1,3,5887474666390157189
+participant,P027,2,sensitivity,3,1,3,5887474666390157189
+participant,P028,2,sensitivity,1,1,3,5887474666390157189
+video,28 days later,2,sensitivity,1,8,8,550391537427656373
+video,Dangerous Minds,2,sensitivity,2,8,8,550391537427656373
+video,Fish called Wanda,2,sensitivity,3,1,1,550391537427656373
+video,Life is beautiful,2,sensitivity,2,2,2,550391537427656373
+video,Misery,2,sensitivity,1,9,9,550391537427656373
+video,Mr. Bean,2,sensitivity,1,8,8,550391537427656373
+video,My girl,2,sensitivity,1,9,9,550391537427656373
+video,Scream,2,sensitivity,3,6,6,550391537427656373
+video,The Champ,2,sensitivity,2,11,11,550391537427656373
+video,The Exorcist,2,sensitivity,2,1,1,550391537427656373
+video,The Shining,2,sensitivity,1,5,5,550391537427656373
+video,The Shining 2,2,sensitivity,3,1,1,550391537427656373
+video,The Visitors,2,sensitivity,2,10,10,550391537427656373
+video,There is something about Mary,2,sensitivity,3,5,5,550391537427656373
+video,There is something about Mary 2,2,sensitivity,3,1,1,550391537427656373
+video,When Harry met Sally,2,sensitivity,1,5,5,550391537427656373
+participant,P001,3,sensitivity,3,2,6,7891852081563603011
+participant,P002,3,sensitivity,1,2,6,7891852081563603011
+participant,P003,3,sensitivity,2,1,3,7891852081563603011
+participant,P004,3,sensitivity,1,1,3,7891852081563603011
+participant,P005,3,sensitivity,2,1,3,7891852081563603011
+participant,P006,3,sensitivity,3,1,3,7891852081563603011
+participant,P007,3,sensitivity,3,2,6,7891852081563603011
+participant,P008,3,sensitivity,1,1,3,7891852081563603011
+participant,P009,3,sensitivity,1,2,6,7891852081563603011
+participant,P010,3,sensitivity,3,1,3,7891852081563603011
+participant,P011,3,sensitivity,3,2,6,7891852081563603011
+participant,P013,3,sensitivity,1,1,3,7891852081563603011
+participant,P014,3,sensitivity,2,1,3,7891852081563603011
+participant,P016,3,sensitivity,2,1,3,7891852081563603011
+participant,P017,3,sensitivity,1,2,6,7891852081563603011
+participant,P018,3,sensitivity,2,1,3,7891852081563603011
+participant,P021,3,sensitivity,1,1,3,7891852081563603011
+participant,P022,3,sensitivity,1,1,3,7891852081563603011
+participant,P023,3,sensitivity,2,1,3,7891852081563603011
+participant,P024,3,sensitivity,3,1,3,7891852081563603011
+participant,P025,3,sensitivity,3,1,3,7891852081563603011
+participant,P026,3,sensitivity,3,1,3,7891852081563603011
+participant,P027,3,sensitivity,2,1,3,7891852081563603011
+participant,P028,3,sensitivity,2,1,3,7891852081563603011
+video,28 days later,3,sensitivity,2,8,8,1519495386661508283
+video,Dangerous Minds,3,sensitivity,1,8,8,1519495386661508283
+video,Fish called Wanda,3,sensitivity,3,1,1,1519495386661508283
+video,Life is beautiful,3,sensitivity,1,2,2,1519495386661508283
+video,Misery,3,sensitivity,2,9,9,1519495386661508283
+video,Mr. Bean,3,sensitivity,1,8,8,1519495386661508283
+video,My girl,3,sensitivity,1,9,9,1519495386661508283
+video,Scream,3,sensitivity,3,6,6,1519495386661508283
+video,The Champ,3,sensitivity,2,11,11,1519495386661508283
+video,The Exorcist,3,sensitivity,3,1,1,1519495386661508283
+video,The Shining,3,sensitivity,1,5,5,1519495386661508283
+video,The Shining 2,3,sensitivity,3,1,1,1519495386661508283
+video,The Visitors,3,sensitivity,2,10,10,1519495386661508283
+video,There is something about Mary,3,sensitivity,2,5,5,1519495386661508283
+video,There is something about Mary 2,3,sensitivity,3,1,1,1519495386661508283
+video,When Harry met Sally,3,sensitivity,1,5,5,1519495386661508283
+participant,P001,4,sensitivity,2,2,6,717127441440458810
+participant,P002,4,sensitivity,3,2,6,717127441440458810
+participant,P003,4,sensitivity,3,1,3,717127441440458810
+participant,P004,4,sensitivity,2,1,3,717127441440458810
+participant,P005,4,sensitivity,3,1,3,717127441440458810
+participant,P006,4,sensitivity,2,1,3,717127441440458810
+participant,P007,4,sensitivity,2,2,6,717127441440458810
+participant,P008,4,sensitivity,2,1,3,717127441440458810
+participant,P009,4,sensitivity,2,2,6,717127441440458810
+participant,P010,4,sensitivity,1,1,3,717127441440458810
+participant,P011,4,sensitivity,1,2,6,717127441440458810
+participant,P013,4,sensitivity,3,1,3,717127441440458810
+participant,P014,4,sensitivity,3,1,3,717127441440458810
+participant,P016,4,sensitivity,1,1,3,717127441440458810
+participant,P017,4,sensitivity,3,2,6,717127441440458810
+participant,P018,4,sensitivity,1,1,3,717127441440458810
+participant,P021,4,sensitivity,1,1,3,717127441440458810
+participant,P022,4,sensitivity,3,1,3,717127441440458810
+participant,P023,4,sensitivity,2,1,3,717127441440458810
+participant,P024,4,sensitivity,1,1,3,717127441440458810
+participant,P025,4,sensitivity,3,1,3,717127441440458810
+participant,P026,4,sensitivity,1,1,3,717127441440458810
+participant,P027,4,sensitivity,1,1,3,717127441440458810
+participant,P028,4,sensitivity,2,1,3,717127441440458810
+video,28 days later,4,sensitivity,3,8,8,3771719935011886371
+video,Dangerous Minds,4,sensitivity,1,8,8,3771719935011886371
+video,Fish called Wanda,4,sensitivity,3,1,1,3771719935011886371
+video,Life is beautiful,4,sensitivity,1,2,2,3771719935011886371
+video,Misery,4,sensitivity,2,9,9,3771719935011886371
+video,Mr. Bean,4,sensitivity,2,8,8,3771719935011886371
+video,My girl,4,sensitivity,3,9,9,3771719935011886371
+video,Scream,4,sensitivity,1,6,6,3771719935011886371
+video,The Champ,4,sensitivity,2,11,11,3771719935011886371
+video,The Exorcist,4,sensitivity,1,1,1,3771719935011886371
+video,The Shining,4,sensitivity,2,5,5,3771719935011886371
+video,The Shining 2,4,sensitivity,3,1,1,3771719935011886371
+video,The Visitors,4,sensitivity,2,10,10,3771719935011886371
+video,There is something about Mary,4,sensitivity,3,5,5,3771719935011886371
+video,There is something about Mary 2,4,sensitivity,1,1,1,3771719935011886371
+video,When Harry met Sally,4,sensitivity,1,5,5,3771719935011886371

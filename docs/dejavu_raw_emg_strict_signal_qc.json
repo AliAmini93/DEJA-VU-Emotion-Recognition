@@ -1,0 +1,40 @@
+{
+  "channel_status_counts": {
+    "ch1": {
+      "FAIL": 28
+    },
+    "ch2": {
+      "FAIL": 14,
+      "PASS": 14
+    }
+  },
+  "event_status_counts": {
+    "FAIL": 14,
+    "ONE_CHANNEL_ONLY": 14
+  },
+  "generated_at_utc": "2026-07-13T15:27:15.350961+00:00",
+  "hard_errors": [],
+  "implicated_sessions": [
+    "P012_S001",
+    "P015_S001",
+    "P019_S001",
+    "P020_S001"
+  ],
+  "presentation_prior_one_channel_eligible": 129,
+  "presentation_prior_two_channel_eligible": 121,
+  "presentation_strict_one_channel_eligible": 128,
+  "presentation_strict_two_channel_eligible": 120,
+  "presentation_total": 136,
+  "thresholds": {
+    "fail_longest_run_fraction": 0.5,
+    "fail_mode_fraction": 0.95,
+    "min_finite_fraction": 0.999,
+    "warn_longest_run_fraction": 0.1,
+    "warn_mode_fraction": 0.2
+  },
+  "transition_prior_one_channel_eligible": 96,
+  "transition_prior_two_channel_eligible": 90,
+  "transition_strict_one_channel_eligible": 96,
+  "transition_strict_two_channel_eligible": 90,
+  "transition_total": 102
+}

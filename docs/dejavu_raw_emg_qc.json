@@ -1,0 +1,31 @@
+{
+  "coverage_reason_counts": {
+    "BOUNDARY_NOT_COVERED;LOW_SAMPLE_COVERAGE": 1,
+    "NO_OVERLAP;BOUNDARY_NOT_COVERED;GAP_OR_TOO_FEW_SAMPLES;LOW_SAMPLE_COVERAGE": 6,
+    "PASS": 231
+  },
+  "coverage_tolerance_sec": 1.0,
+  "data_root": "/mnt/HDD/AliWorks/DEJA-VU",
+  "expected_xdf_count": 34,
+  "generated_at_utc": "2026-07-13T15:17:04.381611+00:00",
+  "hard_errors": [],
+  "max_gap_factor": 5.0,
+  "official_indices_0_1_match_true_emg_sessions": 0,
+  "presentation_rows": 136,
+  "presentations_full_coverage": 132,
+  "raw_root": "/mnt/HDD/AliWorks/DEJA-VU/extracted/dataset/DEJA-VU/raw",
+  "repo_root": "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition",
+  "session_status_counts": {
+    "PASS": 31,
+    "TRUE_EMG_CONSTANT": 2,
+    "TRUE_EMG_NONFINITE;SHORT_EMG_COVERAGE": 1
+  },
+  "sessions_not_passed": 3,
+  "sessions_passed": 31,
+  "transition_rows": 102,
+  "transitions_full_coverage": 99,
+  "true_emg_channel_rows": 68,
+  "true_emg_channels_constant_or_near_constant": 2,
+  "true_emg_channels_with_nonfinite": 2,
+  "xdf_files_discovered": 34
+}
