@@ -1,0 +1,3523 @@
+{
+  "dataset_root": "/mnt/HDD/AliWorks/DEJA-VU/extracted/dataset/DEJA-VU",
+  "file_inventory_count": 308,
+  "sqlite": {
+    "tables": {
+      "journey": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "session",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "position",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "video_name",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "quadrant",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "video_order",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 136
+      },
+      "keys": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": true
+          },
+          {
+            "name": "ses1",
+            "type": "TEXT",
+            "notnull": true,
+            "pk": false
+          },
+          {
+            "name": "ses2",
+            "type": "TEXT",
+            "notnull": true,
+            "pk": false
+          }
+        ],
+        "row_count": 28
+      },
+      "ratings": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "session",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "video_name",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "quadrant",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "rating_time",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "rating_valence",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "rating_arousal",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "rating_dominance",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 272
+      },
+      "scores_big_five": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "extraversion",
+            "type": "REAL",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "agreeableness",
+            "type": "REAL",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "conscientiousness",
+            "type": "REAL",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "neuroticism",
+            "type": "REAL",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "openness",
+            "type": "REAL",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 28
+      },
+      "scores_panas": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "session",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "status",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "positive_affect",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "negative_affect",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 68
+      },
+      "session_metadata": {
+        "columns": [
+          {
+            "name": "date",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "session",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "start_time",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "temp_inside",
+            "type": "REAL",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "room_lighting",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "sleep",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "stimulant",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "activity",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "permutation",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 34
+      },
+      "survey_big_five": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "question",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "answer",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 1400
+      },
+      "survey_ekman": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "session",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "emotion",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "video_a",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "video_b",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "video_c",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 204
+      },
+      "survey_panas": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "session",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "status",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "question",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "answer",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 1360
+      },
+      "survey_screener": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "question",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "answer",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 56
+      },
+      "video_mappings": {
+        "columns": [
+          {
+            "name": "video_name",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": true
+          },
+          {
+            "name": "source",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "emotion",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "quadrant",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "length_mmss",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "length_sec",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 19
+      },
+      "videos": {
+        "columns": [
+          {
+            "name": "subject",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": true
+          },
+          {
+            "name": "session",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": true
+          },
+          {
+            "name": "video_order",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": true
+          },
+          {
+            "name": "video_name",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "video_start_24",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "time_abs",
+            "type": "TEXT",
+            "notnull": false,
+            "pk": false
+          },
+          {
+            "name": "time_rel",
+            "type": "INTEGER",
+            "notnull": false,
+            "pk": false
+          }
+        ],
+        "row_count": 510
+      }
+    },
+    "distinct_subjects": [
+      "P001",
+      "P002",
+      "P003",
+      "P004",
+      "P005",
+      "P006",
+      "P007",
+      "P008",
+      "P009",
+      "P010",
+      "P011",
+      "P012",
+      "P013",
+      "P014",
+      "P015",
+      "P016",
+      "P017",
+      "P018",
+      "P019",
+      "P020",
+      "P021",
+      "P022",
+      "P023",
+      "P024",
+      "P025",
+      "P026",
+      "P027",
+      "P028"
+    ],
+    "distinct_subject_count": 28,
+    "distinct_sessions_seen": [
+      "S001",
+      "S002"
+    ],
+    "distinct_subject_session_pairs": 34
+  },
+  "xlsx": {
+    "sheet_names": [
+      "keys",
+      "survey_screener",
+      "survey_big_five",
+      "survey_panas",
+      "survey_ekman",
+      "session_metadata",
+      "videos",
+      "ratings",
+      "video_mappings"
+    ],
+    "sheets": {
+      "keys": {
+        "max_row": 29,
+        "max_column": 3,
+        "header_row": [
+          "subject",
+          "ses1",
+          "ses2"
+        ]
+      },
+      "survey_screener": {
+        "max_row": 57,
+        "max_column": 3,
+        "header_row": [
+          "subject  ",
+          "question",
+          "answer"
+        ]
+      },
+      "survey_big_five": {
+        "max_row": 1401,
+        "max_column": 3,
+        "header_row": [
+          "subject",
+          "question",
+          "answer"
+        ]
+      },
+      "survey_panas": {
+        "max_row": 1361,
+        "max_column": 5,
+        "header_row": [
+          "subject",
+          "session",
+          "status",
+          "question",
+          "answer"
+        ]
+      },
+      "survey_ekman": {
+        "max_row": 205,
+        "max_column": 6,
+        "header_row": [
+          "subject",
+          "session",
+          "emotion",
+          "video_a",
+          "video_b",
+          "video_c"
+        ]
+      },
+      "session_metadata": {
+        "max_row": 112,
+        "max_column": 10,
+        "header_row": [
+          "date",
+          "subject",
+          "session",
+          "start_time",
+          "temp_inside",
+          "room_lighting",
+          "sleep",
+          "stimulant",
+          "activity",
+          "permutation"
+        ]
+      },
+      "videos": {
+        "max_row": 511,
+        "max_column": 5,
+        "header_row": [
+          "subject",
+          "session",
+          "video_order",
+          "video_name",
+          "video_start_24"
+        ]
+      },
+      "ratings": {
+        "max_row": 273,
+        "max_column": 8,
+        "header_row": [
+          "subject",
+          "session",
+          "video_name",
+          "quadrant",
+          "rating_time",
+          "rating_valence",
+          "rating_arousal",
+          "rating_dominance"
+        ]
+      },
+      "video_mappings": {
+        "max_row": 20,
+        "max_column": 6,
+        "header_row": [
+          "video_name",
+          "source",
+          "emotion",
+          "quadrant",
+          "length_mmss",
+          "length_sec"
+        ]
+      }
+    }
+  },
+  "hdf5_files_inspected": 233,
+  "hdf5_files_skipped_truncated": 39,
+  "xdf_files_inspected": 34,
+  "xdf_stream_summaries": {
+    "DEJA-VU/raw/sub-P001/ses-S001/eeg/sub-P001_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12470,
+          "timestamp_start": 873791.1108187092,
+          "timestamp_end": 875038.1210128096,
+          "duration_sec": 1247.0101941003231,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 374090,
+          "timestamp_start": 873791.0484164892,
+          "timestamp_end": 875038.0719388104,
+          "duration_sec": 1247.0235223212512,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 637623,
+          "timestamp_start": 873790.9576753468,
+          "timestamp_end": 875037.9119003942,
+          "duration_sec": 1246.9542250474915,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 638274,
+          "timestamp_start": 873790.9937036877,
+          "timestamp_end": 875037.8309534416,
+          "duration_sec": 1246.8372497538803,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P001/ses-S002/eeg/sub-P001_ses-S002_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 10715,
+          "timestamp_start": 171877.50182454084,
+          "timestamp_end": 172948.99351605482,
+          "duration_sec": 1071.4916915139765,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 321440,
+          "timestamp_start": 171877.44705981933,
+          "timestamp_end": 172948.95997975,
+          "duration_sec": 1071.512919930683,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 548599,
+          "timestamp_start": 171877.44986865387,
+          "timestamp_end": 172949.0032000911,
+          "duration_sec": 1071.5533314372296,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 548588,
+          "timestamp_start": 171877.45079185368,
+          "timestamp_end": 172948.9456176998,
+          "duration_sec": 1071.4948258461081,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P002/ses-S001/eeg/sub-P002_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11240,
+          "timestamp_start": 1227206.86932678,
+          "timestamp_end": 1228330.868694991,
+          "duration_sec": 1123.9993682110216,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 337190,
+          "timestamp_start": 1227206.8698546758,
+          "timestamp_end": 1228330.8877097846,
+          "duration_sec": 1124.0178551087156,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 575457,
+          "timestamp_start": 1227206.8921435147,
+          "timestamp_end": 1228330.8893776843,
+          "duration_sec": 1123.9972341696266,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 574774,
+          "timestamp_start": 1227206.627841883,
+          "timestamp_end": 1228330.8910181962,
+          "duration_sec": 1124.2631763131358,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P002/ses-S002/eeg/sub-P002_ses-S002_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12773,
+          "timestamp_start": 84614.65258432375,
+          "timestamp_end": 85892.07883087493,
+          "duration_sec": 1277.4262465511856,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 383243,
+          "timestamp_start": 84614.63974412456,
+          "timestamp_end": 85892.17213407006,
+          "duration_sec": 1277.532389945496,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 654044,
+          "timestamp_start": 84614.64836766355,
+          "timestamp_end": 85892.11865475988,
+          "duration_sec": 1277.4702870963229,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 653961,
+          "timestamp_start": 84614.63751440796,
+          "timestamp_end": 85892.18556526188,
+          "duration_sec": 1277.5480508539185,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P003/ses-S001/eeg/sub-P003_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12239,
+          "timestamp_start": 1301455.6611592318,
+          "timestamp_end": 1302679.5699031127,
+          "duration_sec": 1223.908743880922,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 367187,
+          "timestamp_start": 1301455.6370142244,
+          "timestamp_end": 1302679.6495379435,
+          "duration_sec": 1224.0125237191096,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 625863,
+          "timestamp_start": 1301455.5509518452,
+          "timestamp_end": 1302679.5698012249,
+          "duration_sec": 1224.0188493796159,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 625961,
+          "timestamp_start": 1301455.4920035747,
+          "timestamp_end": 1302679.6100555987,
+          "duration_sec": 1224.1180520239286,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P004/ses-S001/eeg/sub-P004_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12465,
+          "timestamp_start": 604.0695107760268,
+          "timestamp_end": 1850.577241324967,
+          "duration_sec": 1246.5077305489401,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 638137,
+          "timestamp_start": 603.964632741128,
+          "timestamp_end": 1850.4299005028006,
+          "duration_sec": 1246.4652677616727,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 637328,
+          "timestamp_start": 604.0804637265844,
+          "timestamp_end": 1850.641465712317,
+          "duration_sec": 1246.5610019857327,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 373937,
+          "timestamp_start": 603.9837459794361,
+          "timestamp_end": 1850.4948024417772,
+          "duration_sec": 1246.511056462341,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P005/ses-S001/eeg/sub-P005_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12089,
+          "timestamp_start": 81127.08098766659,
+          "timestamp_end": 82335.98455026856,
+          "duration_sec": 1208.9035626019759,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 618073,
+          "timestamp_start": 81127.23184310933,
+          "timestamp_end": 82336.1183729081,
+          "duration_sec": 1208.886529798765,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 362687,
+          "timestamp_start": 81127.07274156217,
+          "timestamp_end": 82336.08206522182,
+          "duration_sec": 1209.0093236596585,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 618955,
+          "timestamp_start": 81127.07133140088,
+          "timestamp_end": 82336.06234538427,
+          "duration_sec": 1208.9910139833955,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P006/ses-S001/eeg/sub-P006_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12159,
+          "timestamp_start": 520792.3576273706,
+          "timestamp_end": 522008.26301563875,
+          "duration_sec": 1215.9053882681183,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 364793,
+          "timestamp_start": 520792.35633927555,
+          "timestamp_end": 522008.38640027726,
+          "duration_sec": 1216.0300610017148,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 622572,
+          "timestamp_start": 520792.335704961,
+          "timestamp_end": 522008.3292433311,
+          "duration_sec": 1215.9935383701231,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 621825,
+          "timestamp_start": 520792.3982417504,
+          "timestamp_end": 522008.37482477265,
+          "duration_sec": 1215.976583022275,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P007/ses-S001/eeg/sub-P007_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12315,
+          "timestamp_start": 584280.8859395151,
+          "timestamp_end": 585512.391856019,
+          "duration_sec": 1231.5059165039565,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 369437,
+          "timestamp_start": 584280.805229247,
+          "timestamp_end": 585512.316148275,
+          "duration_sec": 1231.5109190280782,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 630507,
+          "timestamp_start": 584280.772510927,
+          "timestamp_end": 585512.268373571,
+          "duration_sec": 1231.495862643933,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 630505,
+          "timestamp_start": 584280.782625957,
+          "timestamp_end": 585512.276957688,
+          "duration_sec": 1231.4943317309953,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P007/ses-S002/eeg/sub-P007_ses-S002_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12039,
+          "timestamp_start": 20711.247079615907,
+          "timestamp_end": 21915.150605321585,
+          "duration_sec": 1203.9035257056785,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 361184,
+          "timestamp_start": 20711.18340006188,
+          "timestamp_end": 21915.183180425414,
+          "duration_sec": 1203.9997803635342,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 615560,
+          "timestamp_start": 20711.157306868514,
+          "timestamp_end": 21915.02463541034,
+          "duration_sec": 1203.8673285418263,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 616427,
+          "timestamp_start": 20711.1806610687,
+          "timestamp_end": 21915.205100452065,
+          "duration_sec": 1204.0244393833636,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P008/ses-S001/eeg/sub-P008_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12615,
+          "timestamp_start": 594019.8777841626,
+          "timestamp_end": 595281.3875558766,
+          "duration_sec": 1261.509771713987,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 645892,
+          "timestamp_start": 594019.8274536128,
+          "timestamp_end": 595281.3808242813,
+          "duration_sec": 1261.5533706684364,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 645867,
+          "timestamp_start": 594019.8117671631,
+          "timestamp_end": 595281.3091377123,
+          "duration_sec": 1261.4973705492448,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 378437,
+          "timestamp_start": 594019.80662414,
+          "timestamp_end": 595281.3189433505,
+          "duration_sec": 1261.512319210451,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P009/ses-S001/eeg/sub-P009_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12410,
+          "timestamp_start": 760163.2852324558,
+          "timestamp_end": 761404.2919629696,
+          "duration_sec": 1241.0067305137636,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 372290,
+          "timestamp_start": 760163.187312035,
+          "timestamp_end": 761404.2066214769,
+          "duration_sec": 1241.0193094419083,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 635382,
+          "timestamp_start": 760163.2485153021,
+          "timestamp_end": 761404.2630518306,
+          "duration_sec": 1241.0145365284989,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 635380,
+          "timestamp_start": 760163.20065319,
+          "timestamp_end": 761404.226565154,
+          "duration_sec": 1241.0259119640104,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P009/ses-S002/eeg/sub-P009_ses-S002_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11799,
+          "timestamp_start": 945.0812848615861,
+          "timestamp_end": 2126.9523143211477,
+          "duration_sec": 1181.8710294595617,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 354587,
+          "timestamp_start": 944.9681055291437,
+          "timestamp_end": 2126.975417647838,
+          "duration_sec": 1182.0073121186945,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 605123,
+          "timestamp_start": 944.9320042914593,
+          "timestamp_end": 2127.0213605604167,
+          "duration_sec": 1182.0893562689575,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 604417,
+          "timestamp_start": 944.9994365026586,
+          "timestamp_end": 2127.1198825684255,
+          "duration_sec": 1182.1204460657668,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P010/ses-S001/eeg/sub-P010_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12060,
+          "timestamp_start": 96498.25628942781,
+          "timestamp_end": 97704.26307428264,
+          "duration_sec": 1206.0067848548351,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 361787,
+          "timestamp_start": 96498.19733719275,
+          "timestamp_end": 97704.20634064585,
+          "duration_sec": 1206.0090034531022,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 617385,
+          "timestamp_start": 96498.18758320253,
+          "timestamp_end": 97704.167853909,
+          "duration_sec": 1205.980270706481,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 616617,
+          "timestamp_start": 96498.12742651768,
+          "timestamp_end": 97704.28157995676,
+          "duration_sec": 1206.1541534390853,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P011/ses-S001/eeg/sub-P011_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 13180,
+          "timestamp_start": 603231.4147092134,
+          "timestamp_end": 604549.4311353245,
+          "duration_sec": 1318.0164261111058,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 674907,
+          "timestamp_start": 603231.4453732166,
+          "timestamp_end": 604549.9477963209,
+          "duration_sec": 1318.502423104248,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 395536,
+          "timestamp_start": 603231.3838658204,
+          "timestamp_end": 604549.8958448579,
+          "duration_sec": 1318.5119790375466,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 674073,
+          "timestamp_start": 603231.350419152,
+          "timestamp_end": 604550.066811969,
+          "duration_sec": 1318.7163928170921,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P011/ses-S002/eeg/sub-P011_ses-S002_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11965,
+          "timestamp_start": 624663.727070093,
+          "timestamp_end": 625860.2298235708,
+          "duration_sec": 1196.5027534777764,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 358943,
+          "timestamp_start": 624663.7031340327,
+          "timestamp_end": 625860.2309373957,
+          "duration_sec": 1196.5278033630457,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 612622,
+          "timestamp_start": 624663.6877518435,
+          "timestamp_end": 625860.2468697439,
+          "duration_sec": 1196.5591179004405,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 612592,
+          "timestamp_start": 624663.6903298495,
+          "timestamp_end": 625860.1997307445,
+          "duration_sec": 1196.5094008949818,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P012/ses-S001/eeg/sub-P012_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11919,
+          "timestamp_start": 704211.7118925715,
+          "timestamp_end": 705403.6154269854,
+          "duration_sec": 1191.9035344138974,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 357593,
+          "timestamp_start": 704211.6307019694,
+          "timestamp_end": 705403.6602587915,
+          "duration_sec": 1192.0295568221482,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 610298,
+          "timestamp_start": 704211.6198177314,
+          "timestamp_end": 705403.6485922589,
+          "duration_sec": 1192.0287745274836,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 610295,
+          "timestamp_start": 704211.633538169,
+          "timestamp_end": 705403.648439606,
+          "duration_sec": 1192.0149014369817,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P013/ses-S001/eeg/sub-P013_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12230,
+          "timestamp_start": 780185.2146615152,
+          "timestamp_end": 781408.220594722,
+          "duration_sec": 1223.0059332067613,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 366890,
+          "timestamp_start": 780185.2080468781,
+          "timestamp_end": 781408.229145577,
+          "duration_sec": 1223.0210986988386,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 626151,
+          "timestamp_start": 780185.2359013011,
+          "timestamp_end": 781408.220871593,
+          "duration_sec": 1222.9849702918436,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 625460,
+          "timestamp_start": 780185.079583824,
+          "timestamp_end": 781408.3407993842,
+          "duration_sec": 1223.2612155601382,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P014/ses-S001/eeg/sub-P014_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12244,
+          "timestamp_start": 874291.5656994182,
+          "timestamp_end": 875516.0411962973,
+          "duration_sec": 1224.4754968790803,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 367340,
+          "timestamp_start": 874291.4870152187,
+          "timestamp_end": 875516.008852026,
+          "duration_sec": 1224.5218368072528,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 626118,
+          "timestamp_start": 874291.4701580337,
+          "timestamp_end": 875516.2619858547,
+          "duration_sec": 1224.7918278210564,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 626924,
+          "timestamp_start": 874291.5043476865,
+          "timestamp_end": 875516.0204049041,
+          "duration_sec": 1224.51605721761,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P015/ses-S001/eeg/sub-P015_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11585,
+          "timestamp_start": 20915.350412761985,
+          "timestamp_end": 22073.857249567707,
+          "duration_sec": 1158.5068368057218,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 347540,
+          "timestamp_start": 20915.34160480223,
+          "timestamp_end": 22073.85767780362,
+          "duration_sec": 1158.5160730013886,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 590373,
+          "timestamp_start": 20914.205871400944,
+          "timestamp_end": 22074.481069326943,
+          "duration_sec": 1160.2751979259992,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 593151,
+          "timestamp_start": 20915.331527102808,
+          "timestamp_end": 22073.862770741012,
+          "duration_sec": 1158.5312436382046,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P016/ses-S001/eeg/sub-P016_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11830,
+          "timestamp_start": 27554.834565709654,
+          "timestamp_end": 28737.836866837177,
+          "duration_sec": 1183.0023011275225,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 354893,
+          "timestamp_start": 27554.772149754233,
+          "timestamp_end": 28737.800326134136,
+          "duration_sec": 1183.028176379903,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 604882,
+          "timestamp_start": 27554.760568418475,
+          "timestamp_end": 28737.760693177046,
+          "duration_sec": 1183.0001247585715,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 605614,
+          "timestamp_start": 27554.819594384888,
+          "timestamp_end": 28737.798226319555,
+          "duration_sec": 1182.9786319346676,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P017/ses-S001/eeg/sub-P017_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11340,
+          "timestamp_start": 117046.33354474795,
+          "timestamp_end": 118180.33062402149,
+          "duration_sec": 1133.9970792735403,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 340187,
+          "timestamp_start": 117046.26206331825,
+          "timestamp_end": 118180.26699822751,
+          "duration_sec": 1134.0049349092587,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 579720,
+          "timestamp_start": 117046.46474755513,
+          "timestamp_end": 118180.28270348582,
+          "duration_sec": 1133.8179559306882,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 580589,
+          "timestamp_start": 117046.28917349379,
+          "timestamp_end": 118180.3179190364,
+          "duration_sec": 1134.028745542615,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P017/ses-S002/eeg/sub-P666_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12209,
+          "timestamp_start": 1224723.465618593,
+          "timestamp_end": 1225944.3708936376,
+          "duration_sec": 1220.90527504473,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 366287,
+          "timestamp_start": 1224723.4309567944,
+          "timestamp_end": 1225944.4401821888,
+          "duration_sec": 1221.009225394344,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 624311,
+          "timestamp_start": 1224723.3891388203,
+          "timestamp_end": 1225944.584882107,
+          "duration_sec": 1221.1957432867493,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 624961,
+          "timestamp_start": 1224723.3947319952,
+          "timestamp_end": 1225944.3984676483,
+          "duration_sec": 1221.0037356531247,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P018/ses-S001/eeg/sub-P018_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12574,
+          "timestamp_start": 529219.4567277736,
+          "timestamp_end": 530476.8652257207,
+          "duration_sec": 1257.4084979470354,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 377384,
+          "timestamp_start": 529219.3781124429,
+          "timestamp_end": 530477.378736601,
+          "duration_sec": 1258.0006241580704,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 643911,
+          "timestamp_start": 529219.3147572862,
+          "timestamp_end": 530477.4163690113,
+          "duration_sec": 1258.1016117250547,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 642502,
+          "timestamp_start": 529219.1321888457,
+          "timestamp_end": 530476.886548585,
+          "duration_sec": 1257.754359739367,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P019/ses-S001/eeg/sub-P019_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11775,
+          "timestamp_start": 630931.3250288584,
+          "timestamp_end": 632108.8277506914,
+          "duration_sec": 1177.5027218330652,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 353237,
+          "timestamp_start": 630931.2772882726,
+          "timestamp_end": 632108.7846626104,
+          "duration_sec": 1177.507374337758,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 53097,
+          "timestamp_start": 630931.3119505451,
+          "timestamp_end": 631035.025604445,
+          "duration_sec": 103.71365389996208,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 602876,
+          "timestamp_start": 630931.2680914673,
+          "timestamp_end": 632108.8075823614,
+          "duration_sec": 1177.5394908940652,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P020/ses-S001/eeg/sub-P020_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12559,
+          "timestamp_start": 1149516.5187244955,
+          "timestamp_end": 1150772.4282690207,
+          "duration_sec": 1255.9095445252024,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 376790,
+          "timestamp_start": 1149516.4281059324,
+          "timestamp_end": 1150772.4491670886,
+          "duration_sec": 1256.021061156178,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 643066,
+          "timestamp_start": 1149516.431658291,
+          "timestamp_end": 1150772.454805485,
+          "duration_sec": 1256.0231471939478,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 642257,
+          "timestamp_start": 1149516.5188435172,
+          "timestamp_end": 1150772.6333201614,
+          "duration_sec": 1256.1144766442012,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P021/ses-S001/eeg/sub-P021_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11995,
+          "timestamp_start": 1144766.8501266672,
+          "timestamp_end": 1145966.3531840174,
+          "duration_sec": 1199.5030573501717,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 359834,
+          "timestamp_start": 1144766.778085896,
+          "timestamp_end": 1145966.2764990292,
+          "duration_sec": 1199.4984131332021,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 613512,
+          "timestamp_start": 1144766.6050704203,
+          "timestamp_end": 1145966.4409104052,
+          "duration_sec": 1199.8358399849385,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 614106,
+          "timestamp_start": 1144766.788333619,
+          "timestamp_end": 1145966.284703498,
+          "duration_sec": 1199.4963698789943,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P022/ses-S001/eeg/sub-P022_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12339,
+          "timestamp_start": 1743362.4383626934,
+          "timestamp_end": 1744596.3446477137,
+          "duration_sec": 1233.90628502029,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 631772,
+          "timestamp_start": 1743362.4371586498,
+          "timestamp_end": 1744596.399817786,
+          "duration_sec": 1233.9626591361593,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 370184,
+          "timestamp_start": 1743362.4525970053,
+          "timestamp_end": 1744596.452654742,
+          "duration_sec": 1234.0000577366445,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 631802,
+          "timestamp_start": 1743362.4529796198,
+          "timestamp_end": 1744596.4705552007,
+          "duration_sec": 1234.0175755808596,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P023/ses-S001/eeg/sub-P023_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12439,
+          "timestamp_start": 86174.8989252137,
+          "timestamp_end": 87418.80660353496,
+          "duration_sec": 1243.9076783212658,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 373190,
+          "timestamp_start": 86174.8714828626,
+          "timestamp_end": 87418.89223969216,
+          "duration_sec": 1244.020756829559,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 636918,
+          "timestamp_start": 86174.81205766922,
+          "timestamp_end": 87418.86066897139,
+          "duration_sec": 1244.0486113021761,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 636675,
+          "timestamp_start": 86174.80930573975,
+          "timestamp_end": 87418.86008159368,
+          "duration_sec": 1244.0507758539316,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P024/ses-S001/eeg/sub-P024_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11929,
+          "timestamp_start": 271772.74697086966,
+          "timestamp_end": 272965.6524830153,
+          "duration_sec": 1192.9055121456622,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 357890,
+          "timestamp_start": 271772.6797621291,
+          "timestamp_end": 272965.6979543042,
+          "duration_sec": 1193.0181921751355,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 610806,
+          "timestamp_start": 271772.67268869694,
+          "timestamp_end": 272965.683904261,
+          "duration_sec": 1193.0112155640381,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 610804,
+          "timestamp_start": 271772.7181698754,
+          "timestamp_end": 272965.7284292667,
+          "duration_sec": 1193.0102593913325,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P025/ses-S001/eeg/sub-P025_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11254,
+          "timestamp_start": 620163.9454454678,
+          "timestamp_end": 621289.3422489552,
+          "duration_sec": 1125.396803487325,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 337640,
+          "timestamp_start": 620163.871399881,
+          "timestamp_end": 621289.3876142841,
+          "duration_sec": 1125.516214403091,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 576283,
+          "timestamp_start": 620163.8244379481,
+          "timestamp_end": 621289.4068995349,
+          "duration_sec": 1125.5824615868041,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 576224,
+          "timestamp_start": 620163.8601114085,
+          "timestamp_end": 621289.3820885558,
+          "duration_sec": 1125.5219771473203,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P026/ses-S001/eeg/sub-P026_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 11364,
+          "timestamp_start": 777119.391473227,
+          "timestamp_end": 778255.787048016,
+          "duration_sec": 1136.3955747890286,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 340943,
+          "timestamp_start": 777119.324147481,
+          "timestamp_end": 778255.8503044595,
+          "duration_sec": 1136.5261569784489,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 581257,
+          "timestamp_start": 777119.164731187,
+          "timestamp_end": 778255.7793834544,
+          "duration_sec": 1136.614652267308,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 580863,
+          "timestamp_start": 777120.2788731909,
+          "timestamp_end": 778256.128339643,
+          "duration_sec": 1135.8494664521422,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P027/ses-S001/eeg/sub-P027_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12104,
+          "timestamp_start": 82603.07762376795,
+          "timestamp_end": 83813.48259783139,
+          "duration_sec": 1210.4049740634364,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 362984,
+          "timestamp_start": 82603.0845592932,
+          "timestamp_end": 83813.08360992462,
+          "duration_sec": 1209.9990506314207,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 618712,
+          "timestamp_start": 82603.02664738211,
+          "timestamp_end": 83813.15937398073,
+          "duration_sec": 1210.1327265986183,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 619529,
+          "timestamp_start": 82602.98465651463,
+          "timestamp_end": 83813.49416487571,
+          "duration_sec": 1210.5095083610795,
+          "is_empty_or_malformed": false
+        }
+      ]
+    },
+    "DEJA-VU/raw/sub-P028/ses-S001/eeg/sub-P028_ses-S001_task-Default_run-001_eeg.xdf": {
+      "streams": [
+        {
+          "stream_name": "Shimmer_894F",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 9.99938968568813,
+          "channel_count": 7,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "n_samples": 12145,
+          "timestamp_start": 173375.43521705637,
+          "timestamp_end": 174589.9410386017,
+          "duration_sec": 1214.5058215453464,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BBBD",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 4,
+          "channel_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "n_samples": 621850,
+          "timestamp_start": 173375.392786507,
+          "timestamp_end": 174589.97582582134,
+          "duration_sec": 1214.5830393143406,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "DSI_FLEX",
+          "stream_type": "EEG",
+          "nominal_srate": 300.0,
+          "channel_count": 8,
+          "channel_labels": [
+            "F3",
+            "S2",
+            "S3",
+            "S4",
+            "S5",
+            "S6",
+            "S7",
+            "TRG"
+          ],
+          "n_samples": 364334,
+          "timestamp_start": 173375.3496751671,
+          "timestamp_end": 174589.85003129084,
+          "duration_sec": 1214.5003561237536,
+          "is_empty_or_malformed": false
+        },
+        {
+          "stream_name": "Shimmer_BE1D",
+          "stream_type": "Sensor_Data",
+          "nominal_srate": 512.0,
+          "channel_count": 9,
+          "channel_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "n_samples": 621794,
+          "timestamp_start": 173375.37368388296,
+          "timestamp_end": 174589.9055162968,
+          "duration_sec": 1214.5318324138352,
+          "is_empty_or_malformed": false
+        }
+      ]
+    }
+  },
+  "independent_participants": 28,
+  "participant_ids": [
+    "P001",
+    "P002",
+    "P003",
+    "P004",
+    "P005",
+    "P006",
+    "P007",
+    "P008",
+    "P009",
+    "P010",
+    "P011",
+    "P012",
+    "P013",
+    "P014",
+    "P015",
+    "P016",
+    "P017",
+    "P018",
+    "P019",
+    "P020",
+    "P021",
+    "P022",
+    "P023",
+    "P024",
+    "P025",
+    "P026",
+    "P027",
+    "P028"
+  ],
+  "participant_session_pairs": 34
+}

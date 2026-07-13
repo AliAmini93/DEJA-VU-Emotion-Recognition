@@ -10,12 +10,62 @@ from __future__ import annotations
 import csv
 import hashlib
 import os
+import re
 import tempfile
 from dataclasses import dataclass
 from pathlib import Path
 
 CHUNK_SIZE = 1024 * 1024  # 1 MiB — stream, never load a full file into memory
 SUPPORTED_HASH_ALGORITHMS = {"md5", "sha1", "sha256", "sha512"}
+
+_SUB_RE = re.compile(r"sub-(P\d+)", re.IGNORECASE)
+_SES_RE = re.compile(r"ses-(S\d+)", re.IGNORECASE)
+
+
+def parse_participant_session_from_path(path: str) -> dict:
+    """Extract BIDS-style `sub-P###` / `ses-S###` tokens from a directory
+    path's components. Returns {'subject': str|None, 'session': str|None}.
+    """
+    subject = None
+    session = None
+    for part in Path(path).parts:
+        if subject is None:
+            m = _SUB_RE.search(part)
+            if m:
+                subject = m.group(1).upper()
+        if session is None:
+            m = _SES_RE.search(part)
+            if m:
+                session = m.group(1).upper()
+    return {"subject": subject, "session": session}
+
+
+def parse_participant_session_from_filename(filename: str) -> dict:
+    """Extract BIDS-style `sub-P###` / `ses-S###` tokens from a single
+    filename (not a full path). Returns {'subject': str|None, 'session': str|None}.
+    """
+    stem = Path(filename).name
+    subject = None
+    session = None
+    m = _SUB_RE.search(stem)
+    if m:
+        subject = m.group(1).upper()
+    m = _SES_RE.search(stem)
+    if m:
+        session = m.group(1).upper()
+    return {"subject": subject, "session": session}
+
+
+def identity_conflict(path_identity: dict, filename_identity: dict) -> bool:
+    """True if both a path-derived and filename-derived identity are present
+    and they disagree on subject and/or session."""
+    if path_identity.get("subject") and filename_identity.get("subject"):
+        if path_identity["subject"] != filename_identity["subject"]:
+            return True
+    if path_identity.get("session") and filename_identity.get("session"):
+        if path_identity["session"] != filename_identity["session"]:
+            return True
+    return False
 
 
 class PathTraversalError(ValueError):
