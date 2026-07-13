@@ -1,0 +1,5 @@
+class_label,is_baseline,presentation_count,participant_count,session_count,unique_videos,valence_rating_available,arousal_rating_available,segment_valid_count
+D,True,34,28,34,1,34,34,34
+A,False,34,28,34,6,34,34,33
+B,False,34,28,34,6,34,34,33
+C,False,34,28,34,4,34,34,33

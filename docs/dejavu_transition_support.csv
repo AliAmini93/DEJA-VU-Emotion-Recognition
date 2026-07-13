@@ -1,0 +1,10 @@
+transition_type,occurrence_count,participant_count,segment_valid_count,mean_duration_sec
+B_to_A,15,14,15,133.0
+C_to_B,15,15,14,133.0
+A_to_C,14,14,13,133.0
+D_to_A,13,12,12,133.0
+D_to_B,12,12,12,133.0
+B_to_C,11,10,11,133.0
+D_to_C,9,9,9,133.0
+A_to_B,7,7,7,133.0
+C_to_A,6,6,6,133.0

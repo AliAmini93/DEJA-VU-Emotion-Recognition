@@ -1,0 +1,273 @@
+subject,session,video_name,quadrant,rating_time,rating_valence,rating_arousal,rating_dominance,valence_is_midpoint,arousal_is_midpoint,dominance_is_midpoint,presentation_key
+P001,S001,Clouds,D,before,1,1,1,False,False,False,P001_S001_Clouds
+P001,S001,Clouds,D,after,5,2,5,True,False,True,P001_S001_Clouds
+P001,S001,The Champ,C,before,3,4,4,False,False,False,P001_S001_The Champ
+P001,S001,The Champ,C,after,1,5,9,False,True,False,P001_S001_The Champ
+P001,S001,Scream,B,before,4,4,2,False,False,False,P001_S001_Scream
+P001,S001,Scream,B,after,5,5,4,True,True,False,P001_S001_Scream
+P001,S001,The Visitors,A,before,3,2,2,False,False,False,P001_S001_The Visitors
+P001,S001,The Visitors,A,after,6,3,2,False,False,False,P001_S001_The Visitors
+P002,S001,Clouds,D,before,5,5,3,True,True,False,P002_S001_Clouds
+P002,S001,Clouds,D,after,3,3,3,False,False,False,P002_S001_Clouds
+P002,S001,28 days later,B,before,4,5,3,False,True,False,P002_S001_28 days later
+P002,S001,28 days later,B,after,7,7,9,False,False,False,P002_S001_28 days later
+P002,S001,Mr. Bean,A,before,7,3,7,False,False,False,P002_S001_Mr. Bean
+P002,S001,Mr. Bean,A,after,9,9,9,False,False,False,P002_S001_Mr. Bean
+P002,S001,Dangerous Minds,C,before,9,5,9,False,True,False,P002_S001_Dangerous Minds
+P002,S001,Dangerous Minds,C,after,5,9,9,True,False,False,P002_S001_Dangerous Minds
+P003,S001,Clouds,D,before,5,3,6,True,False,False,P003_S001_Clouds
+P003,S001,Clouds,D,after,5,2,5,True,False,True,P003_S001_Clouds
+P003,S001,There is something about Mary,A,before,5,3,5,True,False,True,P003_S001_There is something about Mary
+P003,S001,There is something about Mary,A,after,6,3,6,False,False,False,P003_S001_There is something about Mary
+P003,S001,My girl,C,before,6,3,6,False,False,False,P003_S001_My girl
+P003,S001,My girl,C,after,5,3,4,True,False,False,P003_S001_My girl
+P003,S001,The Shining,B,before,4,3,4,False,False,False,P003_S001_The Shining
+P003,S001,The Shining,B,after,2,6,3,False,False,False,P003_S001_The Shining
+P004,S001,Clouds,D,before,7,5,5,False,True,True,P004_S001_Clouds
+P004,S001,Clouds,D,after,8,7,3,False,False,False,P004_S001_Clouds
+P004,S001,Scream,B,before,5,5,3,True,True,False,P004_S001_Scream
+P004,S001,Scream,B,after,3,5,7,False,True,False,P004_S001_Scream
+P004,S001,Mr. Bean,A,before,5,5,3,True,True,False,P004_S001_Mr. Bean
+P004,S001,Mr. Bean,A,after,9,5,7,False,True,False,P004_S001_Mr. Bean
+P004,S001,The Champ,C,before,5,7,3,True,False,False,P004_S001_The Champ
+P004,S001,The Champ,C,after,1,3,7,False,False,False,P004_S001_The Champ
+P005,S001,Clouds,D,before,7,5,5,False,True,True,P005_S001_Clouds
+P005,S001,Clouds,D,after,8,8,7,False,False,False,P005_S001_Clouds
+P005,S001,The Visitors,A,before,7,4,2,False,False,False,P005_S001_The Visitors
+P005,S001,The Visitors,A,after,8,7,8,False,False,False,P005_S001_The Visitors
+P005,S001,The Champ,C,before,7,3,1,False,False,False,P005_S001_The Champ
+P005,S001,The Champ,C,after,5,3,3,True,False,False,P005_S001_The Champ
+P005,S001,Misery,B,before,6,1,1,False,False,False,P005_S001_Misery
+P005,S001,Misery,B,after,5,5,5,True,True,True,P005_S001_Misery
+P008,S001,Clouds,D,before,7,1,3,False,False,False,P008_S001_Clouds
+P008,S001,Clouds,D,after,9,5,1,False,True,False,P008_S001_Clouds
+P008,S001,My girl,C,before,5,3,1,True,False,False,P008_S001_My girl
+P008,S001,My girl,C,after,1,7,3,False,False,False,P008_S001_My girl
+P008,S001,The Shining,B,before,7,1,1,False,False,False,P008_S001_The Shining
+P008,S001,The Shining,B,after,1,6,7,False,False,False,P008_S001_The Shining
+P008,S001,When Harry met Sally,A,before,3,1,1,False,False,False,P008_S001_When Harry met Sally
+P008,S001,When Harry met Sally,A,after,7,7,3,False,False,False,P008_S001_When Harry met Sally
+P009,S001,Clouds,D,before,6,5,6,False,True,False,P009_S001_Clouds
+P009,S001,Clouds,D,after,8,2,4,False,False,False,P009_S001_Clouds
+P009,S001,My girl,C,before,8,6,6,False,False,False,P009_S001_My girl
+P009,S001,My girl,C,after,4,6,5,False,False,True,P009_S001_My girl
+P009,S001,28 days later,B,before,7,4,6,False,False,False,P009_S001_28 days later
+P009,S001,28 days later,B,after,5,7,5,True,False,True,P009_S001_28 days later
+P009,S001,There is something about Mary,A,before,7,5,6,False,True,False,P009_S001_There is something about Mary
+P009,S001,There is something about Mary,A,after,9,5,7,False,True,False,P009_S001_There is something about Mary
+P009,S002,Clouds,D,before,6,5,6,False,True,False,P009_S002_Clouds
+P009,S002,Clouds,D,after,7,4,5,False,False,True,P009_S002_Clouds
+P009,S002,Misery,B,before,7,5,5,False,True,True,P009_S002_Misery
+P009,S002,Misery,B,after,4,6,6,False,False,False,P009_S002_Misery
+P009,S002,Dangerous Minds,C,before,6,5,6,False,True,False,P009_S002_Dangerous Minds
+P009,S002,Dangerous Minds,C,after,2,4,4,False,False,False,P009_S002_Dangerous Minds
+P009,S002,Mr. Bean,A,before,6,5,7,False,True,False,P009_S002_Mr. Bean
+P009,S002,Mr. Bean,A,after,8,6,7,False,False,False,P009_S002_Mr. Bean
+P001,S002,Clouds,D,before,4,1,4,False,False,False,P001_S002_Clouds
+P001,S002,Clouds,D,after,6,3,5,False,False,True,P001_S002_Clouds
+P001,S002,The Exorcist,B,before,6,3,3,False,False,False,P001_S002_The Exorcist
+P001,S002,The Exorcist,B,after,2,3,1,False,False,False,P001_S002_The Exorcist
+P001,S002,Life is beautiful,C,before,5,4,3,True,False,False,P001_S002_Life is beautiful
+P001,S002,Life is beautiful,C,after,1,2,1,False,False,False,P001_S002_Life is beautiful
+P001,S002,There is something about Mary 2,A,before,4,3,2,False,False,False,P001_S002_There is something about Mary 2
+P001,S002,There is something about Mary 2,A,after,6,5,4,False,True,False,P001_S002_There is something about Mary 2
+P007,S001,Clouds,D,before,5,3,1,True,False,False,P007_S001_Clouds
+P007,S001,Clouds,D,after,7,4,3,False,False,False,P007_S001_Clouds
+P007,S001,28 days later,B,before,5,2,3,True,False,False,P007_S001_28 days later
+P007,S001,28 days later,B,after,2,7,2,False,False,False,P007_S001_28 days later
+P007,S001,My girl,C,before,6,3,4,False,False,False,P007_S001_My girl
+P007,S001,My girl,C,after,1,3,3,False,False,False,P007_S001_My girl
+P007,S001,When Harry met Sally,A,before,7,3,6,False,False,False,P007_S001_When Harry met Sally
+P007,S001,When Harry met Sally,A,after,8,6,5,False,False,True,P007_S001_When Harry met Sally
+P007,S002,Clouds,D,before,5,3,4,True,False,False,P007_S002_Clouds
+P007,S002,Clouds,D,after,6,2,5,False,False,True,P007_S002_Clouds
+P007,S002,Mr. Bean,A,before,5,2,5,True,False,True,P007_S002_Mr. Bean
+P007,S002,Mr. Bean,A,after,7,4,6,False,False,False,P007_S002_Mr. Bean
+P007,S002,Misery,B,before,6,2,5,False,False,True,P007_S002_Misery
+P007,S002,Misery,B,after,2,7,2,False,False,False,P007_S002_Misery
+P007,S002,Dangerous Minds,C,before,4,3,4,False,False,False,P007_S002_Dangerous Minds
+P007,S002,Dangerous Minds,C,after,2,4,3,False,False,False,P007_S002_Dangerous Minds
+P006,S001,Clouds,D,before,5,3,4,True,False,False,P006_S001_Clouds
+P006,S001,Clouds,D,after,5,4,5,True,False,True,P006_S001_Clouds
+P006,S001,There is something about Mary,A,before,5,3,5,True,False,True,P006_S001_There is something about Mary
+P006,S001,There is something about Mary,A,after,6,3,5,False,False,True,P006_S001_There is something about Mary
+P006,S001,The Champ,C,before,5,3,5,True,False,True,P006_S001_The Champ
+P006,S001,The Champ,C,after,3,5,3,False,True,False,P006_S001_The Champ
+P006,S001,The Shining,B,before,4,3,5,False,False,True,P006_S001_The Shining
+P006,S001,The Shining,B,after,4,4,3,False,False,False,P006_S001_The Shining
+P002,S002,Clouds,D,before,5,5,5,True,True,True,P002_S002_Clouds
+P002,S002,Clouds,D,after,5,3,3,True,False,False,P002_S002_Clouds
+P002,S002,When Harry met Sally,A,before,5,3,3,True,False,False,P002_S002_When Harry met Sally
+P002,S002,When Harry met Sally,A,after,9,7,7,False,False,False,P002_S002_When Harry met Sally
+P002,S002,Scream,B,before,8,5,5,False,True,True,P002_S002_Scream
+P002,S002,Scream,B,after,8,8,9,False,False,False,P002_S002_Scream
+P002,S002,My girl,C,before,8,4,5,False,False,True,P002_S002_My girl
+P002,S002,My girl,C,after,3,5,5,False,True,True,P002_S002_My girl
+P010,S001,Clouds,D,before,5,5,8,True,True,False,P010_S001_Clouds
+P010,S001,Clouds,D,after,7,2,7,False,False,False,P010_S001_Clouds
+P010,S001,There is something about Mary,A,before,2,2,4,False,False,False,P010_S001_There is something about Mary
+P010,S001,There is something about Mary,A,after,8,7,5,False,False,True,P010_S001_There is something about Mary
+P010,S001,The Shining,B,before,3,3,3,False,False,False,P010_S001_The Shining
+P010,S001,The Shining,B,after,2,7,2,False,False,False,P010_S001_The Shining
+P010,S001,The Champ,C,before,5,2,2,True,False,False,P010_S001_The Champ
+P010,S001,The Champ,C,after,1,5,2,False,True,False,P010_S001_The Champ
+P011,S001,Clouds,D,before,7,5,9,False,True,False,P011_S001_Clouds
+P011,S001,Clouds,D,after,8,2,7,False,False,False,P011_S001_Clouds
+P011,S001,When Harry met Sally,A,before,8,3,7,False,False,False,P011_S001_When Harry met Sally
+P011,S001,When Harry met Sally,A,after,4,4,8,False,False,False,P011_S001_When Harry met Sally
+P011,S001,Misery,B,before,8,2,9,False,False,False,P011_S001_Misery
+P011,S001,Misery,B,after,1,7,6,False,False,False,P011_S001_Misery
+P011,S001,My girl,C,before,8,1,8,False,False,False,P011_S001_My girl
+P011,S001,My girl,C,after,1,8,6,False,False,False,P011_S001_My girl
+P012,S001,Clouds,D,before,5,5,5,True,True,True,P012_S001_Clouds
+P012,S001,Clouds,D,after,7,5,3,False,True,False,P012_S001_Clouds
+P012,S001,The Champ,C,before,7,6,2,False,False,False,P012_S001_The Champ
+P012,S001,The Champ,C,after,5,5,8,True,True,False,P012_S001_The Champ
+P012,S001,28 days later,B,before,6,6,3,False,False,False,P012_S001_28 days later
+P012,S001,28 days later,B,after,5,5,5,True,True,True,P012_S001_28 days later
+P012,S001,There is something about Mary,A,before,5,5,5,True,True,True,P012_S001_There is something about Mary
+P012,S001,There is something about Mary,A,after,6,5,2,False,True,False,P012_S001_There is something about Mary
+P013,S001,Clouds,D,before,7,8,8,False,False,False,P013_S001_Clouds
+P013,S001,Clouds,D,after,8,8,9,False,False,False,P013_S001_Clouds
+P013,S001,28 days later,B,before,6,7,7,False,False,False,P013_S001_28 days later
+P013,S001,28 days later,B,after,9,8,9,False,False,False,P013_S001_28 days later
+P013,S001,When Harry met Sally,A,before,5,8,5,True,False,True,P013_S001_When Harry met Sally
+P013,S001,When Harry met Sally,A,after,5,6,5,True,False,True,P013_S001_When Harry met Sally
+P013,S001,My girl,C,before,1,9,9,False,False,False,P013_S001_My girl
+P013,S001,My girl,C,after,5,5,5,True,True,True,P013_S001_My girl
+P014,S001,Clouds,D,before,8,8,6,False,False,False,P014_S001_Clouds
+P014,S001,Clouds,D,after,8,8,8,False,False,False,P014_S001_Clouds
+P014,S001,Misery,B,before,8,8,8,False,False,False,P014_S001_Misery
+P014,S001,Misery,B,after,3,5,3,False,True,False,P014_S001_Misery
+P014,S001,There is something about Mary,A,before,8,8,8,False,False,False,P014_S001_There is something about Mary
+P014,S001,There is something about Mary,A,after,5,5,3,True,True,False,P014_S001_There is something about Mary
+P014,S001,Dangerous Minds,C,before,8,8,8,False,False,False,P014_S001_Dangerous Minds
+P014,S001,Dangerous Minds,C,after,3,3,4,False,False,False,P014_S001_Dangerous Minds
+P016,S001,Clouds,D,before,7,2,1,False,False,False,P016_S001_Clouds
+P016,S001,Clouds,D,after,7,3,7,False,False,False,P016_S001_Clouds
+P016,S001,28 days later,B,before,7,3,5,False,False,True,P016_S001_28 days later
+P016,S001,28 days later,B,after,3,4,2,False,False,False,P016_S001_28 days later
+P016,S001,The Champ,C,before,7,4,4,False,False,False,P016_S001_The Champ
+P016,S001,The Champ,C,after,2,6,1,False,False,False,P016_S001_The Champ
+P016,S001,Mr. Bean,A,before,7,5,5,False,True,True,P016_S001_Mr. Bean
+P016,S001,Mr. Bean,A,after,8,7,4,False,False,False,P016_S001_Mr. Bean
+P017,S001,Clouds,D,before,4,4,3,False,False,False,P017_S001_Clouds
+P017,S001,Clouds,D,after,5,4,5,True,False,True,P017_S001_Clouds
+P017,S001,Dangerous Minds,C,before,6,4,4,False,False,False,P017_S001_Dangerous Minds
+P017,S001,Dangerous Minds,C,after,4,4,4,False,False,False,P017_S001_Dangerous Minds
+P017,S001,The Shining,B,before,4,4,3,False,False,False,P017_S001_The Shining
+P017,S001,The Shining,B,after,5,4,3,True,False,False,P017_S001_The Shining
+P017,S001,Mr. Bean,A,before,5,4,4,True,False,False,P017_S001_Mr. Bean
+P017,S001,Mr. Bean,A,after,6,4,4,False,False,False,P017_S001_Mr. Bean
+P018,S001,Clouds,D,before,8,2,8,False,False,False,P018_S001_Clouds
+P018,S001,Clouds,D,after,7,5,3,False,True,False,P018_S001_Clouds
+P018,S001,The Champ,C,before,6,6,1,False,False,False,P018_S001_The Champ
+P018,S001,The Champ,C,after,1,5,1,False,True,False,P018_S001_The Champ
+P018,S001,28 days later,B,before,1,5,1,False,True,False,P018_S001_28 days later
+P018,S001,28 days later,B,after,3,1,1,False,False,False,P018_S001_28 days later
+P018,S001,The Visitors,A,before,2,3,1,False,False,False,P018_S001_The Visitors
+P018,S001,The Visitors,A,after,4,4,4,False,False,False,P018_S001_The Visitors
+P015,S001,Clouds,D,before,7,1,8,False,False,False,P015_S001_Clouds
+P015,S001,Clouds,D,after,8,1,7,False,False,False,P015_S001_Clouds
+P015,S001,Dangerous Minds,C,before,9,1,7,False,False,False,P015_S001_Dangerous Minds
+P015,S001,Dangerous Minds,C,after,3,5,4,False,True,False,P015_S001_Dangerous Minds
+P015,S001,Mr. Bean,A,before,7,3,6,False,False,False,P015_S001_Mr. Bean
+P015,S001,Mr. Bean,A,after,9,3,9,False,False,False,P015_S001_Mr. Bean
+P015,S001,28 days later,B,before,9,1,9,False,False,False,P015_S001_28 days later
+P015,S001,28 days later,B,after,7,8,5,False,False,True,P015_S001_28 days later
+P019,S001,Clouds,D,before,9,7,9,False,False,False,P019_S001_Clouds
+P019,S001,Clouds,D,after,9,7,9,False,False,False,P019_S001_Clouds
+P019,S001,When Harry met Sally,A,before,7,5,9,False,True,False,P019_S001_When Harry met Sally
+P019,S001,When Harry met Sally,A,after,3,1,3,False,False,False,P019_S001_When Harry met Sally
+P019,S001,Dangerous Minds,C,before,7,5,7,False,True,False,P019_S001_Dangerous Minds
+P019,S001,Dangerous Minds,C,after,1,1,2,False,False,False,P019_S001_Dangerous Minds
+P019,S001,28 days later,B,before,7,7,6,False,False,False,P019_S001_28 days later
+P019,S001,28 days later,B,after,5,8,7,True,False,False,P019_S001_28 days later
+P020,S001,Clouds,D,before,5,5,9,True,True,False,P020_S001_Clouds
+P020,S001,Clouds,D,after,5,1,9,True,False,False,P020_S001_Clouds
+P020,S001,28 days later,B,before,6,5,9,False,True,False,P020_S001_28 days later
+P020,S001,28 days later,B,after,9,9,9,False,False,False,P020_S001_28 days later
+P020,S001,There is something about Mary,A,before,5,6,9,True,False,False,P020_S001_There is something about Mary
+P020,S001,There is something about Mary,A,after,8,8,9,False,False,False,P020_S001_There is something about Mary
+P020,S001,My girl,C,before,3,3,9,False,False,False,P020_S001_My girl
+P020,S001,My girl,C,after,5,5,9,True,True,False,P020_S001_My girl
+P021,S001,Clouds,D,before,5,1,3,True,False,False,P021_S001_Clouds
+P021,S001,Clouds,D,after,5,1,3,True,False,False,P021_S001_Clouds
+P021,S001,Scream,B,before,5,1,3,True,False,False,P021_S001_Scream
+P021,S001,Scream,B,after,3,3,3,False,False,False,P021_S001_Scream
+P021,S001,The Visitors,A,before,3,3,3,False,False,False,P021_S001_The Visitors
+P021,S001,The Visitors,A,after,5,3,3,True,False,False,P021_S001_The Visitors
+P021,S001,Dangerous Minds,C,before,5,1,3,True,False,False,P021_S001_Dangerous Minds
+P021,S001,Dangerous Minds,C,after,3,3,3,False,False,False,P021_S001_Dangerous Minds
+P022,S001,Clouds,D,before,5,2,5,True,False,True,P022_S001_Clouds
+P022,S001,Clouds,D,after,9,1,5,False,False,True,P022_S001_Clouds
+P022,S001,The Visitors,A,before,6,4,3,False,False,False,P022_S001_The Visitors
+P022,S001,The Visitors,A,after,3,7,3,False,False,False,P022_S001_The Visitors
+P022,S001,My girl,C,before,6,2,4,False,False,False,P022_S001_My girl
+P022,S001,My girl,C,after,2,5,4,False,True,False,P022_S001_My girl
+P022,S001,Misery,B,before,6,5,5,False,True,True,P022_S001_Misery
+P022,S001,Misery,B,after,1,7,2,False,False,False,P022_S001_Misery
+P023,S001,Clouds,D,before,4,1,7,False,False,False,P023_S001_Clouds
+P023,S001,Clouds,D,after,9,3,5,False,False,True,P023_S001_Clouds
+P023,S001,My girl,C,before,9,3,5,False,False,True,P023_S001_My girl
+P023,S001,My girl,C,after,3,1,4,False,False,False,P023_S001_My girl
+P023,S001,Misery,B,before,8,4,5,False,False,True,P023_S001_Misery
+P023,S001,Misery,B,after,4,3,5,False,False,True,P023_S001_Misery
+P023,S001,Mr. Bean,A,before,9,2,5,False,False,True,P023_S001_Mr. Bean
+P023,S001,Mr. Bean,A,after,9,4,5,False,False,True,P023_S001_Mr. Bean
+P024,S001,Clouds,D,before,5,3,6,True,False,False,P024_S001_Clouds
+P024,S001,Clouds,D,after,7,1,9,False,False,False,P024_S001_Clouds
+P024,S001,The Visitors,A,before,7,3,9,False,False,False,P024_S001_The Visitors
+P024,S001,The Visitors,A,after,1,5,5,False,True,True,P024_S001_The Visitors
+P024,S001,The Champ,C,before,5,1,9,True,False,False,P024_S001_The Champ
+P024,S001,The Champ,C,after,1,7,5,False,False,True,P024_S001_The Champ
+P024,S001,Misery,B,before,5,1,9,True,False,False,P024_S001_Misery
+P024,S001,Misery,B,after,1,9,1,False,False,False,P024_S001_Misery
+P025,S001,Clouds,D,before,5,1,5,True,False,True,P025_S001_Clouds
+P025,S001,Clouds,D,after,5,2,3,True,False,False,P025_S001_Clouds
+P025,S001,The Visitors,A,before,5,3,3,True,False,False,P025_S001_The Visitors
+P025,S001,The Visitors,A,after,5,7,7,True,False,False,P025_S001_The Visitors
+P025,S001,28 days later,B,before,6,2,2,False,False,False,P025_S001_28 days later
+P025,S001,28 days later,B,after,2,6,5,False,False,True,P025_S001_28 days later
+P025,S001,Dangerous Minds,C,before,7,2,2,False,False,False,P025_S001_Dangerous Minds
+P025,S001,Dangerous Minds,C,after,4,4,2,False,False,False,P025_S001_Dangerous Minds
+P026,S001,Clouds,D,before,4,1,9,False,False,False,P026_S001_Clouds
+P026,S001,Clouds,D,after,4,2,9,False,False,False,P026_S001_Clouds
+P026,S001,Mr. Bean,A,before,2,1,9,False,False,False,P026_S001_Mr. Bean
+P026,S001,Mr. Bean,A,after,9,5,9,False,True,False,P026_S001_Mr. Bean
+P026,S001,28 days later,B,before,3,2,9,False,False,False,P026_S001_28 days later
+P026,S001,28 days later,B,after,2,7,5,False,False,True,P026_S001_28 days later
+P026,S001,Dangerous Minds,C,before,3,4,7,False,False,False,P026_S001_Dangerous Minds
+P026,S001,Dangerous Minds,C,after,5,1,9,True,False,False,P026_S001_Dangerous Minds
+P027,S001,Clouds,D,before,5,5,5,True,True,True,P027_S001_Clouds
+P027,S001,Clouds,D,after,7,4,6,False,False,False,P027_S001_Clouds
+P027,S001,The Champ,C,before,8,4,6,False,False,False,P027_S001_The Champ
+P027,S001,The Champ,C,after,1,8,2,False,False,False,P027_S001_The Champ
+P027,S001,Scream,B,before,4,5,4,False,True,False,P027_S001_Scream
+P027,S001,Scream,B,after,1,8,2,False,False,False,P027_S001_Scream
+P027,S001,The Visitors,A,before,5,5,6,True,True,False,P027_S001_The Visitors
+P027,S001,The Visitors,A,after,5,7,5,True,False,True,P027_S001_The Visitors
+P028,S001,Clouds,D,before,5,2,5,True,False,True,P028_S001_Clouds
+P028,S001,Clouds,D,after,8,2,5,False,False,True,P028_S001_Clouds
+P028,S001,Misery,B,before,7,2,5,False,False,True,P028_S001_Misery
+P028,S001,Misery,B,after,1,6,3,False,False,False,P028_S001_Misery
+P028,S001,The Champ,C,before,7,2,5,False,False,True,P028_S001_The Champ
+P028,S001,The Champ,C,after,1,5,2,False,True,False,P028_S001_The Champ
+P028,S001,The Visitors,A,before,6,3,5,False,False,True,P028_S001_The Visitors
+P028,S001,The Visitors,A,after,5,2,5,True,False,True,P028_S001_The Visitors
+P011,S002,Clouds,D,before,5,5,5,True,True,True,P011_S002_Clouds
+P011,S002,Clouds,D,after,7,7,8,False,False,False,P011_S002_Clouds
+P011,S002,The Visitors,A,before,9,8,9,False,False,False,P011_S002_The Visitors
+P011,S002,The Visitors,A,after,6,6,8,False,False,False,P011_S002_The Visitors
+P011,S002,The Champ,C,before,8,7,9,False,False,False,P011_S002_The Champ
+P011,S002,The Champ,C,after,1,5,2,False,True,False,P011_S002_The Champ
+P011,S002,Scream,B,before,6,3,7,False,False,False,P011_S002_Scream
+P011,S002,Scream,B,after,1,6,4,False,False,False,P011_S002_Scream
+P017,S002,Clouds,D,before,3,2,5,False,False,True,P017_S002_Clouds
+P017,S002,Clouds,D,after,4,3,3,False,False,False,P017_S002_Clouds
+P017,S002,The Shining 2,B,before,3,3,3,False,False,False,P017_S002_The Shining 2
+P017,S002,The Shining 2,B,after,4,4,4,False,False,False,P017_S002_The Shining 2
+P017,S002,Fish called Wanda,A,before,3,4,3,False,False,False,P017_S002_Fish called Wanda
+P017,S002,Fish called Wanda,A,after,4,3,4,False,False,False,P017_S002_Fish called Wanda
+P017,S002,Life is beautiful,C,before,4,4,3,False,False,False,P017_S002_Life is beautiful
+P017,S002,Life is beautiful,C,after,3,4,3,False,False,False,P017_S002_Life is beautiful

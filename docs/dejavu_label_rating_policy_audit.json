@@ -1,0 +1,41 @@
+{
+  "total_rating_rows": 272,
+  "total_presentations": 136,
+  "explanation": "exactly 2 ratings per presentation (before + after), 136 x 2 = 272",
+  "rating_time_counts": {"before": 136, "after": 136},
+  "ratings_per_session": {"min": 8, "max": 8, "mean": 8.0, "std": 0.0, "n_sessions": 34},
+  "ratings_per_presentation": {"min": 2, "max": 2, "constant": true},
+  "baseline_has_ratings": true,
+  "baseline_rating_count": 68,
+  "before_after_identical_count": 16,
+  "before_after_total_presentations": 136,
+  "before_after_identical_fraction": 0.1176,
+  "duplicate_ratings_found": false,
+  "conflicting_ratings_found": false,
+  "self_report_or_normative": "self_report",
+  "scale": {"min": 1, "max": 9, "type": "integer 1-9 SAM-style self-assessment"},
+  "missing_values": 0,
+  "midpoint_value": 5,
+  "midpoint_prevalence": {
+    "valence": {"before": {"count": 38, "fraction": 0.279}, "after": {"count": 27, "fraction": 0.199}},
+    "arousal": {"before": {"count": 30, "fraction": 0.221}, "after": {"count": 27, "fraction": 0.199}},
+    "dominance": {"before": {"count": 30, "fraction": 0.221}, "after": {"count": 29, "fraction": 0.213}}
+  },
+  "one_to_one_join_possible_without_policy_decision": false,
+  "candidate_label_policies": [
+    {"name": "after_only", "description": "use only post-exposure rating"},
+    {"name": "before_only", "description": "use only pre-exposure rating"},
+    {"name": "after_minus_before", "description": "delta/change score"},
+    {"name": "discard_midpoint", "description": "drop value=5 rows, binarize remainder"},
+    {"name": "midpoint_as_low", "description": "fold value=5 into low/negative class"},
+    {"name": "midpoint_as_high", "description": "fold value=5 into high/positive class"}
+  ],
+  "policy_selected": null,
+  "policy_selection_reason": "not selected per instructions - must not choose based on class balance or model performance",
+  "manifest_default_note": "manifests/dejavu_stimulus_presentation_manifest.csv uses a provisional default (prefer after, else before) recorded transparently in the rating_policy_status column; this is not the final label policy decision",
+  "outcome": {
+    "rating_join": "MULTIPLE_PER_PRESENTATION",
+    "binary_valence_label_policy": "NOT_DEFINED",
+    "binary_arousal_label_policy": "NOT_DEFINED"
+  }
+}
