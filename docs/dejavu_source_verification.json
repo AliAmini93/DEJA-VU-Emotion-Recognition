@@ -1,0 +1,79 @@
+{
+  "source_url": "https://zenodo.org/api/records/17773125",
+  "fetched_via": "scripts/00_fetch_dejavu_zenodo_metadata.py",
+  "fetched_at_local": "2026-07-13T15:38:00+03:00",
+  "raw_metadata_file": "/mnt/HDD/AliWorks/DEJA-VU/metadata/zenodo_record_17773125.json",
+  "raw_metadata_size_bytes": 5915,
+  "raw_metadata_sha256": "42a71ea4d172777c610c3e44e8b30ddc760b48b3557f230dd103218442ffb99a",
+  "record_identity": {
+    "record_id": 17773125,
+    "concept_record_id": "17773124",
+    "doi": "10.5281/zenodo.17773125",
+    "concept_doi": "10.5281/zenodo.17773124",
+    "title": "DEJA-VU: A multimodal dataset for emotional transition analysis in virtual reality",
+    "publication_date": "2025-12-01",
+    "created": "2025-12-01T03:08:02.809675+00:00",
+    "updated": "2025-12-01T03:08:03.249352+00:00",
+    "version": "1.0.0",
+    "access_right": "open",
+    "license_id": "cc-by-4.0",
+    "resource_type": "dataset",
+    "status": "published"
+  },
+  "creators": [
+    {"name": "Ishmakhametov, Namazbai", "affiliation": "Kennesaw State University", "orcid": "0000-0002-3352-6143"},
+    {"name": "Naser, Mohammad", "affiliation": "Kennesaw State University", "orcid": "0000-0001-9465-351X"},
+    {"name": "Kelil, Selam", "affiliation": "Kennesaw State University", "orcid": "0009-0004-6022-0889"},
+    {"name": "McClary, Charles", "affiliation": "Kennesaw State University", "orcid": "0009-0000-2983-0882"},
+    {"name": "Metcalfe, Jason S.", "affiliation": "DEVCOM Army Research Laboratory", "orcid": "0000-0001-9086-9962"},
+    {"name": "Bhattacharya, Sylvia", "affiliation": "Kennesaw State University", "orcid": "0000-0002-5525-7677"}
+  ],
+  "keywords": null,
+  "related_identifiers": null,
+  "description_raw_html": "<p>Emotion recognition from physiological signals typically treats emotions as discrete, static states rather than dynamic processes, creating limitations for real-world affective computing applications. This dataset contains multimodal physiological recordings from 28 participants experiencing systematically designed emotional transitions in virtual reality environments. Participants viewed validated emotion-eliciting video stimuli across three emotional quadrants with 69-second neutral reset periods between stimuli. Four physiological modalities were recorded simultaneously: EEG (7 channels, 300 Hz), ECG (4 leads, 512 Hz), EMG (2 channels, 512 Hz), and GSR (3 channels, 10 Hz). The experimental protocol employed balanced incomplete block design across six possible emotional sequences. Statistical validation demonstrates quadrant differentiation with average of 70% physiological validation based and 85% self-reported based emotion induction success rates. Individual journey analysis reveals emotional mobility ranging 8.84%-58.39% on Valence-Arousal plane of theoretical maximum. The dataset comprises 1.85GB of raw data and 238 video-aligned physiological segments, and comprehensive self-assessment ratings. This resource enables research in dynamic emotion recognition, temporal affective computing, and individual differences in emotional responsivity during controlled emotional transitions.</p>",
+  "observed_discrepancy": {
+    "description_states": "1.85GB of raw data",
+    "actual_total_official_bytes": 3996579943,
+    "actual_total_human": "3.72 GiB",
+    "resolved": false,
+    "note": "not resolved here; requires inspection of extracted DEJA-VU.rar contents"
+  },
+  "files": [
+    {
+      "filename": "DEJA-VU.rar",
+      "size_bytes": 3996522166,
+      "size_human": "3.72 GiB",
+      "checksum_raw": "md5:0815b7d78915d132084f4ef497cef6d0",
+      "checksum_algorithm": "md5",
+      "checksum_value": "0815b7d78915d132084f4ef497cef6d0",
+      "download_url": "https://zenodo.org/api/records/17773125/files/DEJA-VU.rar/content",
+      "media_type": null,
+      "media_type_note": "Zenodo files[] objects for this record do not include a type/media-type field; not fabricated",
+      "category": "archive"
+    },
+    {
+      "filename": "DEJA_VU_code.rar",
+      "size_bytes": 57777,
+      "size_human": "56.42 KiB",
+      "checksum_raw": "md5:0747b65d5bbe215c621e435d546fe1c0",
+      "checksum_algorithm": "md5",
+      "checksum_value": "0747b65d5bbe215c621e435d546fe1c0",
+      "download_url": "https://zenodo.org/api/records/17773125/files/DEJA_VU_code.rar/content",
+      "media_type": null,
+      "media_type_note": "Zenodo files[] objects for this record do not include a type/media-type field; not fabricated",
+      "category": "official_code"
+    }
+  ],
+  "file_count": 2,
+  "total_bytes": 3996579943,
+  "total_human": "3.72 GiB",
+  "validation": {
+    "record_id_matches_expected": true,
+    "required_top_level_fields_present": true,
+    "required_metadata_fields_present": true,
+    "all_files_have_key_size_checksum_links": true,
+    "all_checksums_well_formed": true,
+    "all_sizes_positive_integers": true
+  },
+  "outcome": "VERIFIED"
+}

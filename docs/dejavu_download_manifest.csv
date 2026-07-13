@@ -1,0 +1,3 @@
+record_id,concept_record_id,dataset_version,filename,relative_output_path,size_bytes,size_human,checksum_raw,checksum_algorithm,checksum_value,download_url,media_type,category,download_status,local_size_bytes,checksum_status,error
+17773125,17773124,1.0.0,DEJA-VU.rar,DEJA-VU.rar,3996522166,3.72 GiB,md5:0815b7d78915d132084f4ef497cef6d0,md5,0815b7d78915d132084f4ef497cef6d0,https://zenodo.org/api/records/17773125/files/DEJA-VU.rar/content,,archive,NOT_STARTED,,PENDING,
+17773125,17773124,1.0.0,DEJA_VU_code.rar,DEJA_VU_code.rar,57777,56.42 KiB,md5:0747b65d5bbe215c621e435d546fe1c0,md5,0747b65d5bbe215c621e435d546fe1c0,https://zenodo.org/api/records/17773125/files/DEJA_VU_code.rar/content,,official_code,DOWNLOADED_AND_VERIFIED,57777,OK,
