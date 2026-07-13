@@ -1,0 +1,953 @@
+participant_id,session_id,xdf_file,stream_name,stream_type,channel_index,channel_label,channel_unit,nominal_sampling_rate,official_code_selected,official_code_assigned_label,metadata_consistent,notes
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P001,S001,sub-P001_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P001,S002,sub-P001_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P002,S001,sub-P002_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P002,S002,sub-P002_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P003,S001,sub-P003_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P004,S001,sub-P004_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P005,S001,sub-P005_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P006,S001,sub-P006_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P007,S001,sub-P007_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P007,S002,sub-P007_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P008,S001,sub-P008_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P009,S001,sub-P009_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P009,S002,sub-P009_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P010,S001,sub-P010_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P011,S001,sub-P011_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P011,S002,sub-P011_ses-S002_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P012,S001,sub-P012_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P013,S001,sub-P013_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P014,S001,sub-P014_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P015,S001,sub-P015_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P016,S001,sub-P016_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P017,S001,sub-P017_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P017,S002,sub-P666_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P018,S001,sub-P018_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P019,S001,sub-P019_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P020,S001,sub-P020_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P021,S001,sub-P021_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P022,S001,sub-P022_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P023,S001,sub-P023_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P024,S001,sub-P024_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P025,S001,sub-P025_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P026,S001,sub-P026_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P027,S001,sub-P027_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,0,Accel_LN_X,,9.99938968568813,True,GSR_Conductance,False,MISMATCH: assigned label does not match true descriptor label at this index
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,1,Accel_LN_Y,,9.99938968568813,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,2,Accel_LN_Z,,9.99938968568813,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,3,GSR_Skin_Resistance,,9.99938968568813,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,4,GSR_Skin_Conductance,,9.99938968568813,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,5,GSR_Range,,9.99938968568813,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_894F,Sensor_Data,6,PPG_A13,,9.99938968568813,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,0,Battery,,512.0,True,EMG_Zygomaticus,False,MISMATCH: assigned label does not match true descriptor label at this index
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,1,ECG_EMG_Status1,,512.0,True,EMG_Trapezius,False,MISMATCH: assigned label does not match true descriptor label at this index
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,2,EMG_CH1_24BIT,,512.0,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BBBD,Sensor_Data,3,EMG_CH2_24BIT,,512.0,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,0,F3,microvolts,300.0,True,FP1,True,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,1,S2,microvolts,300.0,True,FP2,True,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,2,S3,microvolts,300.0,True,C3,True,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,3,S4,microvolts,300.0,True,C4,True,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,4,S5,microvolts,300.0,True,LE,True,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,5,S6,microvolts,300.0,True,EOG1,True,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,6,S7,microvolts,300.0,True,EOG2,True,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,DSI_FLEX,EEG,7,TRG,microvolts,300.0,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,0,Accel_LN_X,,512.0,True,ECG_Lead_I,False,MISMATCH: assigned label does not match true descriptor label at this index
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,1,Accel_LN_Y,,512.0,True,ECG_Lead_II,False,MISMATCH: assigned label does not match true descriptor label at this index
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,2,Accel_LN_Z,,512.0,True,ECG_Lead_III,False,MISMATCH: assigned label does not match true descriptor label at this index
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,3,ECG_EMG_Status1,,512.0,True,ECG_Chest,False,MISMATCH: assigned label does not match true descriptor label at this index
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,4,ECG_EMG_Status2,,512.0,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,5,ECG_LL-RA_24BIT,,512.0,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,6,ECG_LA-RA_24BIT,,512.0,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,7,ECG_LL-LA_24BIT,,512.0,False,,,
+P028,S001,sub-P028_ses-S001_task-Default_run-001_eeg.xdf,Shimmer_BE1D,Sensor_Data,8,ECG_Vx-RL_24BIT,,512.0,False,,,

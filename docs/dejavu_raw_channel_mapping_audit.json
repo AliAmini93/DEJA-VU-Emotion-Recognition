@@ -1,0 +1,663 @@
+{
+  "total_xdf_files_audited": 34,
+  "total_channel_rows": 952,
+  "classification": {
+    "EEG": "EEG_MAPPING_VERIFIED",
+    "EMG": "EMG_MAPPING_INCORRECT",
+    "ECG": "ECG_MAPPING_INCORRECT",
+    "GSR": "GSR_MAPPING_INCORRECT"
+  },
+  "deep_dive_sessions": [
+    {
+      "participant": "P001",
+      "session": "S001",
+      "streams": {
+        "Shimmer_894F": {
+          "all_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "code_selected_indices": [
+            0
+          ],
+          "code_selected_labels": [
+            "Accel_LN_X"
+          ],
+          "true_signal_indices_by_label": [
+            4
+          ],
+          "true_signal_labels": [
+            "GSR_Skin_Conductance"
+          ],
+          "code_selection_matches_true_signal": false,
+          "stats_at_code_selected_indices": {
+            "Accel_LN_X": {
+              "mean": -5.991123199462891,
+              "std": 1.0023318529129028,
+              "min": -9.206521987915039,
+              "max": 5.880434989929199,
+              "range": 15.086956977844238,
+              "n_unique_first_1000": 20
+            }
+          },
+          "stats_at_true_signal_indices": {
+            "GSR_Skin_Conductance": {
+              "mean": 0.7012561559677124,
+              "std": 0.16935959458351135,
+              "min": 0.47707846760749817,
+              "max": 1.3664113283157349,
+              "range": 0.8893328905105591,
+              "n_unique_first_1000": 750
+            }
+          }
+        },
+        "Shimmer_BBBD": {
+          "all_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "code_selected_indices": [
+            0,
+            1
+          ],
+          "code_selected_labels": [
+            "Battery",
+            "ECG_EMG_Status1"
+          ],
+          "true_signal_indices_by_label": [
+            2,
+            3
+          ],
+          "true_signal_labels": [
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "code_selection_matches_true_signal": false,
+          "stats_at_code_selected_indices": {
+            "Battery": {
+              "mean": 3774.58935546875,
+              "std": 10.841848373413086,
+              "min": 3680.586181640625,
+              "max": 3796.3369140625,
+              "range": 115.750732421875,
+              "n_unique_first_1000": 38
+            },
+            "ECG_EMG_Status1": {
+              "mean": 128.0,
+              "std": 0.0,
+              "min": 128.0,
+              "max": 128.0,
+              "range": 0.0,
+              "n_unique_first_1000": 1
+            }
+          },
+          "stats_at_true_signal_indices": {
+            "EMG_CH1_24BIT": {
+              "mean": 7.7166595458984375,
+              "std": 1.1146939992904663,
+              "min": 3.3270187377929688,
+              "max": 17.201921463012695,
+              "range": 13.874902725219727,
+              "n_unique_first_1000": 589
+            },
+            "EMG_CH2_24BIT": {
+              "mean": 9.563373565673828,
+              "std": 1.3976798057556152,
+              "min": 5.998499870300293,
+              "max": 16.595739364624023,
+              "range": 10.59723949432373,
+              "n_unique_first_1000": 772
+            }
+          }
+        },
+        "Shimmer_BE1D": {
+          "all_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "code_selected_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "code_selected_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1"
+          ],
+          "true_signal_indices_by_label": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "true_signal_labels": [
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "code_selection_matches_true_signal": false,
+          "stats_at_code_selected_indices": {
+            "Accel_LN_X": {
+              "mean": 1.8364965915679932,
+              "std": 0.19482557475566864,
+              "min": 0.30434781312942505,
+              "max": 2.7826087474823,
+              "range": 2.4782609939575195,
+              "n_unique_first_1000": 16
+            },
+            "Accel_LN_Y": {
+              "mean": 10.582648277282715,
+              "std": 0.2560639977455139,
+              "min": 9.032608985900879,
+              "max": 12.108695983886719,
+              "range": 3.07608699798584,
+              "n_unique_first_1000": 35
+            },
+            "Accel_LN_Z": {
+              "mean": 5.124095439910889,
+              "std": 0.680141031742096,
+              "min": 1.31521737575531,
+              "max": 8.30434799194336,
+              "range": 6.98913049697876,
+              "n_unique_first_1000": 54
+            },
+            "ECG_EMG_Status1": {
+              "mean": 128.0,
+              "std": 0.0,
+              "min": 128.0,
+              "max": 128.0,
+              "range": 0.0,
+              "n_unique_first_1000": 1
+            }
+          },
+          "stats_at_true_signal_indices": {
+            "ECG_LL-RA_24BIT": {
+              "mean": 1.2959411144256592,
+              "std": 0.538474977016449,
+              "min": -0.40481871366500854,
+              "max": 3.860670804977417,
+              "range": 4.26548957824707,
+              "n_unique_first_1000": 766
+            },
+            "ECG_LA-RA_24BIT": {
+              "mean": 1.0789062976837158,
+              "std": 0.20346160233020782,
+              "min": 0.05524516850709915,
+              "max": 4.145190715789795,
+              "range": 4.089945316314697,
+              "n_unique_first_1000": 774
+            },
+            "ECG_LL-LA_24BIT": {
+              "mean": 0.21703468263149261,
+              "std": 0.5916706323623657,
+              "min": -1.3400919437408447,
+              "max": 2.003106117248535,
+              "range": 3.34319806098938,
+              "n_unique_first_1000": 826
+            },
+            "ECG_Vx-RL_24BIT": {
+              "mean": -56.42285919189453,
+              "std": 20.19523048400879,
+              "min": -87.30258178710938,
+              "max": -11.916007995605469,
+              "range": 75.3865737915039,
+              "n_unique_first_1000": 896
+            }
+          }
+        }
+      }
+    },
+    {
+      "participant": "P017",
+      "session": "S002",
+      "streams": {
+        "Shimmer_894F": {
+          "all_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "code_selected_indices": [
+            0
+          ],
+          "code_selected_labels": [
+            "Accel_LN_X"
+          ],
+          "true_signal_indices_by_label": [
+            4
+          ],
+          "true_signal_labels": [
+            "GSR_Skin_Conductance"
+          ],
+          "code_selection_matches_true_signal": false,
+          "stats_at_code_selected_indices": {
+            "Accel_LN_X": {
+              "mean": -0.570136308670044,
+              "std": 0.7801578640937805,
+              "min": -6.3152174949646,
+              "max": 8.510869979858398,
+              "range": 14.826087951660156,
+              "n_unique_first_1000": 66
+            }
+          },
+          "stats_at_true_signal_indices": {
+            "GSR_Skin_Conductance": {
+              "mean": 0.27522072196006775,
+              "std": 0.008238593116402626,
+              "min": 0.26662227511405945,
+              "max": 0.34077033400535583,
+              "range": 0.07414805889129639,
+              "n_unique_first_1000": 4
+            }
+          }
+        },
+        "Shimmer_BBBD": {
+          "all_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "code_selected_indices": [
+            0,
+            1
+          ],
+          "code_selected_labels": [
+            "Battery",
+            "ECG_EMG_Status1"
+          ],
+          "true_signal_indices_by_label": [
+            2,
+            3
+          ],
+          "true_signal_labels": [
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "code_selection_matches_true_signal": false,
+          "stats_at_code_selected_indices": {
+            "Battery": {
+              "mean": 3768.60595703125,
+              "std": 11.963364601135254,
+              "min": 3657.142822265625,
+              "max": 3827.106201171875,
+              "range": 169.96337890625,
+              "n_unique_first_1000": 47
+            },
+            "ECG_EMG_Status1": {
+              "mean": 128.0,
+              "std": 0.0,
+              "min": 128.0,
+              "max": 128.0,
+              "range": 0.0,
+              "n_unique_first_1000": 1
+            }
+          },
+          "stats_at_true_signal_indices": {
+            "EMG_CH1_24BIT": {
+              "mean": -6.531745433807373,
+              "std": 0.28815874457359314,
+              "min": -7.186848163604736,
+              "max": -5.893466949462891,
+              "range": 1.2933812141418457,
+              "n_unique_first_1000": 808
+            },
+            "EMG_CH2_24BIT": {
+              "mean": -2.7866504192352295,
+              "std": 0.36617040634155273,
+              "min": -5.145974159240723,
+              "max": -1.2849910259246826,
+              "range": 3.86098313331604,
+              "n_unique_first_1000": 841
+            }
+          }
+        },
+        "Shimmer_BE1D": {
+          "all_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "code_selected_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "code_selected_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1"
+          ],
+          "true_signal_indices_by_label": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "true_signal_labels": [
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "code_selection_matches_true_signal": false,
+          "stats_at_code_selected_indices": {
+            "Accel_LN_X": {
+              "mean": 1.6219888925552368,
+              "std": 0.0830405130982399,
+              "min": -2.2717392444610596,
+              "max": 3.67391300201416,
+              "range": 5.945652008056641,
+              "n_unique_first_1000": 12
+            },
+            "Accel_LN_Y": {
+              "mean": 5.392960548400879,
+              "std": 0.16795824468135834,
+              "min": 3.4782607555389404,
+              "max": 7.5,
+              "range": 4.0217390060424805,
+              "n_unique_first_1000": 27
+            },
+            "Accel_LN_Z": {
+              "mean": 10.741820335388184,
+              "std": 0.08510486036539078,
+              "min": 4.4347825050354,
+              "max": 15.05434799194336,
+              "range": 10.619565963745117,
+              "n_unique_first_1000": 25
+            },
+            "ECG_EMG_Status1": {
+              "mean": 128.0,
+              "std": 0.0,
+              "min": 128.0,
+              "max": 128.0,
+              "range": 0.0,
+              "n_unique_first_1000": 1
+            }
+          },
+          "stats_at_true_signal_indices": {
+            "ECG_LL-RA_24BIT": {
+              "mean": -1.8752336502075195,
+              "std": 0.5459024310112,
+              "min": -2.855006694793701,
+              "max": 0.38375920057296753,
+              "range": 3.2387659549713135,
+              "n_unique_first_1000": 876
+            },
+            "ECG_LA-RA_24BIT": {
+              "mean": 8.55012321472168,
+              "std": 0.37138932943344116,
+              "min": 7.024935245513916,
+              "max": 9.597513198852539,
+              "range": 2.572577953338623,
+              "n_unique_first_1000": 764
+            },
+            "ECG_LL-LA_24BIT": {
+              "mean": -10.4253568649292,
+              "std": 0.6833325624465942,
+              "min": -11.87468147277832,
+              "max": -7.477714538574219,
+              "range": 4.396966934204102,
+              "n_unique_first_1000": 854
+            },
+            "ECG_Vx-RL_24BIT": {
+              "mean": -5.153722286224365,
+              "std": 0.543041467666626,
+              "min": -7.3922505378723145,
+              "max": -2.951289176940918,
+              "range": 4.4409613609313965,
+              "n_unique_first_1000": 823
+            }
+          }
+        }
+      }
+    },
+    {
+      "participant": "P010",
+      "session": "S001",
+      "streams": {
+        "Shimmer_894F": {
+          "all_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "GSR_Skin_Resistance",
+            "GSR_Skin_Conductance",
+            "GSR_Range",
+            "PPG_A13"
+          ],
+          "code_selected_indices": [
+            0
+          ],
+          "code_selected_labels": [
+            "Accel_LN_X"
+          ],
+          "true_signal_indices_by_label": [
+            4
+          ],
+          "true_signal_labels": [
+            "GSR_Skin_Conductance"
+          ],
+          "code_selection_matches_true_signal": false,
+          "stats_at_code_selected_indices": {
+            "Accel_LN_X": {
+              "mean": -4.281368732452393,
+              "std": 0.11476592719554901,
+              "min": -5.66304349899292,
+              "max": -3.4347825050354004,
+              "range": 2.2282609939575195,
+              "n_unique_first_1000": 15
+            }
+          },
+          "stats_at_true_signal_indices": {
+            "GSR_Skin_Conductance": {
+              "mean": 0.32195088267326355,
+              "std": 0.004939439706504345,
+              "min": 0.3034743070602417,
+              "max": 0.33233433961868286,
+              "range": 0.028860032558441162,
+              "n_unique_first_1000": 8
+            }
+          }
+        },
+        "Shimmer_BE1D": {
+          "all_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1",
+            "ECG_EMG_Status2",
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "code_selected_indices": [
+            0,
+            1,
+            2,
+            3
+          ],
+          "code_selected_labels": [
+            "Accel_LN_X",
+            "Accel_LN_Y",
+            "Accel_LN_Z",
+            "ECG_EMG_Status1"
+          ],
+          "true_signal_indices_by_label": [
+            5,
+            6,
+            7,
+            8
+          ],
+          "true_signal_labels": [
+            "ECG_LL-RA_24BIT",
+            "ECG_LA-RA_24BIT",
+            "ECG_LL-LA_24BIT",
+            "ECG_Vx-RL_24BIT"
+          ],
+          "code_selection_matches_true_signal": false,
+          "stats_at_code_selected_indices": {
+            "Accel_LN_X": {
+              "mean": 1.9719364643096924,
+              "std": 0.10603329539299011,
+              "min": 1.54347825050354,
+              "max": 2.45652174949646,
+              "range": 0.9130434989929199,
+              "n_unique_first_1000": 13
+            },
+            "Accel_LN_Y": {
+              "mean": 6.19136905670166,
+              "std": 0.0430576428771019,
+              "min": 5.445652008056641,
+              "max": 7.3152174949646,
+              "range": 1.869565486907959,
+              "n_unique_first_1000": 14
+            },
+            "Accel_LN_Z": {
+              "mean": 10.420071601867676,
+              "std": 0.04561936855316162,
+              "min": 9.608695983886719,
+              "max": 10.97826099395752,
+              "range": 1.3695650100708008,
+              "n_unique_first_1000": 18
+            },
+            "ECG_EMG_Status1": {
+              "mean": 128.0,
+              "std": 0.0,
+              "min": 128.0,
+              "max": 128.0,
+              "range": 0.0,
+              "n_unique_first_1000": 1
+            }
+          },
+          "stats_at_true_signal_indices": {
+            "ECG_LL-RA_24BIT": {
+              "mean": 2.287320852279663,
+              "std": 0.6503755450248718,
+              "min": -0.19213202595710754,
+              "max": 3.747223377227783,
+              "range": 3.9393553733825684,
+              "n_unique_first_1000": 904
+            },
+            "ECG_LA-RA_24BIT": {
+              "mean": -2.386742353439331,
+              "std": 0.4509270191192627,
+              "min": -4.452356815338135,
+              "max": -0.6314969658851624,
+              "range": 3.820859909057617,
+              "n_unique_first_1000": 889
+            },
+            "ECG_LL-LA_24BIT": {
+              "mean": 4.674063205718994,
+              "std": 0.44632086157798767,
+              "min": 2.80228590965271,
+              "max": 5.838389873504639,
+              "range": 3.0361039638519287,
+              "n_unique_first_1000": 903
+            },
+            "ECG_Vx-RL_24BIT": {
+              "mean": -4.544760704040527,
+              "std": 0.2573659121990204,
+              "min": -5.293078422546387,
+              "max": -3.6205058097839355,
+              "range": 1.6725726127624512,
+              "n_unique_first_1000": 897
+            }
+          }
+        },
+        "Shimmer_BBBD": {
+          "all_labels": [
+            "Battery",
+            "ECG_EMG_Status1",
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "code_selected_indices": [
+            0,
+            1
+          ],
+          "code_selected_labels": [
+            "Battery",
+            "ECG_EMG_Status1"
+          ],
+          "true_signal_indices_by_label": [
+            2,
+            3
+          ],
+          "true_signal_labels": [
+            "EMG_CH1_24BIT",
+            "EMG_CH2_24BIT"
+          ],
+          "code_selection_matches_true_signal": false,
+          "stats_at_code_selected_indices": {
+            "Battery": {
+              "mean": 3753.26513671875,
+              "std": 11.836953163146973,
+              "min": 3641.025634765625,
+              "max": 3810.989013671875,
+              "range": 169.96337890625,
+              "n_unique_first_1000": 45
+            },
+            "ECG_EMG_Status1": {
+              "mean": 128.0,
+              "std": 0.0,
+              "min": 128.0,
+              "max": 128.0,
+              "range": 0.0,
+              "n_unique_first_1000": 1
+            }
+          },
+          "stats_at_true_signal_indices": {
+            "EMG_CH1_24BIT": {
+              "mean": 2.6262216567993164,
+              "std": 0.3493677079677582,
+              "min": 2.0333251953125,
+              "max": 3.501505136489868,
+              "range": 1.4681799411773682,
+              "n_unique_first_1000": 732
+            },
+            "EMG_CH2_24BIT": {
+              "mean": -1.0438597202301025,
+              "std": 0.14533866941928864,
+              "min": -1.6703128814697266,
+              "max": 0.0629381388425827,
+              "range": 1.7332509756088257,
+              "n_unique_first_1000": 931
+            }
+          }
+        }
+      }
+    }
+  ]
+}
