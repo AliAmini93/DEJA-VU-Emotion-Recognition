@@ -1,0 +1,96 @@
+{
+  "run_date_local": "2026-07-13",
+  "preflight": {
+    "total_official_bytes": 3996579943,
+    "total_official_human": "3.72 GiB",
+    "free_space_at_start_bytes_range": [509883183104, 510694346752],
+    "required_headroom_bytes": 21474836480,
+    "result": "PASSED"
+  },
+  "download": {
+    "total_expected_bytes": 3996579943,
+    "downloaded_bytes": 3996579943,
+    "verified_bytes": 3996579943,
+    "remaining_bytes": 0,
+    "total_files": 2,
+    "successful_files": 2,
+    "failed_files": 0,
+    "resumed_files": 1,
+    "checksum_failures": 0,
+    "notes": "DEJA-VU.rar was interrupted mid-download at 811597824/3996522166 bytes due to a manifest relative_output_path bug (see decision_log.md), then correctly resumed via HTTP Range on the next run (server returned 206 Partial Content); no data lost or re-downloaded unnecessarily."
+  },
+  "independent_checksum_reverification": {
+    "tool": "scripts/00_verify_dejavu_checksums.py",
+    "files": [
+      {
+        "filename": "DEJA-VU.rar",
+        "expected_size_bytes": 3996522166,
+        "actual_size_bytes": 3996522166,
+        "size_match": true,
+        "checksum_algorithm": "md5",
+        "expected_checksum": "0815b7d78915d132084f4ef497cef6d0",
+        "actual_checksum": "0815b7d78915d132084f4ef497cef6d0",
+        "checksum_match": true,
+        "status": "VERIFIED"
+      },
+      {
+        "filename": "DEJA_VU_code.rar",
+        "expected_size_bytes": 57777,
+        "actual_size_bytes": 57777,
+        "size_match": true,
+        "checksum_algorithm": "md5",
+        "expected_checksum": "0747b65d5bbe215c621e435d546fe1c0",
+        "actual_checksum": "0747b65d5bbe215c621e435d546fe1c0",
+        "checksum_match": true,
+        "status": "VERIFIED"
+      }
+    ],
+    "manual_md5sum_spot_check_matches": true
+  },
+  "archive_listing_pretraversal_check": {
+    "tool": "7z l",
+    "path_traversal_found": false,
+    "deja_vu_rar": {
+      "file_count": 308,
+      "folder_count": 128,
+      "uncompressed_bytes": 5751558349,
+      "top_level_categories": ["data.xlsx", "deja_vu_database.db", "preprocessed/ (35 .h5 files)", "raw/ (131 .xdf files)", "segments/ (267 entries)"]
+    },
+    "deja_vu_code_rar": {
+      "file_count": 15,
+      "top_level_categories": ["05_run_preprocessing.py", "07_run_segmentation.py", "15_run_snr_analysis.py", "16_sam_validation.py", "18_journey_analysis.py", "19_create_main_figures.py", "26_holistic_ekman.py", "config_final.py", "environment.yml", "lib_preprocessing_utils.py", "lib_segment_builder.py", "lib_segment_metadata.py", "lib_utils.py", "readme.docx", "requirements.txt"]
+    }
+  },
+  "extraction": {
+    "attempted": true,
+    "result": "FAILED",
+    "files_attempted": 323,
+    "files_succeeded": 0,
+    "error": "ERROR: Unsupported Method (7z x) on every file in both archives",
+    "root_cause": "Installed archiver is '7zip' 23.01+dfsg-11, the Debian Free Software Guidelines build; its RAR decompression codec is removed for licensing reasons. It can list RAR/RAR5 archives but cannot decompress them.",
+    "fix_requires_package_install": true,
+    "candidate_fix_packages": ["unar (free, DFSG-compatible, RAR5-capable, apt candidate 1.10.7+ds1+really1.10.1-3build1)", "unrar (non-free, apt candidate 1:7.0.7-1build1)"],
+    "install_performed": false,
+    "install_reason_not_performed": "package installation is out of scope for this phase",
+    "cleanup_performed": "invalid all-zero-byte extraction output (323 files) removed; /mnt/HDD/AliWorks/DEJA-VU/extracted/ restored to empty",
+    "raw_downloads_affected": false,
+    "raw_downloads_reverified_after_failed_extraction": true
+  },
+  "observed_anomaly": {
+    "description": "File path DEJA-VU/raw/sub-P017/ses-S002/eeg/ contains a file named sub-P666_ses-S001_task-Default_run-001_eeg.xdf",
+    "issue": "filename encodes participant P666 / session S001, but directory path is sub-P017 / ses-S002; P666 is not among the 28 enrolled participants",
+    "source": "observed via 7z l archive listing metadata, not file content (extraction failed)",
+    "resolved": false,
+    "action_taken": "none; raw archive not modified; logged in docs/leakage_risk_register.md risk #9"
+  },
+  "dependency_inspection_of_official_code": {
+    "performed": false,
+    "reason": "extraction failed; code/environment.yml and code/requirements.txt contents were never read",
+    "consequence": "no dependency was added to this project on the basis of official-code inspection; docs/environment_import_validation.md decisions stand as made, based only on the standard audit package list"
+  },
+  "outcome": {
+    "download": "COMPLETE",
+    "checksum_verification": "COMPLETE_0_FAILURES",
+    "extraction": "FAILED_BLOCKED_ON_MISSING_TOOL"
+  }
+}

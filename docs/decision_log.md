@@ -59,6 +59,24 @@ already-downloaded `.part` bytes were preserved and reused via HTTP Range
 resume on the next run, which is the resumability guarantee the downloader
 was built to provide.
 
+## 2026-07-13 — Archive extraction failed; documented and cleaned up honestly
+
+**Failure, documented honestly (rule #18):** after both official archives
+downloaded and checksum-verified successfully, extraction into
+`/mnt/HDD/AliWorks/DEJA-VU/extracted/` was attempted with `7z x` and failed
+for **every** file in both archives (323 files total, 0 successes,
+`ERROR: Unsupported Method`). Root cause: the only archiver installed on this
+machine, `7zip` 23.01+dfsg-11, is the Debian Free Software Guidelines build,
+which can list RAR/RAR5 archives (used safely for the pre-extraction
+path-traversal check) but has its RAR decompression codec removed for
+licensing reasons — it cannot actually decompress RAR content. `unar` and
+`unrar` would both fix this but neither is installed, and installing a
+package is out of scope for this phase. The resulting invalid, all-zero-byte
+extraction output was recognized as garbage and removed; `extracted/` was
+restored to empty. The raw downloaded `.rar` files were unaffected by the
+failed extraction attempt and were re-verified by MD5 afterward. Full detail:
+`docs/dejavu_acquisition_report.md`.
+
 ## 2026-07-13 — Zenodo maintenance window observed during prior audit
 
 The prior environment audit observed `zenodo.org` returning HTTP 503 with a
