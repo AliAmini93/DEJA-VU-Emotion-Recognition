@@ -1,0 +1,52 @@
+# --- Python / tooling caches ---
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+.DS_Store
+
+# --- secrets / credentials ---
+.env
+.env.*
+*.key
+*.pem
+credentials*
+secrets*
+
+# --- data and derived artifacts (never commit) ---
+data/
+raw/
+raw_downloads/
+extracted/
+cache/
+caches/
+checkpoints/
+models/
+outputs/
+wandb/
+mlruns/
+
+# --- partial / archive / raw signal formats ---
+*.part
+*.tmp
+*.download
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+*.rar
+*.xdf
+*.h5
+*.hdf5
+*.edf
+*.fif
+*.mat
+*.sqlite
+*.db
+
+# --- large generated manifests ---
+manifests/*.parquet

@@ -1,0 +1,429 @@
+{
+  "audit_metadata": {
+    "audit_date_local": "2026-07-13T15:01:42+03:00",
+    "timezone": "Europe/Vilnius",
+    "audit_type": "read-only, non-destructive",
+    "constraints_honored": [
+      "no dataset download",
+      "no package installation/upgrade/removal",
+      "no file deletion/move/rename/overwrite",
+      "no new Python environment created",
+      "no model training",
+      "no EEG/EMG preprocessing",
+      "no raw data/archives/credentials added to git"
+    ]
+  },
+  "executive_decision": {
+    "recommendation_option": 3,
+    "recommendation_text": "Create a new dedicated Python virtual environment for DEJA-VU-Emotion-Recognition; do not reuse DEAP/I-DARE or HCI venvs in place.",
+    "python_version": "3.12.3",
+    "environment_created": false,
+    "dataset_downloaded": false,
+    "packages_installed": false
+  },
+  "execution_context": {
+    "hostname": "Armin",
+    "current_user": "armin",
+    "uid": 1000,
+    "groups": ["armin", "adm", "cdrom", "sudo", "dip", "plugdev", "users", "lpadmin"],
+    "working_directory": "/mnt/HDD/AliWorks",
+    "os_pretty_name": "Ubuntu 24.04.4 LTS",
+    "os_version_id": "24.04",
+    "os_codename": "noble",
+    "kernel": "Linux 6.17.0-29-generic #29~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Mon May 11 10:30:58 UTC 2 x86_64",
+    "cpu_architecture": "x86_64",
+    "cpu_model": "Intel(R) Core(TM) Ultra 5 225F",
+    "cpu_count": 10,
+    "hardware_vendor": "ASRock",
+    "hardware_model": "Z890 Pro-A WiFi",
+    "shell": "/bin/bash",
+    "current_datetime": "2026-07-13T15:01:42+03:00",
+    "timezone_name": "Europe/Vilnius",
+    "ntp_synchronized": true,
+    "environment_type": "bare-metal Ubuntu desktop",
+    "environment_type_evidence": [
+      "systemd-detect-virt returned 'none' (exit code 1, expected for no virtualization)",
+      "/.dockerenv does not exist",
+      "/proc/1/cgroup shows plain init.scope, not a container cgroup",
+      "/proc/version shows standard Ubuntu buildd kernel, no WSL/Microsoft markers",
+      "SSH_CONNECTION, SSH_CLIENT, SSH_TTY all unset (local session, not SSH)",
+      "who/w show local seat0 graphical login",
+      "hostnamectl reports real desktop motherboard (ASRock Z890 Pro-A WiFi)",
+      "nvidia-smi shows physical GPU with active display (Disp.A: On)"
+    ],
+    "gpu_present": true
+  },
+  "disk_and_mount_audit": {
+    "root_filesystem": {
+      "source": "/dev/nvme0n1p2",
+      "fstype": "ext4",
+      "mounted_on": "/",
+      "size": "915G",
+      "used": "393G",
+      "avail": "476G",
+      "use_percent": "46%",
+      "inodes_total": "59M",
+      "inodes_used": "1.1M",
+      "inodes_free": "58M",
+      "inodes_use_percent": "2%"
+    },
+    "efi_partition": {
+      "source": "/dev/nvme0n1p1",
+      "fstype": "vfat",
+      "mounted_on": "/boot/efi",
+      "size": "1.1G",
+      "avail": "1.1G"
+    },
+    "external_disk": {
+      "source": "/dev/sda1",
+      "fstype": "ext4",
+      "mounted_on": "/media/armin/External",
+      "size": "1.8T",
+      "used": "711G",
+      "avail": "1.1T",
+      "note": "genuine separate physical disk; unrelated to AliWorks/DEJA-VU project paths"
+    },
+    "critical_finding": "/mnt/HDD is NOT a separate mounted disk despite its name. findmnt -T /mnt/HDD/AliWorks resolves to the root filesystem (/dev/nvme0n1p2, ext4). lsblk confirms no block device is mounted at /mnt/HDD. It is a plain directory tree on the root NVMe SSD.",
+    "capacity_planning_basis": "root filesystem free space: 476 GB"
+  },
+  "project_path_audit": [
+    {
+      "path": "/mnt",
+      "exists": true,
+      "readable": true,
+      "writable": false,
+      "owner": "root",
+      "group": "root",
+      "permissions": "0755",
+      "filesystem": "root fs (/dev/nvme0n1p2, ext4)"
+    },
+    {
+      "path": "/mnt/HDD",
+      "exists": true,
+      "readable": true,
+      "writable": true,
+      "owner": "armin",
+      "group": "armin",
+      "permissions": "0755",
+      "filesystem": "root fs (/dev/nvme0n1p2, ext4)"
+    },
+    {
+      "path": "/mnt/HDD/AliWorks",
+      "exists": true,
+      "readable": true,
+      "writable": true,
+      "owner": "armin",
+      "group": "armin",
+      "permissions": "0775",
+      "filesystem": "root fs (/dev/nvme0n1p2, ext4)",
+      "entry_count": 19,
+      "notable_entries": [
+        "DEAP", "DEJA-VU", "EmotionRecognitionDEAP-I-DARE",
+        "EmotionRecognitionDEAP-I-DARE-control", "EmotionRecognitionDEAP-I-DARE-data-augmentation",
+        "EmotionRecognitionDEAP-I-DARE-idare-prior-best-confirm", "EmotionRecognitionDEAP-I-DARE-label-task-protocol",
+        "EmotionRecognitionDEAP-I-DARE-repr-redesign-confirmation", "EmotionRecognitionDEAP-I-DARE-repr-redesign-smoke",
+        "EmotionRecognitionDEAP-I-DARE-root-cause-triage", "EmotionRecognitionDEAP-I-DARE-strict-ntd-smoke",
+        "EmotionRecognitionDEAP-I-DARE-w1a", "EmotionRecognitionDEAP-I-DARE-w1b",
+        "EmotionRecognitionDEAP-I-DARE-w1c", "EmotionRecognitionDEAP-I-DARE-w1d",
+        "HCI Tagging Database", "I-DARE"
+      ],
+      "note": "the 11 'EmotionRecognitionDEAP-I-DARE-*' siblings are confirmed via 'git worktree list' to be git worktrees of the same repo, not separate clones"
+    },
+    {
+      "path": "/mnt/HDD/AliWorks/DEJA-VU",
+      "exists": true,
+      "readable": true,
+      "writable": true,
+      "owner": "armin",
+      "group": "armin",
+      "permissions": "0775",
+      "filesystem": "root fs (/dev/nvme0n1p2, ext4)",
+      "contents": "empty",
+      "birth_time": "2026-07-13T14:44:19+03:00"
+    },
+    {
+      "path": "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition",
+      "exists": false,
+      "readable": null,
+      "writable": null,
+      "note": "not yet cloned"
+    }
+  ],
+  "python_environment_inventory": [
+    {
+      "name": "system-python3",
+      "type": "system",
+      "executable": "/usr/bin/python3",
+      "version": "3.12.3",
+      "location": "/usr",
+      "pip_executable": "/usr/bin/pip3",
+      "writable": false,
+      "classification": "INCOMPATIBLE",
+      "note": "root-owned site-packages; only 'requests' importable; would require sudo to modify"
+    },
+    {
+      "name": "deap-idare-venv",
+      "type": "venv (stdlib venv)",
+      "executable": "/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE/.venv/bin/python",
+      "version": "3.12.3",
+      "location": "/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE/.venv",
+      "pip_executable": "/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE/.venv/bin/pip",
+      "writable": true,
+      "classification": "USABLE_WITH_MISSING_PACKAGES",
+      "note": "confirmed actively used via ~/.bash_history 'source .venv/bin/activate'; created via /usr/bin/python3 -m venv; closest lineage to DEJA-VU"
+    },
+    {
+      "name": "hci-venv",
+      "type": "venv (stdlib venv)",
+      "executable": "/mnt/HDD/AliWorks/HCI Tagging Database/HCI/bin/python",
+      "version": "3.11.15",
+      "location": "/mnt/HDD/AliWorks/HCI Tagging Database/HCI",
+      "pip_executable": "/mnt/HDD/AliWorks/HCI Tagging Database/HCI/bin/pip",
+      "writable": true,
+      "classification": "USABLE_WITH_MISSING_PACKAGES",
+      "note": "most complete generic scientific+mne+jupyter stack found, but belongs to unrelated HCI/video project"
+    },
+    {
+      "name": "hci-internvideo2-env",
+      "type": "venv (stdlib venv)",
+      "executable": "/mnt/HDD/AliWorks/HCI Tagging Database/internvideo2_env/bin/python",
+      "version": "3.10.14 (nominal, unverifiable)",
+      "location": "/mnt/HDD/AliWorks/HCI Tagging Database/internvideo2_env",
+      "pip_executable": null,
+      "writable": true,
+      "classification": "INCOMPATIBLE",
+      "note": "pyvenv.cfg references foreign host path /home/students4090/.pyenv/versions/3.10.14/bin; bin/python missing locally; non-functional as found"
+    },
+    {
+      "name": "pycharm-misc-venv",
+      "type": "venv (virtualenv)",
+      "executable": "/home/armin/PyCharmMiscProject/.venv/bin/python",
+      "version": "3.12.3",
+      "location": "/home/armin/PyCharmMiscProject/.venv",
+      "pip_executable": "/home/armin/PyCharmMiscProject/.venv/bin/pip",
+      "writable": true,
+      "classification": "INCOMPATIBLE",
+      "note": "empty scratch venv, no relevant packages installed"
+    },
+    {
+      "name": "dejavu-new-venv (planned)",
+      "type": "venv (stdlib venv, not yet created)",
+      "executable": null,
+      "version": "3.12.3 (proposed)",
+      "location": "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/.venv (proposed)",
+      "pip_executable": null,
+      "writable": null,
+      "classification": "PLANNED",
+      "note": "recommended in section 9/11 of markdown report; not created during this audit"
+    }
+  ],
+  "conda_mamba_pyenv_poetry_status": {
+    "conda": "not found",
+    "mamba": "not found",
+    "micromamba": "not found",
+    "pyenv": "not found",
+    "poetry": "not found",
+    "pipenv": "not found",
+    "uv": "not found",
+    "conda_init_in_shell_rc": false
+  },
+  "deap_idare_project_evidence": {
+    "repo_path": "/mnt/HDD/AliWorks/EmotionRecognitionDEAP-I-DARE",
+    "active_branch": "roca-idare-killtest",
+    "remote_origin": "git@github.com:AliAmini93/EmotionRecognitionDEAP-I-DARE.git",
+    "working_tree_status": "clean, up to date with origin/roca-idare-killtest",
+    "last_commit": "78946cb Add ROCA master status and results report",
+    "venv_present": true,
+    "venv_pyvenv_cfg": {
+      "home": "/usr/bin",
+      "executable": "/usr/bin/python3.12",
+      "version": "3.12.3",
+      "include_system_site_packages": false
+    },
+    "requirements_txt": ["numpy", "scipy", "pandas", "scikit-learn", "matplotlib", "tqdm", "pyyaml", "torch", "h5py", "mat73"],
+    "vscode_settings_found": false,
+    "actual_usage_evidence": "~/.bash_history contains literal command 'source .venv/bin/activate'",
+    "git_worktrees_of_same_repo": [
+      "EmotionRecognitionDEAP-I-DARE-control",
+      "EmotionRecognitionDEAP-I-DARE-data-augmentation",
+      "EmotionRecognitionDEAP-I-DARE-idare-prior-best-confirm",
+      "EmotionRecognitionDEAP-I-DARE-label-task-protocol",
+      "EmotionRecognitionDEAP-I-DARE-repr-redesign-confirmation",
+      "EmotionRecognitionDEAP-I-DARE-repr-redesign-smoke",
+      "EmotionRecognitionDEAP-I-DARE-root-cause-triage",
+      "EmotionRecognitionDEAP-I-DARE-strict-ntd-smoke",
+      "EmotionRecognitionDEAP-I-DARE-w1a",
+      "EmotionRecognitionDEAP-I-DARE-w1b",
+      "EmotionRecognitionDEAP-I-DARE-w1c",
+      "EmotionRecognitionDEAP-I-DARE-w1d"
+    ]
+  },
+  "package_compatibility": {
+    "relevant_packages": [
+      "numpy", "pandas", "scipy", "scikit-learn", "pyarrow", "h5py", "tables", "mne",
+      "pyxdf", "edfio", "pyedflib", "mat73", "pymatreader", "openpyxl", "sqlalchemy",
+      "tqdm", "requests", "httpx", "pooch", "joblib", "matplotlib", "seaborn",
+      "jupyter", "ipykernel", "pytest"
+    ],
+    "environments": {
+      "system-python3": {
+        "present": ["requests==2.31.0"],
+        "missing": ["numpy","pandas","scipy","scikit-learn","pyarrow","h5py","tables","mne","pyxdf","edfio","pyedflib","mat73","pymatreader","openpyxl","sqlalchemy","tqdm","httpx","pooch","joblib","matplotlib","seaborn","jupyter","ipykernel","pytest","torch"]
+      },
+      "deap-idare-venv": {
+        "present": {
+          "numpy": "2.4.4", "pandas": "3.0.2", "scipy": "1.17.1", "scikit-learn": "1.8.0",
+          "h5py": "3.16.0", "mat73": "unknown", "tqdm": "4.67.3", "joblib": "1.5.3",
+          "matplotlib": "3.10.9", "torch": "2.11.0+cu128"
+        },
+        "torch_cuda_available": true,
+        "missing": ["pyarrow","tables","mne","pyxdf","edfio","pyedflib","pymatreader","openpyxl","sqlalchemy","requests","httpx","pooch","seaborn","jupyter","ipykernel","pytest"]
+      },
+      "hci-venv": {
+        "present": {
+          "numpy": "1.26.4", "pandas": "2.2.2", "scipy": "1.16.0", "scikit-learn": "1.6.1",
+          "h5py": "3.14.0", "mne": "1.11.0", "tqdm": "4.67.1", "requests": "2.32.4",
+          "httpx": "0.28.1", "pooch": "v1.8.2", "joblib": "1.5.1", "matplotlib": "3.10.7",
+          "seaborn": "0.13.2", "jupyter": "unknown", "ipykernel": "6.30.0", "torch": "2.9.1+cu128"
+        },
+        "torch_cuda_available": true,
+        "missing": ["pyarrow","tables","pyxdf","edfio","pyedflib","mat73","pymatreader","openpyxl","sqlalchemy","pytest"]
+      },
+      "pycharm-misc-venv": {
+        "present": [],
+        "missing": ["numpy","pandas","scipy","scikit-learn","pyarrow","h5py","tables","mne","pyxdf","edfio","pyedflib","mat73","pymatreader","openpyxl","sqlalchemy","tqdm","requests","httpx","pooch","joblib","matplotlib","seaborn","jupyter","ipykernel","pytest","torch"]
+      },
+      "hci-internvideo2-env": {
+        "present": null,
+        "missing": null,
+        "note": "environment non-functional (broken interpreter path), package check not executable"
+      }
+    }
+  },
+  "gpu_cuda_status": {
+    "gpu_model": "NVIDIA GeForce RTX 5090",
+    "vram_total_mib": 32607,
+    "vram_used_mib": 877,
+    "driver_version": "580.159.03",
+    "driver_max_cuda_version": "13.0",
+    "cuda_toolkit_installed": false,
+    "nvcc_found": false,
+    "pytorch_installations": [
+      {"env": "deap-idare-venv", "version": "2.11.0+cu128", "cuda_available": true},
+      {"env": "hci-venv", "version": "2.9.1+cu128", "cuda_available": true},
+      {"env": "system-python3", "version": null, "cuda_available": null, "note": "not installed"}
+    ],
+    "ram_total": "62Gi",
+    "ram_free": "7.6Gi",
+    "ram_available": "45Gi",
+    "swap_total": "8.0Gi",
+    "swap_used": "0B",
+    "swap_backing": "/swap.img (file-backed)"
+  },
+  "git_github_access": {
+    "git_version": "2.43.0",
+    "git_user_name": "Ali Amini",
+    "git_user_email": "96921261+AliAmini93@users.noreply.github.com",
+    "ssh_github_auth": {
+      "command": "ssh -T git@github.com",
+      "result": "success",
+      "message": "Hi AliAmini93! You've successfully authenticated, but GitHub does not provide shell access.",
+      "exit_code": 1,
+      "exit_code_note": "exit code 1 is expected/normal for this GitHub SSH probe"
+    },
+    "gh_cli": {
+      "version": "2.45.0",
+      "authenticated": true,
+      "account": "AliAmini93",
+      "protocol": "https",
+      "token_scopes": ["gist", "read:org", "repo", "workflow"]
+    },
+    "target_repo_local_exists": false,
+    "target_repo_remote_reachable": true,
+    "target_repo_remote_evidence": "GET https://api.github.com/repos/AliAmini93/DEJA-VU-Emotion-Recognition returned HTTP 200 with valid repo JSON (public, non-empty)"
+  },
+  "internet_zenodo_access": {
+    "proxy_configured": false,
+    "targets": [
+      {
+        "url": "https://www.nature.com/articles/s41597-026-07456-0",
+        "dns_resolved": true,
+        "http_status": 200,
+        "note": "reachable; redirect includes standard cookie-consent params"
+      },
+      {
+        "url": "https://doi.org/10.5281/zenodo.17773125",
+        "dns_resolved": true,
+        "http_status": 503,
+        "redirects_to": "https://zenodo.org/doi/10.5281/zenodo.17773125",
+        "note": "Zenodo scheduled maintenance"
+      },
+      {
+        "url": "https://zenodo.org/records/17773125",
+        "dns_resolved": true,
+        "http_status": 503,
+        "note": "Zenodo scheduled maintenance"
+      },
+      {
+        "url": "https://zenodo.org/",
+        "dns_resolved": true,
+        "http_status": 503,
+        "note": "response body: 'We'll be back soon... 2026-07-13 12:00 UTC: Zenodo will be unavailable for a few minutes because of a scheduled upgrade of our server infrastructure.'"
+      },
+      {
+        "url": "https://api.zenodo.org/records/17773125",
+        "dns_resolved": false,
+        "http_status": null,
+        "error": "NXDOMAIN - api.zenodo.org does not exist",
+        "correction": "correct Zenodo REST API path is https://zenodo.org/api/records/{id}, not a separate api.zenodo.org host"
+      },
+      {
+        "url": "https://github.com/AliAmini93/DEJA-VU-Emotion-Recognition",
+        "dns_resolved": true,
+        "http_status": 200
+      },
+      {
+        "url": "https://api.github.com/repos/AliAmini93/DEJA-VU-Emotion-Recognition",
+        "dns_resolved": true,
+        "http_status": 200
+      }
+    ],
+    "zenodo_reachable": false,
+    "zenodo_down_reason": "scheduled maintenance, self-reported by Zenodo, transient"
+  },
+  "recommended_environment": {
+    "decision": "create_new_dedicated_environment",
+    "proposed_python_version": "3.12.3",
+    "proposed_location": "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/.venv",
+    "creation_command_not_executed": "python3 -m venv /mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/.venv",
+    "activation_command": "source /mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/.venv/bin/activate",
+    "rationale": [
+      "DEAP/I-DARE venv missing 16 of 25 required packages, notably the XDF/EDF/MNE I/O stack",
+      "DEAP/I-DARE venv is actively used for live research (clean tree, active branch) - modifying it risks breaking reproducibility",
+      "HCI venv is more complete but belongs to an unrelated project (isolation violation)",
+      "476 GB free disk space makes a new venv trivial",
+      "python3.12-venv already installed system-wide, no package installation needed to create the venv itself",
+      "matches existing per-project .venv convention already used on this machine"
+    ]
+  },
+  "missing_dependencies_for_new_env": [
+    "numpy", "pandas", "scipy", "scikit-learn", "pyarrow", "h5py", "tables", "mne",
+    "pyxdf", "edfio", "pyedflib", "mat73", "pymatreader", "openpyxl", "sqlalchemy",
+    "tqdm", "requests", "httpx", "pooch", "joblib", "matplotlib", "seaborn",
+    "jupyter", "ipykernel", "pytest", "torch (cu128 build)"
+  ],
+  "blocking_issues": [
+    "Zenodo (zenodo.org, api access via zenodo.org/api/...) returning HTTP 503 due to a scheduled maintenance window announced for 2026-07-13 12:00 UTC",
+    "Code repository not yet cloned to /mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition",
+    "No dedicated Python environment exists yet for DEJA-VU; closest candidate (DEAP/I-DARE venv) missing 16 of 25 required packages including the EEG/XDF I/O stack"
+  ],
+  "exact_next_commands": [
+    "git clone git@github.com:AliAmini93/DEJA-VU-Emotion-Recognition.git /mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition",
+    "python3 -m venv /mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/.venv",
+    "source /mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/.venv/bin/activate",
+    "python -m pip install --upgrade pip",
+    "pip install numpy pandas scipy scikit-learn pyarrow h5py tables mne pyxdf edfio pyedflib mat73 pymatreader openpyxl sqlalchemy tqdm requests httpx pooch joblib matplotlib seaborn jupyter ipykernel pytest",
+    "pip install torch --index-url https://download.pytorch.org/whl/cu128",
+    "curl -sS https://zenodo.org/api/records/17773125"
+  ]
+}
