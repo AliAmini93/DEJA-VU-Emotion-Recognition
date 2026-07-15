@@ -93,3 +93,14 @@ No physiological model has been trained under this frozen protocol. The next
 scientific stage is a leakage-safe shortcut, chance, and null audit on the
 frozen repetitions, followed by reproducible raw-EMG reconstruction and
 preprocessing.
+
+
+## Frozen shortcut and null audit
+
+- Unique three-video emotional sequences: 28 across 30 participant-sessions
+- NMI(video, emotional presentation position): 0.1103
+- No position-based null test remained significant after FDR correction
+- Best empirical legal baseline BA: valence 0.5000; arousal 0.3194
+- Mandatory primary BA gate: 0.5000 for both tasks
+
+The mandatory gate is `max(0.5, best empirical legal-baseline BA)`. Diagnostic identity priors remain secondary and are not legal priors in the primary unseen-subject plus unseen-video test.

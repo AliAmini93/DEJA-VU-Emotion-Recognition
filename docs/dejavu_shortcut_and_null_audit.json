@@ -1,0 +1,69 @@
+{
+  "balanced_accuracy_gate_rule": "max(0.5, best empirical legal-baseline balanced accuracy)",
+  "branch": "dejavu-cohort-b-joint-cv-audit",
+  "cohort": "Cohort_B_Paired_EEG_EMG_Strict",
+  "decision": "PROCEED_WITH_STANDARD_SHORTCUT_GATE",
+  "diagnostic_only_priors": [
+    "subject_train_prior on seen-subject x unseen-video",
+    "video_train_prior on unseen-subject x seen-video"
+  ],
+  "forbidden_primary_test_priors": [
+    "held-out subject identity prior",
+    "held-out video identity prior",
+    "canonical quadrant",
+    "emotion name",
+    "transition identity containing held-out video information"
+  ],
+  "frozen_manifest_sha256": "77f0b77c4c889cd62761bcd0f805a00de33d7803e112ade7055efe0fe8607a70",
+  "generated_at_utc": "2026-07-14T08:54:22.956859+00:00",
+  "head": "719d300",
+  "legal_primary_test_baselines": [
+    "global_train_prior",
+    "position_train_prior",
+    "position_quadratic_logistic"
+  ],
+  "order_position_shortcut_material": false,
+  "outputs": [
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/docs/dejavu_shortcut_baseline_cell_metrics.csv",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/docs/dejavu_shortcut_baseline_summary.csv",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/docs/dejavu_shortcut_null_tests.csv",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/docs/dejavu_order_video_concentration.csv",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/docs/dejavu_position_label_prevalence.csv",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/docs/dejavu_shortcut_and_null_audit.json",
+    "/mnt/HDD/AliWorks/DEJA-VU-Emotion-Recognition/docs/dejavu_shortcut_and_null_audit.md"
+  ],
+  "permutations": 250,
+  "primary_shortcut_gates": {
+    "arousal": {
+      "accuracy": 0.30985915492957744,
+      "empirical_balanced_accuracy": 0.319377990430622,
+      "empirical_best_baseline": "position_quadratic_logistic",
+      "gate_source": "theoretical_balanced_accuracy_chance",
+      "macro_f1": 0.3009845288326301,
+      "mandatory_balanced_accuracy_gate": 0.5,
+      "n": 71,
+      "roc_auc": 0.27232854864433814
+    },
+    "valence": {
+      "accuracy": 0.7066666666666667,
+      "empirical_balanced_accuracy": 0.5,
+      "empirical_best_baseline": "global_train_prior",
+      "gate_source": "empirical_legal_baseline",
+      "macro_f1": 0.4140625,
+      "mandatory_balanced_accuracy_gate": 0.5,
+      "n": 75,
+      "roc_auc": 0.3769296740994854
+    }
+  },
+  "protocol_status": "LOCK_WITH_CAPACITY_CAUTION",
+  "reporting_correction": "The empirical arousal shortcut BA was below theoretical BA chance; the mandatory gate is therefore 0.5.",
+  "sequence_structure": {
+    "largest_identical_sequence_group": 2,
+    "median_video_modal_position_fraction": 0.5227272727272727,
+    "median_video_position_entropy": 0.764132328304517,
+    "median_video_unique_positions": 3.0,
+    "nmi_video_vs_emotional_position": 0.11029920858668962,
+    "participant_sessions": 30,
+    "unique_complete_emotional_video_sequences": 28
+  }
+}

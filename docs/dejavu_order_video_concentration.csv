@@ -1,0 +1,17 @@
+video_name,presentations,participants,participant_sessions,unique_positions,modal_position,modal_position_fraction,normalized_position_entropy,position_1_count,position_2_count,position_3_count
+Fish called Wanda,1,1,1,1,2,1.0,0.0,0,1,0
+The Exorcist,1,1,1,1,1,1.0,0.0,1,0,0
+The Shining 2,1,1,1,1,1,1.0,0.0,1,0,0
+There is something about Mary 2,1,1,1,1,3,1.0,0.0,0,0,1
+Dangerous Minds,8,8,8,3,3,0.75,0.6695919455357792,1,1,6
+The Shining,5,5,5,2,2,0.6,0.6126016192893442,0,3,2
+There is something about Mary,5,5,5,3,1,0.6,0.8649735207179272,3,1,1
+The Champ,11,11,11,3,2,0.5454545454545454,0.9056185178648963,3,6,2
+Life is beautiful,2,2,2,2,2,0.5,0.6309297535714574,0,1,1
+Scream,6,6,6,3,2,0.5,0.920619835714305,2,3,1
+28 days later,8,8,8,2,1,0.5,0.6309297535714574,4,4,0
+Mr. Bean,8,8,8,3,3,0.5,0.946394630357186,2,2,4
+The Visitors,10,10,10,3,1,0.5,0.8586727110732549,5,1,4
+When Harry met Sally,5,5,5,3,1,0.4,0.9602297178607612,2,1,2
+Misery,9,9,9,3,1,0.3333333333333333,0.9999999999999998,3,3,3
+My girl,9,9,9,3,1,0.3333333333333333,0.9999999999999998,3,3,3
